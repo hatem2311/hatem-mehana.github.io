@@ -1,0 +1,242 @@
+{
+  "hero": {
+    "name": "Hatem Mehena",
+    "description": "A game developer with 4 years of expierence in games creation using Unity and c# programming",
+    "resumeUrl": "hatem mehana.pdf",
+    "profileImage": "images/hero.png"
+  },
+  "about": {
+    "description": "I am a game developer with 4 years of experience in game development using Unity and C# programming. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and developed an online game inspired by the \"Squid Game\" series. I won first place in the Game Gam competition by public vote, and I have several games published on Google Play. I am passionate about game development and constantly seeking to learn new technologies in the field.",
+    "details": [
+      { "label": "Experience", "value": "4 Years" },
+      { "label": "Projects Completed", "value": "30+" },
+      { "label": "Specialization", "value": "Game Development" }
+    ]
+  },
+  "skills": [
+    {
+      "icon": "eye",
+      "title": "Level Design",
+      "points": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
+        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
+      ]
+    },
+    {
+      "icon": "speedometer",
+      "title": "C# Programming",
+      "points": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
+        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
+      ]
+    },
+    {
+      "icon": "people",
+      "title": "Teamwork Leadership",
+      "points": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
+        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+      "current": true,
+      "title": "Ash Studio",
+      "duration": "2020 - Present",
+      "description": "Founded and led game development studio, creating innovative mobile and multiplayer games."
+    },
+    {
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+      "title": "RTG Studio",
+      "duration": "2019 - 2020",
+      "description": "Senior Game Developer working on mobile game projects and team management."
+    },
+    {
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+      "title": "Grays Games",
+      "duration": "2018 - 2019",
+      "description": "Game Developer focused on Unity development and level design."
+    }
+  ],
+  "social": [
+    { "icon": "logo-facebook", "name": "Facebook", "url": "#" },
+    { "icon": "logo-instagram", "name": "Instagram", "url": "#" },
+    { "icon": "logo-linkedin", "name": "Linkdin", "url": "#" },
+    { "icon": "logo-youtube", "name": "Youtube", "url": "#" },
+    { "icon": "mail", "name": "GMail", "url": "#" }
+  ],
+  "showcase": {
+    "sections": ["All", "Grays", "RTG", "Ash"],
+    "projects": [
+      {
+        "name": "Project 1",
+        "category": "Grays",
+        "image": "path/to/image1.jpg",
+        "description": "A modern game store platform with dynamic filtering and real-time updates",
+        "tags": ["Unity", "3D", "C#"],
+        "type": "Full Game",
+        "downloadLink": "path/to/game.zip",
+        "videoUrl": "https://www.youtube.com/embed/IO7fntW3L5Y",
+        "gallery": [
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+        ],
+        "about": [
+          {
+            "type": "paragraph",
+            "title": "Story",
+            "content": "In a world where technology meets magic..."
+          },
+          {
+            "type": "feature-list",
+            "title": "Key Features",
+            "items": [
+              "Procedurally generated levels",
+              "Multiplayer support up to 4 players",
+              "Custom character creation"
+            ]
+          },
+          {
+            "type": "specs-list",
+            "title": "System Requirements",
+            "items": {
+              "OS": "Windows 10",
+              "CPU": "Intel i5 or equivalent",
+              "RAM": "8GB",
+              "GPU": "GTX 1060 6GB"
+            }
+          }
+        ],
+        "meta": {
+          "Release Date": "Q4 2024",
+          "Developer": "Developer Studio",
+          "Publisher": "Publisher Inc",
+          "Platforms": ["Windows", "Mac", "Linux"],
+          "Genre": "Action RPG",
+          "Status": "In Development"
+        },
+        "storeLinks": {
+          "Steam": {
+            "url": "https://store.steampowered.com/app/xxx",
+            "icon": "logo-steam"
+          },
+          "Google Play": {
+            "url": "https://play.google.com/store/apps/xxx",
+            "icon": "logo-google-playstore"
+          },
+          "App Store": {
+            "url": "https://apps.apple.com/app/xxx",
+            "icon": "logo-apple"
+          },
+          "Download": {
+            "url": "path/to/game.zip",
+            "icon": "cloud-download"
+          }
+        }
+      },
+      {
+        "name": "2D Platformer Prototype",
+        "category": "RTG",
+        "image": "path/to/image2.jpg",
+        "description": "A fast-paced 2D platformer prototype featuring dynamic movement mechanics and procedural level generation",
+        "tags": ["Unity", "2D", "C#", "Prototype"],
+        "type": "Prototype",
+        "videoUrl": "https://www.youtube.com/embed/M7lc1UVf-VE",
+        "gallery": [
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+        ],
+        "about": [
+          {
+            "type": "paragraph",
+            "title": "Project Overview",
+            "content": "This prototype was developed to test innovative platforming mechanics and procedural level generation algorithms. It serves as a proof of concept for a larger game project."
+          },
+          {
+            "type": "feature-list",
+            "title": "Prototype Features",
+            "items": [
+              "Wall-running and double-jump mechanics",
+              "Procedurally generated obstacle courses",
+              "Dynamic difficulty adjustment",
+              "Real-time performance metrics"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "title": "Development Status",
+            "content": "Currently in testing phase with core mechanics implemented. Gathering player feedback for potential full development."
+          }
+        ]
+      },
+      {
+        "name": "Medieval Castle Environment",
+        "category": "Ash",
+        "image": "path/to/image3.jpg",
+        "description": "A detailed medieval castle environment designed for a third-person action RPG",
+        "tags": ["Unreal", "3D", "Level Design", "Environment Art"],
+        "type": "Level Design",
+        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
+        "gallery": [
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+        ],
+        "about": [
+          {
+            "type": "paragraph",
+            "title": "Environment Overview",
+            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
+          },
+          {
+            "type": "feature-list",
+            "title": "Level Design Features",
+            "items": [
+              "Multiple branching pathways",
+              "Strategic combat areas",
+              "Hidden secrets and collectibles",
+              "Dynamic lighting system",
+              "Optimized for performance"
+            ]
+          },
+          {
+            "type": "specs-list",
+            "title": "Technical Details",
+            "items": {
+              "Engine": "Unreal Engine 5",
+              "Polygon Count": "2M triangles",
+              "Texture Resolution": "4K",
+              "Lighting": "Dynamic + Baked",
+              "Performance Target": "60 FPS"
+            }
+          },
+          {
+            "type": "image-section",
+            "title": "Design Process",
+            "images": [
+              {
+                "url": "path/to/blockout.jpg",
+                "caption": "Initial blockout phase"
+              },
+              {
+                "url": "path/to/lighting.jpg",
+                "caption": "Lighting studies"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

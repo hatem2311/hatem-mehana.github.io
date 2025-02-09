@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Show Page</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="game-show">
+            <a href="index.html" class="back-button"><ion-icon name="arrow-back"></ion-icon></a>
+            <div class="game-grid">
+                <div class="game-poster">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+                        alt="Game Poster" id="gamePoster">
+                </div>
+                <div class="game-details">
+                    <h1 id="gameTitle">Project Title</h1>
+                    <p id="gameDescription">Game description goes here...</p>
+                    <div class="game-tags" id="gameTags">
+                    </div>
+                    <div class="game-meta" id="gameMeta">
+                    </div>
+                    <div id="buttons-container" class="game-buttons">
+                    </div>
+                </div>
+            </div>
+            <div class="game-about" id="gameAbout">
+            </div>
+            <!-- Todo: Change layout to asset store gallery -->
+            <div class="game-media">
+                <div class="media-viewer">
+                    <div class="main-preview" id="mainPreview">
+                        <!-- Main preview content will be inserted here -->
+                    </div>
+                    <div class="media-strip">
+                        <div class="media-thumbnails" id="mediaThumbnails">
+                            <!-- Thumbnails will be inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Hatem Mehena. All rights reserved.</p>
+        <p>Designed by <a href="https://www.facebook.com/louay.rahali.55" target="_blank">Louay Rahali</a></p>
+    </footer>
+    <script>
+        function renderAboutSection(section) {
+            switch (section.type) {
+                case 'feature-list':
+                    return `
+                        <div class="about-section">
+                            <h2>${section.title}</h2>
+                            <ul class="feature-list">
+                                ${section.items.map(item => `<li>${item}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `;
+                case 'paragraph':
+                    return `
+                        <div class="about-section">
+                            <h2>${section.title}</h2>
+                            <p class="content-paragraph">${section.content}</p>
+                        </div>
+                    `;
+                case 'specs-list':
+                    return `
+                        <div class="about-section">
+                            <h2>${section.title}</h2>
+                            <div class="specs-grid">
+                                ${Object.entries(section.items).map(([key, value]) => `
+                                    <div class="spec-item">
+                                        <span class="spec-label">${key}:</span>
+                                        <span class="spec-value">${value}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                case 'image-section':
+                    return `
+                        <div class="about-section">
+                            <h2>${section.title}</h2>
+                            <div class="image-grid">
+                                ${section.images.map(img => `
+                                    <figure>
+                                        <img src="${img.url}" alt="${img.caption}">
+                                        <figcaption>${img.caption}</figcaption>
+                                    </figure>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+            }
+        }
+
+        function updateMainPreview(media) {
+            const mainPreview = document.getElementById('mainPreview');
+            if (media.type === 'video') {
+                mainPreview.innerHTML = `
+                    <iframe src="${media.url}" 
+                        frameborder="0" 
+                        allow="autoplay; encrypted-media" 
+                        allowfullscreen>
+                    </iframe>`;
+            } else {
+                mainPreview.innerHTML = `<img src="${media}" alt="">`;
+            }
+        }
+
+        function setActiveThumbnail(index) {
+            document.querySelectorAll('.media-thumbnail').forEach(thumb => {
+                thumb.classList.remove('active');
+            });
+            document.querySelector(`.media-thumbnail[data-index="${index}"]`)?.classList.add('active');
+        }
+
+        // Add this new function
+        function getYouTubeThumbnail(url) {
+            const videoId = url.split('/embed/')[1];
+            return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+        }
+
+        async function LoadPage() {
+            const search = window.location.search;
+            const urlParams = new URLSearchParams(search);
+            const id = urlParams.get("id");
+            const response = await fetch("data.json");
+            const data = await response.json();
+            const project = data.showcase.projects[id];
+
+            document.getElementById("gameTitle").innerText = project.name;
+            document.getElementById("gameDescription").innerText = project.description;
+
+            // Render tags
+            if (project.tags) {
+                document.getElementById("gameTags").innerHTML = project.tags
+                    .map(tag => `<span class="tag">${tag}</span>`)
+                    .join("");
+            }
+
+            // Render meta information from meta section
+            const metaContainer = document.getElementById("gameMeta");
+            if (project.meta) {
+                metaContainer.innerHTML = Object.entries(project.meta)
+                    .map(([label, value]) => {
+                        const displayValue = Array.isArray(value) ? value.join(", ") : value;
+                        return `<p>${label}: <span>${displayValue}</span></p>`;
+                    })
+                    .join("");
+            }
+
+            // Render store buttons
+            const buttonsContainer = document.getElementById("buttons-container");
+            if (project.storeLinks) {
+                buttonsContainer.innerHTML = Object.entries(project.storeLinks)
+                    .map(([store, data]) => `
+                        <a href="${data.url}" 
+                           class="btn btn-primary store-button" 
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <ion-icon name="${data.icon}"></ion-icon>
+                            ${store}
+                        </a>
+                    `)
+                    .join("");
+            }
+
+            // Add about sections
+            const aboutContainer = document.getElementById('gameAbout');
+            if (project.about) {
+                aboutContainer.innerHTML = project.about
+                    .map(section => renderAboutSection(section))
+                    .join('');
+            }
+
+            // Create media array combining video and images
+            const mediaArray = [
+                ...(project.videoUrl ? [{ type: 'video', url: project.videoUrl }] : []),
+                ...project.gallery.map(url => ({ type: 'image', url }))
+            ];
+
+            // Set initial main preview
+            if (mediaArray.length > 0) {
+                updateMainPreview(mediaArray[0].type === 'video' ? mediaArray[0] : mediaArray[0].url);
+            }
+
+            // Create thumbnails with YouTube thumbnail
+            document.getElementById('mediaThumbnails').innerHTML = mediaArray.map((media, index) => `
+                <div class="media-thumbnail ${index === 0 ? 'active' : ''}" 
+                     data-index="${index}"
+                     onclick="updateMainPreview(${media.type === 'video' ?
+                    `{type: 'video', url: '${media.url}'}` :
+                    `'${media.url}'`}); setActiveThumbnail(${index})">
+                    <img src="${media.type === 'video' ? getYouTubeThumbnail(media.url) : media.url}" alt="">
+                    ${media.type === 'video' ? '<div class="play-overlay"><ion-icon name="play"></ion-icon></div>' : ''}
+                </div>
+            `).join('');
+
+            document.getElementById("gameGallery").innerHTML = project.gallery.map(img => (
+                `<img src='${img}' alt="">`
+            )).join("")
+        }
+
+        document.addEventListener("DOMContentLoaded", LoadPage)
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

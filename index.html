@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav id="nav" class="other-container">
+      <div class="nav-links">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About me</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#worked">Work</a>
+        <a class="nav-link" href="#showcase">Showcase</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <section id="home" class="main-content other-container">
+      <div class="left-content">
+        <p class="greeting">Hello, My Name Is</p>
+        <h1 class="name"></h1>
+        <p class="description"></p>
+
+        <div class="buttons-container">
+          <a href="hatem mehana.pdf" download class="contact-btn">
+            Download My Resume
+          </a>
+          <a href="#contact" class="contact-btn">
+            Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="right-content">
+        <img src="" alt="Profile Image" />
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Who I Am</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p></p>
+          <div class="about-details"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">What I Can Do</p>
+      </div>
+
+      <div class="skills-grid"></div>
+    </section>
+
+    <section id="worked" class="worked-section">
+      <div class="section-header">
+        <h2 class="section-title">Studios</h2>
+        <p class="section-subtitle">Where I Did Work</p>
+      </div>
+
+      <div class="work-grid"></div>
+    </section>
+
+    <section id="showcase" class="showcase-section">
+      <div class="section-header">
+        <h2 class="section-title">Showcase</h2>
+        <p class="section-subtitle">My Projects</p>
+      </div>
+
+      <div id="filter-buttons-container" class="showcase-filter"></div>
+
+      <div id="showcase-grid" class="showcase-grid"></div>
+    </section>
+
+    <section id="contact" class="contact-section other-container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Get In Touch</p>
+      </div>
+
+      <div class="social-container">
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2024 Hatem Mehena. All rights reserved.</p>
+    <p>Designed by <a href="https://www.facebook.com/louay.rahali.55" target="_blank">Louay Rahali</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+
+  <script>
+    let lastScrollTop = 0;
+    window.onscroll = function () {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      let nav = document.getElementById("nav");
+
+      // Add/remove background when not at top
+      if (currentScroll > 0) {
+        nav.classList.add("background-active");
+      } else {
+        nav.classList.remove("background-active");
+      }
+
+      // Hide/show based on scroll direction
+      if (currentScroll > lastScrollTop) {
+        // Scrolling down
+        nav.style.top = "-100px";
+      } else {
+        // Scrolling up
+        nav.style.top = "0";
+      }
+
+      lastScrollTop = currentScroll;
+    };
+  </script>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const navLinksA = document.querySelectorAll('.nav-link');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    navLinksA.forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

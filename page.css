@@ -1,0 +1,529 @@
+/* -----------------------------
+    CSS Variables / Root
+----------------------------- */
+:root {
+  /* Colors */
+  --color-primary: #1e9bd9;
+  --color-primary-hover: #1894b0;
+  --color-background: #000;
+  --color-text: #fff;
+  --color-text-secondary: var(--color-text-secondary);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-background-light: rgba(255, 255, 255, 0.1);
+  --color-background-accent: rgba(30, 142, 217, 0.3);
+
+  /* Typography */
+  --font-family-primary: Arial, sans-serif;
+  --font-size-xs: 0.8rem;
+  --font-size-sm: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.2rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
+  --font-size-hero: 64px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 50px;
+
+  /* Layout */
+  --container-max-width: 1400px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 15px;
+  --border-radius-full: 100vw;
+
+  /* Transitions */
+  --transition-fast: 0.3s ease;
+  --transition-medium: 0.5s ease;
+  --transition-slow: 1.25s;
+
+  /* Shadows */
+  --shadow-sm: 0 5px 15px rgba(0, 0, 0, 0.3);
+  --shadow-social: 0 6px 16px rgba(250, 0, 0, 0.15), 0 0 0 4px #333,
+    0 0 0 16px var(--color-background-light);
+}
+
+/* -----------------------------
+    Base Styles
+----------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-primary);
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #091b29,
+    #051016,
+    #050f16,
+    #091b2a,
+    #06131c
+  );
+  background-color: #091b29;
+  color: var(--color-text);
+}
+
+/* -----------------------------
+    Layout & Container
+----------------------------- */
+.container {
+  position: relative;
+  padding-top: 25px;
+}
+
+.game-show {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+}
+
+/* -----------------------------
+    Navigation & Back Button
+----------------------------- */
+.back-button {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: var(--font-size-xl);
+  cursor: pointer;
+  margin-bottom: var(--spacing-xl);
+  text-decoration: none;
+  display: block;
+  transition: var(--transition-medium);
+}
+
+.back-button:hover {
+  color: var(--color-primary-hover);
+}
+
+/* -----------------------------
+    Game Details Grid
+----------------------------- */
+.game-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+/* Game Poster */
+.game-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-md);
+}
+
+/* Game Info */
+.game-details h1 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.game-details p {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+/* -----------------------------
+    Game Meta Information
+----------------------------- */
+.game-meta {
+  margin-bottom: var(--spacing-xl);
+}
+
+.game-meta p {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+/* -----------------------------
+    Buttons
+----------------------------- */
+.game-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.btn {
+  padding: var(--spacing-sm) var(--spacing-xl);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  text-decoration: none;
+}
+
+/* Button Variants */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-background-light);
+  color: var(--color-text);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-background-accent);
+}
+
+/* Store Button */
+.store-button {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-xl);
+}
+
+.store-button ion-icon {
+  font-size: 1.2em;
+}
+
+/* -----------------------------
+    Media Section
+----------------------------- */
+.game-media {
+  margin-top: var(--spacing-2xl);
+  background: var(--color-background-light);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-lg);
+}
+
+/* Media Viewer */
+.media-viewer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.main-preview {
+  width: 100%;
+  height: 500px;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  background: var(--color-background);
+}
+
+.main-preview img,
+.main-preview iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Media Thumbnails */
+.media-strip {
+  width: 100%;
+  overflow-x: auto;
+  padding: var(--spacing-sm) 0;
+}
+
+.media-thumbnails {
+  display: flex;
+  gap: var(--spacing-sm);
+  min-height: 100px;
+}
+
+.media-thumbnail {
+  flex: 0 0 178px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+  transition: border-color var(--transition-fast);
+}
+
+.media-thumbnail.active {
+  border-color: var(--color-primary);
+}
+
+.media-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-overlay ion-icon {
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+/* -----------------------------
+    Game Content Sections
+----------------------------- */
+/* Video Section */
+.game-video {
+  margin-bottom: var(--spacing-xl);
+}
+
+.game-video iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: var(--border-radius-md);
+}
+
+/* Gallery Section */
+.game-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.game-gallery img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.game-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* About Section */
+.game-about {
+  margin-top: var(--spacing-2xl);
+}
+
+.about-section {
+  background: var(--color-background-light);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.about-section h2 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-primary);
+}
+
+.feature-list {
+  list-style: none;
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.feature-list li::before {
+  content: "•";
+  color: var(--color-primary);
+}
+
+.content-paragraph {
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.spec-item {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.spec-label {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.image-grid figure {
+  text-align: center;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: var(--border-radius-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.image-grid figcaption {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.game-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.tag {
+  background: var(--color-background-light);
+  color: var(--color-text);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--border-radius-full);
+  font-size: var(--font-size-sm);
+  transition: background-color var(--transition-fast);
+}
+
+.tag:hover {
+  background: var(--color-background-accent);
+}
+
+/* -----------------------------
+    Footer
+----------------------------- */
+.footer {
+  margin-top: var(--spacing-3xl);
+  padding: var(--spacing-xl);
+  text-align: center;
+  background: var(--color-background-light);
+  border-top: 1px solid var(--color-border);
+}
+
+.footer p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+}
+
+.footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer a:hover {
+  color: var(--color-primary-hover);
+}
+
+/* -----------------------------
+    Media Queries
+----------------------------- */
+@media (max-width: 1200px) {
+  .game-show {
+    padding: var(--spacing-md);
+  }
+  
+  .game-buttons {
+    flex-wrap: wrap;
+  }
+
+  .store-button {
+    flex: 1 1 200px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .game-poster img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .game-details h1 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .main-preview {
+    height: 300px;
+  }
+
+  .media-thumbnail {
+    flex: 0 0 120px;
+    height: 70px;
+  }
+
+  .game-meta p {
+    font-size: var(--font-size-sm);
+  }
+
+  .about-section {
+    padding: var(--spacing-lg);
+  }
+
+  .specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-show {
+    padding: var(--spacing-sm);
+  }
+
+  .game-poster img {
+    max-height: 300px;
+  }
+
+  .main-preview {
+    height: 200px;
+  }
+
+  .media-thumbnail {
+    flex: 0 0 100px;
+    height: 60px;
+  }
+
+  .store-button {
+    flex: 1 1 100%;
+  }
+
+  .game-details h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .game-details p {
+    font-size: var(--font-size-base);
+  }
+
+  .footer {
+    padding: var(--spacing-md);
+  }
+}
