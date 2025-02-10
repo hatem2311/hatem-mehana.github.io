@@ -1,7 +1,7 @@
 {
   "hero": {
     "name": "Hatem Mehena",
-    "description": "A game developer with 4 years of expierence in games creation using Unity and c# programming",
+    "description": "Unity Game Developer & Level Designer & RTG Studio Team Leader",
     "resumeUrl": "hatem mehana.pdf",
     "profileImage": "images/Hatem.png"
   },
@@ -21,30 +21,40 @@
   "skills": [
     {
       "icon": "speedometer",
-      "title": "C# Programming",
+      "title": "Unity ",
       "points": [
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
-        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
+        "Developing gameplay systems using C# and Unity .",
+        "Building AI systems to create dynamic interaction with the environment.",
+        "Optimizing performance.",
+        "Handling physics and collisions.",
+        "Designing UI systems compatible with different platforms",
+        "Using Photon and Unity Netcode to support multiplayer gaming over the network.",
+        "Adding ADS within games.",
+        "Log in via Facebook and Google.",
+        "Add in-game purchases."
+       
       ]
     },
+   
     {
       "icon": "eye",
       "title": "Level Design",
       "points": [
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
-        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
-      ]
+        "Designing complete game environments while considering performance and aesthetics.",
+        "Using Block Out to test gameplay mechanics before finalizing the design.",
+        "Optimizing performance using LOD, Occlusion Culling, Sprite Grass, Light Baking, and more",
+        "Adding lighting and fog effects to create immersive atmospheres."
+            ]
     },
-    
     {
       "icon": "people",
       "title": "Teamwork Leadership",
       "points": [
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
-        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
+        "Planning project timelines to ensure on-time delivery.",
+        "Organizing team tasks and distributing roles to ensure efficient workflow.",
+        "Using project management tools like Jira, Notion, Milanote to organize ideas and timelines.",
+        "Managing versions using Git, GitHub, GitLab to track modifications.",
+        "Maintaining continuous communication with the team and providing real-time updates."
       ]
     }
   ],
@@ -67,8 +77,8 @@
     {
       "image": "images/Screenshot 2023-03-16 011643.jpg",
       "title": "Grays Games",
-      "duration": "2021 - 2022",
-      "description": "Game Developer focused on Unity development and level design."
+      "duration": "2020",
+      "description": "I worked on reskin games."
       
     }
   ],
@@ -182,6 +192,7 @@
               "Real-time performance metrics"
             ]
           },
+          
           {
             "type": "paragraph",
             "title": "Development Status",
