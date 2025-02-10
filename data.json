@@ -3,26 +3,22 @@
     "name": "Hatem Mehena",
     "description": "A game developer with 4 years of expierence in games creation using Unity and c# programming",
     "resumeUrl": "hatem mehana.pdf",
-    "profileImage": "images/hero.png"
+    "profileImage": "images/Hatem.png"
   },
   "about": {
     "description": "I am a game developer with 4 years of experience in game development using Unity and C# programming. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and developed an online game inspired by the \"Squid Game\" series. I won first place in the Game Gam competition by public vote, and I have several games published on Google Play. I am passionate about game development and constantly seeking to learn new technologies in the field.",
     "details": [
       { "label": "Experience", "value": "4 Years" },
       { "label": "Projects Completed", "value": "30+" },
-      { "label": "Specialization", "value": "Game Development" }
+      { "label": "Awards", "value": "1st in Game Zanga (Special Edition) Won with Implant Mission." },
+      { "label": "GooglePlay", "value": "4 Games" },
+      { "label": "Steam", "value": "1 Game" },
+      { "label": "Itech.Io", "value": "1 Game" }
+      
     ]
   },
+  
   "skills": [
-    {
-      "icon": "eye",
-      "title": "Level Design",
-      "points": [
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
-        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
-      ]
-    },
     {
       "icon": "speedometer",
       "title": "C# Programming",
@@ -32,6 +28,16 @@
         "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
       ]
     },
+    {
+      "icon": "eye",
+      "title": "Level Design",
+      "points": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "Nostrum obcaecati, atque quos ad excepturi fugiat dicta nulla",
+        "Quis, natus? Quam quas voluptates dignFissimos qui deserunt! Ea,"
+      ]
+    },
+    
     {
       "icon": "people",
       "title": "Teamwork Leadership",
@@ -44,31 +50,35 @@
   ],
   "work": [
     {
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+      "image": "images/5124.png",
       "current": true,
-      "title": "Ash Studio",
-      "duration": "2020 - Present",
-      "description": "Founded and led game development studio, creating innovative mobile and multiplayer games."
-    },
-    {
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
       "title": "RTG Studio",
-      "duration": "2019 - 2020",
+      "duration": "2022 - Present",
       "description": "Senior Game Developer working on mobile game projects and team management."
     },
     {
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+      "image": "https://media.licdn.com/dms/image/v2/D4D1BAQEnMVqbZhZh2A/company-background_10000/company-background_10000/0/1660129070920/ash_games_cover?e=1739764800&v=beta&t=hl-nNIYQ9ELtI-DssSVuGgMrz81M5jDDn_idbKjWiiM",
+      "current": true,
+      "title": "ASH Studio",
+      "duration": "2024 - Present",
+      "description": "Founded and led game development studio, creating innovative mobile and multiplayer games."
+    },
+   
+    {
+      "image": "images/Screenshot 2023-03-16 011643.jpg",
       "title": "Grays Games",
-      "duration": "2018 - 2019",
+      "duration": "2021 - 2022",
       "description": "Game Developer focused on Unity development and level design."
+      
     }
   ],
   "social": [
-    { "icon": "logo-facebook", "name": "Facebook", "url": "#" },
-    { "icon": "logo-instagram", "name": "Instagram", "url": "#" },
-    { "icon": "logo-linkedin", "name": "Linkdin", "url": "#" },
-    { "icon": "logo-youtube", "name": "Youtube", "url": "#" },
-    { "icon": "mail", "name": "GMail", "url": "#" }
+    
+    { "icon": "logo-linkedin", "name": "Linkdin", "url": "https://www.linkedin.com/in/hatem-mehana-b88833241/?trk=public-profile-join-page" },
+    { "icon": "logo-whatsapp", "name": "WhatApp", "url": "https://api.whatsapp.com/send/?phone=%2B201016867349&text&type=phone_number&app_absent=0" },
+    { "icon": "mail", "name": "GMail", "url": "mailto:hatemmehana666@gmail.com" },
+    { "icon": "logo-facebook", "name": "Facebook", "url": "https://www.facebook.com/RTGstudio2311?locale=ar_AR" },
+    { "icon": "logo-youtube", "name": "Youtube", "url": "https://www.youtube.com/@hatemmehana2311" }
   ],
   "showcase": {
     "sections": ["All", "Grays", "RTG", "Ash"],
@@ -184,7 +194,7 @@
         "category": "Ash",
         "image": "path/to/image3.jpg",
         "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level Design", "Environment Art"],
+        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
         "type": "Level Design",
         "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
         "gallery": [

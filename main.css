@@ -279,7 +279,7 @@ nav.background-active::before {
 }
 
 .about-details {
-  margin-top: 30px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;

@@ -136,7 +136,7 @@
 
             document.getElementById("gameTitle").innerText = project.name;
             document.getElementById("gameDescription").innerText = project.description;
-
+            document.getElementById("gamePoster").src = project.image;
             // Render tags
             if (project.tags) {
                 document.getElementById("gameTags").innerHTML = project.tags
