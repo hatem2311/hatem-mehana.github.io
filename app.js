@@ -55,7 +55,7 @@ function displayProjects(filterCategory, projects) {
     projectElement.href = `page.html?id=${i}`;
     projectElement.innerHTML = `
             <div class="showcase-type">${project.type}</div>
-            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png" alt="${project.name}" />
+            <img src="${project.image}" alt="${project.name}" />
             <div class="showcase-content">
                 <h3 class="showcase-title">${project.name}</h3>
                 <p class="showcase-description">${project.description}</p>

@@ -87,7 +87,7 @@ nav,
 section {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 100px;
 }
 
 .container {
@@ -207,7 +207,7 @@ nav.background-active::before {
   display: flex;
   gap: var(--spacing-sm);
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
 }
 
