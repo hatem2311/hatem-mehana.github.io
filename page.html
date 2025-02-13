@@ -12,10 +12,16 @@
     <div class="container">
         <section class="game-show">
             <a href="index.html" class="back-button"><ion-icon name="arrow-back"></ion-icon></a>
-            <div class="game-grid">
-                <div class="game-poster">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
-                        alt="Game Poster" id="gamePoster">
+            <div class="game-media">
+                <div class="media-viewer">
+                    <div class="main-preview" id="mainPreview">
+                        <!-- Main preview content will be inserted here -->
+                    </div>
+                    <div class="media-strip">
+                        <div class="media-thumbnails" id="mediaThumbnails">
+                            <!-- Thumbnails will be inserted here -->
+                        </div>
+                    </div>
                 </div>
                 <div class="game-details">
                     <h1 id="gameTitle">Project Title</h1>
@@ -28,22 +34,8 @@
                     </div>
                 </div>
             </div>
-            <div class="game-media">
-                <div class="media-viewer">
-                    <div class="main-preview" id="mainPreview">
-                        <!-- Main preview content will be inserted here -->
-                    </div>
-                    <div class="media-strip">
-                        <div class="media-thumbnails" id="mediaThumbnails">
-                            <!-- Thumbnails will be inserted here -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="game-about" id="gameAbout">
             </div>
-            <!-- Todo: Change layout to asset store gallery -->
-            
         </section>
     </div>
     <footer class="footer">
@@ -137,7 +129,7 @@
 
             document.getElementById("gameTitle").innerText = project.name;
             document.getElementById("gameDescription").innerText = project.description;
-            document.getElementById("gamePoster").src = project.image;
+
             // Render tags
             if (project.tags) {
                 document.getElementById("gameTags").innerHTML = project.tags
