@@ -76,15 +76,15 @@ function initializeSlider() {
   const track = document.querySelector('.showcase-track');
   const prevBtn = document.querySelector('.slider-nav.prev');
   const nextBtn = document.querySelector('.slider-nav.next');
-  const cardWidth = 320; // card width + gap
+  const cardWidth = 270; // card width + gap
   let currentPosition = 0;
 
   function updateNavButtons() {
     // Hide prev button if at start
-    prevBtn.style.display = currentPosition <= 0 ? 'none' : 'flex';
+    prevBtn.style.display = currentPosition <= 20 ? 'none' : 'flex';
     
     // Hide next button if at end
-    const maxScroll = track.scrollWidth - track.parentElement.clientWidth;
+    const maxScroll = track.scrollWidth - track.parentElement.clientWidth - 50;
     nextBtn.style.display = currentPosition >= maxScroll ? 'none' : 'flex';
   }
 

@@ -507,6 +507,7 @@ nav.background-active::before {
   gap: 20px;
   margin-bottom: 40px;
   justify-content: center;
+  padding: 10px;
 }
 
 .filter-btn {
@@ -526,12 +527,12 @@ nav.background-active::before {
 }
 
 .filter-btn:hover {
-  background: var(--color-background-light);
+  background: var(--color-primary);
 }
 
 .showcase-container {
   position: relative;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .showcase-grid {
@@ -543,17 +544,16 @@ nav.background-active::before {
 .showcase-track {
   display: flex;
   gap: 20px;
-  transition: transform 0.5s ease;
+  transition: var(--transition-medium);
 }
 
 .showcase-card {
-  flex: 0 0 300px;
-  width: 300px;
+  flex: 0 0 250px;
+  width: 250px;
   aspect-ratio: 3/4;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  aspect-ratio: 3 / 4;
   background: #1a1a1a;
   transition: all var(--transition-fast);
   border: 1px solid var(--color-border);
@@ -672,11 +672,11 @@ nav.background-active::before {
 }
 
 .slider-nav.prev {
-  left: -10px;
+  left: 0;
 }
 
 .slider-nav.next {
-  right: -10px;
+  right: 0;
 }
 
 .slider-nav ion-icon {
@@ -934,6 +934,10 @@ nav.background-active::before {
 @media (max-width: 480px) {
   section {
     padding: 0px;
+  }
+
+  .showcase-section {
+    padding: 0;
   }
 
   .about-content {
