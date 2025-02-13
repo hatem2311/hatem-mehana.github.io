@@ -40,16 +40,16 @@ function navs() {
 }
 
 // Showcase functionality
-function displayProjects(filterCategory, projects) {
-  const projectContainer = $("showcase-grid");
-  projectContainer.innerHTML = "";
+function displayProjects(filterType, projects) {
+  const trackContainer = document.querySelector(".showcase-track");
+  trackContainer.innerHTML = "";
 
   const filteredProjects =
-    filterCategory === "All"
+    filterType === "All"
       ? projects
-      : projects.filter(project => project.category === filterCategory);
+      : projects.filter(project => project.type === filterType);
 
-  filteredProjects.map((project, i) => {
+  filteredProjects.forEach((project, i) => {
     const projectElement = document.createElement("a");
     projectElement.classList.add("showcase-card");
     projectElement.href = `page.html?id=${i}`;
@@ -66,8 +66,44 @@ function displayProjects(filterCategory, projects) {
                 </div>
             </div>
         `;
-    projectContainer.appendChild(projectElement);
+    trackContainer.appendChild(projectElement);
   });
+
+  initializeSlider();
+}
+
+function initializeSlider() {
+  const track = document.querySelector('.showcase-track');
+  const prevBtn = document.querySelector('.slider-nav.prev');
+  const nextBtn = document.querySelector('.slider-nav.next');
+  const cardWidth = 320; // card width + gap
+  let currentPosition = 0;
+
+  function updateNavButtons() {
+    // Hide prev button if at start
+    prevBtn.style.display = currentPosition <= 0 ? 'none' : 'flex';
+    
+    // Hide next button if at end
+    const maxScroll = track.scrollWidth - track.parentElement.clientWidth;
+    nextBtn.style.display = currentPosition >= maxScroll ? 'none' : 'flex';
+  }
+
+  function updateSlider(direction) {
+    const maxScroll = track.scrollWidth - track.parentElement.clientWidth;
+    currentPosition = Math.max(Math.min(
+      currentPosition + (direction * cardWidth),
+      maxScroll
+    ), 0);
+    
+    track.style.transform = `translateX(-${currentPosition}px)`;
+    updateNavButtons();
+  }
+
+  prevBtn?.addEventListener('click', () => updateSlider(-1));
+  nextBtn?.addEventListener('click', () => updateSlider(1));
+
+  // Initial button state
+  updateNavButtons();
 }
 
 async function loadData() {
@@ -158,19 +194,27 @@ async function loadData() {
   // Initialize showcase with data from JSON
   const container = $("filter-buttons-container");
   if (container) {
-    data.showcase.sections.forEach(sect => {
+    // Get unique project types
+    const projectTypes = ["All", ...new Set(data.showcase.projects.map(p => p.type))];
+    
+    projectTypes.forEach(type => {
       const button = document.createElement("button");
       button.classList.add("filter-btn");
-      if (sect === "All") {
+      if (type === "All") {
         button.classList.add("active");
       }
-      button.innerText = sect;
+      button.innerText = type;
       button.addEventListener("click", () => {
         document
           .querySelectorAll(".filter-btn")
           .forEach(btn => btn.classList.remove("active"));
         button.classList.add("active");
-        displayProjects(sect, data.showcase.projects);
+        
+        // Reset track position before showing new filtered items
+        const track = document.querySelector('.showcase-track');
+        track.style.transform = 'translateX(0)';
+        
+        displayProjects(type, data.showcase.projects);
       });
       container.appendChild(button);
     });
