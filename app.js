@@ -82,14 +82,28 @@ async function loadData() {
   // Populate about section
   document.querySelector(".about-text p").textContent = data.about.description;
   const detailsContainer = document.querySelector(".about-details");
-  detailsContainer.innerHTML = data.about.details
+  
+  // Sort details by size - small items first, then large items
+  const sortedDetails = data.about.details.sort((a, b) => {
+    const aIsLarge = a.value.length > 30;
+    const bIsLarge = b.value.length > 30;
+    return aIsLarge - bIsLarge;
+  });
+
+  detailsContainer.innerHTML = sortedDetails
     .map(
-      detail => `
-        <div class="detail-item">
-            <span class="detail-label">${detail.label}:</span>
-            <span class="detail-value">${detail.value}</span>
-        </div>
-    `
+      detail => {
+        const isLarge = detail.value.length > 30;
+        return `
+          <div class="detail-item" ${isLarge ? 'data-size="large"' : ''}>
+              <ion-icon name="${detail.icon}" class="detail-icon"></ion-icon>
+              <div class="detail-content">
+                  <span class="detail-label">${detail.label}</span>
+                  <span class="detail-value">${detail.value}</span>
+              </div>
+          </div>
+        `;
+      }
     )
     .join("");
 
