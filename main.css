@@ -401,7 +401,7 @@ nav.background-active::before {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 30px;
   margin-top: 50px;
 }
@@ -571,7 +571,7 @@ nav.background-active::before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 30px;
+  height: fit-content;
   background-color: var(--color-primary);
   text-align: center;
   padding: 5px;
@@ -608,7 +608,7 @@ nav.background-active::before {
     rgba(0, 0, 0, 0.7) 50%,
     rgba(0, 0, 0, 0) 100%
   );
-  transform: translateY(120px);
+  transform: translateY(150px);
   transition: all var(--transition-fast);
 }
 
@@ -824,7 +824,7 @@ nav.background-active::before {
   }
 
   .work-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   /* Hamburger menu styles */
@@ -934,6 +934,10 @@ nav.background-active::before {
 @media (max-width: 480px) {
   section {
     padding: 0px;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
   }
 
   .showcase-section {
