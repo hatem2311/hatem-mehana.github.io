@@ -185,7 +185,7 @@ body {
 .game-media {
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: var(--spacing-md);
   margin-top: var(--spacing-2xl);
   background: var(--color-background-light);
@@ -198,6 +198,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
+  width: 100%;
   gap: var(--border-radius-xs);
 }
 
@@ -442,6 +443,10 @@ body {
 @media (max-width: 768px) {
   .game-media {
     flex-direction: column;
+  }
+
+  .media-viewer {
+    width: 100%;
   }
 
   .game-details h1 {
