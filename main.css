@@ -947,11 +947,27 @@ slider-nav:hover {
   }
 
   .work-grid {
-    grid-template-columns: 1fr 1fr;
+    gap: 15px;
   }
 
   .work-content {
-    padding-top: 30px;
+    padding: 10px;
+  }
+
+  .work-label {
+    font-size: 14px;
+  }
+
+  .work-title {
+    font-size: 1.3rem;
+  }
+
+  .work-duration {
+    font-size: 0.8rem;
+  }
+
+  .work-description {
+    font-size: 14px;
   }
 
   .showcase-section {
@@ -973,7 +989,7 @@ slider-nav:hover {
   .skills-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .skill-card {
     padding: 15px;
   }
