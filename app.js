@@ -77,33 +77,58 @@ function initializeSlider() {
   const prevBtn = document.querySelector('.slider-nav.prev');
   const nextBtn = document.querySelector('.slider-nav.next');
   const cardWidth = 270; // card width + gap
-  let currentPosition = 0;
+  let currentIndex = 0;
+  
+  function centerCard(index) {
+
+    if (index == 0) {
+      track.style.transform = `translateX(0)`;
+      return;
+    }
+
+    const card = track.children[index];
+    if (!card) return;
+    
+    const containerWidth = track.parentElement.clientWidth;
+    const cardLeft = card.offsetLeft;
+    const scrollPosition = cardLeft - (containerWidth / 2) + (cardWidth / 2);
+    
+    track.style.transform = `translateX(-${scrollPosition}px)`;
+  }
 
   function updateNavButtons() {
-    // Hide prev button if at start
-    prevBtn.style.display = currentPosition <= 20 ? 'none' : 'flex';
+    // Update prev button visibility
+    prevBtn.style.display = currentIndex <= 0 ? 'none' : 'flex';
     
-    // Hide next button if at end
-    const maxScroll = track.scrollWidth - track.parentElement.clientWidth - 50;
-    nextBtn.style.display = currentPosition >= maxScroll ? 'none' : 'flex';
+    // Update next button visibility
+    const totalCards = track.children.length;
+    nextBtn.style.display = currentIndex >= totalCards - 1 ? 'none' : 'flex';
   }
 
   function updateSlider(direction) {
-    const maxScroll = track.scrollWidth - track.parentElement.clientWidth;
-    currentPosition = Math.max(Math.min(
-      currentPosition + (direction * cardWidth),
-      maxScroll
-    ), 0);
+    const totalCards = track.children.length;
+    const newIndex = currentIndex + direction;
     
-    track.style.transform = `translateX(-${currentPosition}px)`;
-    updateNavButtons();
+    // Check if new index is within bounds
+    if (newIndex >= 0 && newIndex < totalCards) {
+      currentIndex = newIndex;
+      centerCard(currentIndex);
+      updateNavButtons();
+    }
   }
 
   prevBtn?.addEventListener('click', () => updateSlider(-1));
   nextBtn?.addEventListener('click', () => updateSlider(1));
 
-  // Initial button state
+  // Initial setup
+  centerCard(currentIndex);
   updateNavButtons();
+  
+  // Handle window resize
+  window.addEventListener('resize', () => {
+    centerCard(currentIndex);
+    updateNavButtons();
+  });
 }
 
 async function loadData() {
