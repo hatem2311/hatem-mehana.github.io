@@ -6,7 +6,7 @@
     "profileImage": "images/Hatem.png"
   },
   "about": {
-    "description": "I am a game developer with 4 years of experience in game development using Unity and C# programming. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and developed an online game inspired by the \"Squid Game\" series. I won first place in the Game Gam competition by public vote, and I have several games published on Google Play. I am passionate about game development and constantly seeking to learn new technologies in the field.",
+    "description": "I am a game developer with 4 years of experience in game development using Unity and C#. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and won first place in the Game Jam (Special Edition) by public vote. I have several games published on Google Play.",
     "details": [
       { "icon": "extension-puzzle", "label": "Experience", "value": "4 Years" },
       { "icon": "checkmark-done", "label": "Projects Completed", "value": "30+" },
