@@ -19,7 +19,7 @@
         }
 
 
-
+"videoUrl": "https://www.youtube.com/embed/M7lc1UVf-VE",
         ,
           {
             "type": "specs-list",
@@ -31,3 +31,9 @@
               "GPU": "GTX 1060 6GB"
             }
           }
+
+          {
+            "type": "paragraph",
+            "title": "Story",
+            "content": "In a world where technology meets magic..."
+          },

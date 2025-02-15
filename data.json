@@ -133,20 +133,27 @@
         ],
         "about": [
           {
-            "type": "paragraph",
-            "title": "Story",
-            "content": "In a world where technology meets magic..."
+            "type": "feature-list",
+            "title": "Assets & Tools",
+            "items": [
+              "Unity HDRP",
+              "HQ Retro Farmhouse (Modular)",
+              "Forest Environment - Dynamic Nature" 
+            ]
           },
+          
           {
             "type": "feature-list",
             "title": "Key Features",
             "items": [
-              "Procedurally generated levels",
-              "Multiplayer support up to 4 players",
-              "Custom character creation"
+              "Diversity in lighting",
+              "Stable fram rate",
+              "LOD 3D objects",
+              "Realistic reflections"
             ]
           }
         ],
+        
         "meta": {
           "Execution Time": "20 Hours 1 Week",
           "Designer": "Hatem Mehana",
@@ -158,17 +165,20 @@
       },
 
       {
-        "name": "2D Platformer Prototype",
-        "category": "RTG",
-        "image": "images/Horror Home/OutdoorsScene.jpg",
+        "name": "3D Tic Tac Toe",
+        "category": "Full game ",
+        "image": "images/X-O/Screenshot 2023-05-18 200115.jpg",
         "description": "A fast-paced 2D platformer prototype featuring dynamic movement mechanics and procedural level generation",
         "tags": ["Unity", "2D", "C#", "Prototype"],
         "type": "Prototype",
-        "videoUrl": "https://www.youtube.com/embed/M7lc1UVf-VE",
+        
         "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+          "images/X-O/photo_2023-05-28_23-46-45.jpg",
+          "images/X-O/photo_2023-05-29_00-00-47.jpg",
+          "images/X-O/Screenshot 2023-05-28 204836.jpg",
+          "images/X-O/Screenshot 2023-05-28 204946.jpg",
+          "images/X-O/Screenshot 2023-05-28 204905.jpg",
+          "images/X-O/Screenshot 2023-05-28 204638.png"
         ],
         "about": [
           {
@@ -192,72 +202,22 @@
             "title": "Development Status",
             "content": "Currently in testing phase with core mechanics implemented. Gathering player feedback for potential full development."
           }
-        ]
-      },
-
-      {
-        "name": "Medieval Castle Environment",
-        "category": "Ash",
-        "image": "images/Horror Home/OutdoorsScene_5.jpg",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
-        "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+          
         ],
-        "about": [
-          {
-            "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
-          },
-          {
-            "type": "feature-list",
-            "title": "Level Design Features",
-            "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
-            ]
-          },
-          {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
-              "Lighting": "Dynamic + Baked",
-              "Performance Target": "60 FPS"
-            }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
-            ]
-          }
-        ]
+        "meta": {
+          "Execution Time": "24 Hours 1 Week",
+          "Developer": "Hatem Mehan",
+          "Publisher": "none",
+          "Platforms": ["Windows","Mobile"],
+          "Genre": ["Strategy ","Puzzle"],
+          "Status": "Finished"
+        }
       },
 
       {
-        "name": "Medieval Castle Environment",
+        "name": "Implant Mission: The Lost Tree",
         "category": "Ash",
-        "image": "images/Horror Home/OutdoorsScene_4K.jpg",
+        "image": "images/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
         "description": "A detailed medieval castle environment designed for a third-person action RPG",
         "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
         "type": "Level Design",
@@ -316,7 +276,66 @@
       {
         "name": "Medieval Castle Environment",
         "category": "Ash",
-        "image": "images/Horror Home/OutdoorsScene2.jpg",
+        "image": "images/403855351_722293643259867_300811720440555796_n.jpg",
+        "description": "A detailed medieval castle environment designed for a third-person action RPG",
+        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
+        "type": "Level Design",
+        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
+        "gallery": [
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+        ],
+        "about": [
+          {
+            "type": "paragraph",
+            "title": "Environment Overview",
+            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
+          },
+          {
+            "type": "feature-list",
+            "title": "Level Design Features",
+            "items": [
+              "Multiple branching pathways",
+              "Strategic combat areas",
+              "Hidden secrets and collectibles",
+              "Dynamic lighting system",
+              "Optimized for performance"
+            ]
+          },
+          {
+            "type": "specs-list",
+            "title": "Technical Details",
+            "items": {
+              "Engine": "Unreal Engine 5",
+              "Polygon Count": "2M triangles",
+              "Texture Resolution": "4K",
+              "Lighting": "Dynamic + Baked",
+              "Performance Target": "60 FPS"
+            }
+          },
+          {
+            "type": "image-section",
+            "title": "Design Process",
+            "images": [
+              {
+                "url": "path/to/blockout.jpg",
+                "caption": "Initial blockout phase"
+              },
+              {
+                "url": "path/to/lighting.jpg",
+                "caption": "Lighting studies"
+              }
+            ]
+          }
+        ]
+      },
+     
+      {
+        "name": "Medieval Castle Environment",
+        "category": "Ash",
+        "image": "images/Roll Game_4K_15.11.2024_09-43-49.png",
         "description": "A detailed medieval castle environment designed for a third-person action RPG",
         "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
         "type": "Level Design",
@@ -374,7 +393,7 @@
       {
         "name": "Medieval Castle Environment",
         "category": "Ash",
-        "image": "images/Horror Home/OutdoorsScene_4.jpg",
+        "image": "images/Screenshot 2023-05-28 233722.jpg",
         "description": "A detailed medieval castle environment designed for a third-person action RPG",
         "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
         "type": "Level Design",
@@ -429,10 +448,11 @@
           }
         ]
       },
+      
       {
         "name": "Medieval Castle Environment",
         "category": "Ash",
-        "image": "images/Horror Home/Screenshot 2024-02-13 223107.png",
+        "image": "images/Icon-512.png",
         "description": "A detailed medieval castle environment designed for a third-person action RPG",
         "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
         "type": "Level Design",
@@ -489,9 +509,9 @@
       },
 
       {
-        "name": "Medieval Castle Environment",
+        "name": "Lanterns Ninja",
         "category": "Ash",
-        "image": "images/Horror Home/403855351_72229n.jpg",
+        "image": "images/unnamed.webp",
         "description": "A detailed medieval castle environment designed for a third-person action RPG",
         "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
         "type": "Level Design",
@@ -546,6 +566,7 @@
           }
         ]
       }
+      
     ]
   }
 }
