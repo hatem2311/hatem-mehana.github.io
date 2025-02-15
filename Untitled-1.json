@@ -1,0 +1,33 @@
+
+        "storeLinks": {
+          "Steam": {
+            "url": "https://store.steampowered.com/app/xxx",
+            "icon": "logo-steam"
+          },
+          "Google Play": {
+            "url": "https://play.google.com/store/apps/xxx",
+            "icon": "logo-google-playstore"
+          },
+          "App Store": {
+            "url": "https://apps.apple.com/app/xxx",
+            "icon": "logo-apple"
+          },
+          "Download": {
+            "url": "path/to/game.zip",
+            "icon": "cloud-download"
+          }
+        }
+
+
+
+        ,
+          {
+            "type": "specs-list",
+            "title": "System Requirements",
+            "items": {
+              "OS": "Windows 10",
+              "CPU": "Intel i5 or equivalent",
+              "RAM": "8GB",
+              "GPU": "GTX 1060 6GB"
+            }
+          }
