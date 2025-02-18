@@ -17,7 +17,21 @@
             "icon": "cloud-download"
           }
         }
-
+        ,
+        {
+          "type": "image-section",
+          "title": "Design Process",
+          "images": [
+            {
+              "url": "path/to/blockout.jpg",
+              "caption": "Initial blockout phase"
+            },
+            {
+              "url": "path/to/lighting.jpg",
+              "caption": "Lighting studies"
+            }
+          ]
+        }
 
 "videoUrl": "https://www.youtube.com/embed/M7lc1UVf-VE",
         ,

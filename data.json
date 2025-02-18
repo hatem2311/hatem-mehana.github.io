@@ -63,14 +63,14 @@
   ],
   "work": [
     {
-      "image": "images/5124.png",
+      "image": "images/Logos/5124.png",
       "current": true,
       "title": "RTG Studio",
       "duration": "2022 - Present",
       "description": "Senior Game Developer working on mobile game projects and team management."
     },
     {
-      "image": "images/AshGamesStudio_Logo_600_Dpi.png",
+      "image": "images/Logos/ash_games_cover.jpeg",
       "current": true,
       "title": "ASH Studio",
       "duration": "2024 - Present",
@@ -78,7 +78,7 @@
     },
 
     {
-      "image": "images/Screenshot 2023-03-16 011643.jpg",
+      "image": "images/Logos/Screenshot 2023-03-16 011643.jpg",
       "title": "Grays Games",
       "duration": "2020",
       "description": "I worked on reskin games."
@@ -169,7 +169,7 @@
         "category": "Full game ",
         "image": "images/X-O/Screenshot 2023-05-18 200115.jpg",
         "description": "A fast-paced 2D platformer prototype featuring dynamic movement mechanics and procedural level generation",
-        "tags": ["Unity", "2D", "C#", "Prototype"],
+        "tags": ["Unity", "C#", "Prototype"],
         "type": "Prototype",
         
         "gallery": [
@@ -216,17 +216,19 @@
 
       {
         "name": "Implant Mission: The Lost Tree",
-        "category": "Ash",
-        "image": "images/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
+        "image": "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
+        "description": "Explore a polluted land in search of the last hope to restore life!",
+        "tags": ["Platform","Unity", "Level Design", "C#"],
+        "type": "Prototype",
+        "videoUrl": "https://www.youtube.com/embed/Ssm2PqiFbOQ",
         "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45.jpg",
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50.jpg",
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39.jpg",
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58.jpg",
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47.jpg",
+          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00.jpg"
         ],
         "about": [
           {
@@ -255,22 +257,24 @@
               "Lighting": "Dynamic + Baked",
               "Performance Target": "60 FPS"
             }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
-            ]
           }
-        ]
+        ],
+        "meta": {
+          "Execution Time": "25 Hours 3 Days",
+          "Developer": "RTG",
+          "Publisher": "none",
+          "Platforms": ["Windows"],
+          "Genre": ["Platform ","Puzzle"],
+          "Status": "Finished"
+        },
+
+        "storeLinks": {
+         
+          "Itech.Io ": {
+            "url": "https://hatemmehana.itch.io/the-lost-tree",
+            "icon": "fa-brands fa-itch-io"
+          }
+        }
       },
 
       {
