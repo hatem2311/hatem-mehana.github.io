@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -50,7 +51,7 @@
       <div class="section-header">
         <h2 class="section-title">About Me</h2>
         <p class="section-subtitle">Who I Am</p>
-        
+
       </div>
 
       <div class="about-content">
@@ -60,7 +61,7 @@
         <div class="about-details"></div>
       </div>
     </section>
-    
+
     <section id="worked" class="worked-section">
       <div class="section-header">
         <h2 class="section-title">Studios</h2>
@@ -78,7 +79,7 @@
 
       <div id="filter-buttons-container" class="showcase-filter"></div>
 
-      <div class="showcase-container">
+      <!-- <div class="showcase-container">
         <button class="slider-nav prev" aria-label="Previous slide">
           <ion-icon name="chevron-back-outline"></ion-icon>
         </button>
@@ -90,7 +91,17 @@
         <button class="slider-nav next" aria-label="Next slide">
           <ion-icon name="chevron-forward-outline"></ion-icon>
         </button>
+      </div> -->
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+
+        </div>
       </div>
+
+      <div class="swiper-button-prev swiper-button"></div>
+      <div class="swiper-button-next swiper-button"></div>
+      <div class="swiper-scrollbar"></div>
     </section>
 
     <section id="skills" class="skills-section">
@@ -116,6 +127,42 @@
     <p>&copy; 2024 Hatem Mehena. All rights reserved.</p>
     <p>Designed by <a href="https://www.facebook.com/louay.rahali.55" target="_blank">Louay Rahali</a></p>
   </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module">
+    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+
+    const swipe = new Swiper(".swiper", {
+      speed: 400,
+      spaceBetween: 50,
+      slidesPerView: "auto",
+      centeredSlides: true,
+      breakpoints: {
+        400: {
+          centeredSlides: false,
+          spaceBetween: 30,
+        }
+      },
+      grid: {
+        rows: 1,
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        enabled: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+      },
+    });
+  </script>
 
   <script src="app.js"></script>
 

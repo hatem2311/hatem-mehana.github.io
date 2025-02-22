@@ -41,8 +41,7 @@ function navs() {
 
 // Showcase functionality
 function displayProjects(filterType, projects) {
-  const trackContainer = document.querySelector(".showcase-track");
-  trackContainer.innerHTML = "";
+  const trackContainer = document.querySelector(".swiper-wrapper");  
 
   const filteredProjects =
     filterType === "All"
@@ -52,6 +51,7 @@ function displayProjects(filterType, projects) {
   filteredProjects.forEach((project, i) => {
     const projectElement = document.createElement("a");
     projectElement.classList.add("showcase-card");
+    projectElement.classList.add("swiper-slide");
     projectElement.href = `page.html?id=${i}`;
     projectElement.innerHTML = `
             <div class="showcase-type">${project.type}</div>
@@ -67,67 +67,6 @@ function displayProjects(filterType, projects) {
             </div>
         `;
     trackContainer.appendChild(projectElement);
-  });
-
-  initializeSlider();
-}
-
-function initializeSlider() {
-  const track = document.querySelector('.showcase-track');
-  const prevBtn = document.querySelector('.slider-nav.prev');
-  const nextBtn = document.querySelector('.slider-nav.next');
-  const cardWidth = 270; // card width + gap
-  let currentIndex = 0;
-  
-  function centerCard(index) {
-
-    if (index == 0) {
-      track.style.transform = `translateX(0)`;
-      return;
-    }
-
-    const card = track.children[index];
-    if (!card) return;
-    
-    const containerWidth = track.parentElement.clientWidth;
-    const cardLeft = card.offsetLeft;
-    const scrollPosition = cardLeft - (containerWidth / 2) + (cardWidth / 2);
-    
-    track.style.transform = `translateX(-${scrollPosition}px)`;
-  }
-
-  function updateNavButtons() {
-    // Update prev button visibility
-    prevBtn.style.display = currentIndex <= 0 ? 'none' : 'flex';
-    
-    // Update next button visibility
-    const totalCards = track.children.length;
-    nextBtn.style.display = currentIndex >= totalCards - 1 ? 'none' : 'flex';
-  }
-
-  function updateSlider(direction) {
-    const totalCards = track.children.length;
-    const newIndex = currentIndex + direction;
-    
-    // Check if new index is within bounds
-    if (newIndex >= 0 && newIndex < totalCards) {
-      currentIndex = newIndex;
-      centerCard(currentIndex);
-      updateNavButtons();
-    }
-  }
-
-  prevBtn?.addEventListener('click', () => updateSlider(-1));
-  nextBtn?.addEventListener('click', () => updateSlider(1));
-
-  // Initial setup
-  centerCard(currentIndex);
-  updateNavButtons();
-  
-  // Handle window resize
-  window.addEventListener('resize', () => {
-    centerCard(currentIndex);
-    updateNavButtons();
   });
 }
 

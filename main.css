@@ -49,6 +49,12 @@
   --shadow-sm: 0 5px 15px rgba(0, 0, 0, 0.3);
   --shadow-social: 0 6px 16px rgba(250, 0, 0, 0.15), 0 0 0 4px #333,
     0 0 0 16px var(--color-background-light);
+
+  /* Showcase Variables */
+  --swiper-scrollbar-top: calc(100% + 20px);
+  --swiper-scrollbar-bg-color: rgba(21, 66, 163, 0.1);
+  --swiper-scrollbar-drag-bg-color: rgba(70, 126, 239, 0.59);
+  --swiper-scrollbar-size: 8px;
 }
 
 /* -----------------------------
@@ -488,6 +494,7 @@ nav.background-active::before {
 .showcase-section {
   margin-top: 120px;
   padding: 20px;
+  position: relative;
 }
 
 .section-header {
@@ -546,15 +553,29 @@ nav.background-active::before {
   padding: 10px 0;
 }
 
-.showcase-track {
-  display: flex;
-  gap: 20px;
-  transition: var(--transition-medium);
+.swiper-button {
+  --swiper-navigation-color: #fff;
+  --swiper-navigation-top-offset: 70%;
+  --swiper-navigation-sides-offset: 30px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper-button::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  aspect-ratio: 1;
+  background-color: var(--color-primary);
+  z-index: -1;
 }
 
 .showcase-card {
   flex: 0 0 250px;
-  width: 250px;
   aspect-ratio: 3/4;
   position: relative;
   border-radius: 15px;
