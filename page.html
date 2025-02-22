@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Show Page</title>
     <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -17,11 +18,12 @@
                     <div class="main-preview" id="mainPreview">
                         <!-- Main preview content will be inserted here -->
                     </div>
-                    <div class="media-strip">
-                        <div class="media-thumbnails" id="mediaThumbnails">
+                    <div class="media-strip swiper">
+                        <div class="swiper-wrapper" id="mediaThumbnails">
                             <!-- Thumbnails will be inserted here -->
                         </div>
                     </div>
+                    <div class="swiper-scrollbar"></div>
                 </div>
                 <div class="game-details">
                     <h1 id="gameTitle">Project Title</h1>
@@ -40,8 +42,23 @@
     </div>
     <footer class="footer">
         <p>&copy; 2024 Hatem Mehena. All rights reserved.</p>
-        <p>Designed by <a href="https://www.facebook.com/louay.rahali.55" target="_blank">Louay Rahali</a></p>
+        <p>Designed by <a href="https://linktr.ee/louay_rahali" target="_blank">Louay Rahali</a></p>
     </footer>
+
+    <script type="module">
+        import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+
+        const swipe = new Swiper(".swiper", {
+            speed: 400,
+            spaceBetween: 15,
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            },
+            slidesPerView: "auto",
+        });
+    </script>
+
     <script>
         function renderAboutSection(section) {
             switch (section.type) {
@@ -185,7 +202,7 @@
 
             // Create thumbnails with YouTube thumbnail
             document.getElementById('mediaThumbnails').innerHTML = mediaArray.map((media, index) => `
-                <div class="media-thumbnail ${index === 0 ? 'active' : ''}" 
+                <div class="media-thumbnail swiper-slide ${index === 0 ? 'active' : ''}" 
                      data-index="${index}"
                      onclick="updateMainPreview(${media.type === 'video' ?
                     `{type: 'video', url: '${media.url}'}` :
@@ -194,10 +211,6 @@
                     ${media.type === 'video' ? '<div class="play-overlay"><ion-icon name="play"></ion-icon></div>' : ''}
                 </div>
             `).join('');
-
-            document.getElementById("gameGallery").innerHTML = project.gallery.map(img => (
-                `<img src='${img}' alt="">`
-            )).join("")
         }
 
         document.addEventListener("DOMContentLoaded", LoadPage)
