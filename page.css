@@ -198,7 +198,8 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 625px;
+  min-width: 650px;
+  width: 50%;
   gap: var(--border-radius-xs);
   position: relative;
 }
