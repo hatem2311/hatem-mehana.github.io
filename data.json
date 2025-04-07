@@ -74,7 +74,7 @@
       "current": true,
       "title": "ASH Studio",
       "duration": "2024 - Present",
-      "description": "Founded and led game development studio, creating innovative mobile and multiplayer games."
+      "description": "production Assistant,Level Designer, Programmer "
     },
 
     {
@@ -168,8 +168,8 @@
         "name": "3D Tic Tac Toe",
         "category": "Full game ",
         "image": "images/X-O/Screenshot 2023-05-18 200115.jpg",
-        "description": "A fast-paced 2D platformer prototype featuring dynamic movement mechanics and procedural level generation",
-        "tags": ["Unity", "C#", "Prototype"],
+        "description": " The classic game reimagined in 3D for a modern, exciting experience.",
+        "tags": ["Unity", "C#", "Prototype","Blender"],
         "type": "Prototype",
         
         "gallery": [
@@ -184,30 +184,25 @@
           {
             "type": "paragraph",
             "title": "Project Overview",
-            "content": "This prototype was developed to test innovative platforming mechanics and procedural level generation algorithms. It serves as a proof of concept for a larger game project."
+            "content": "The 3D Tic Tac Toe project aims to transform the traditional game into an engaging and modern 3D experience. With a fresh visual style and immersive design, this project blends nostalgia with innovation, offering players a familiar game in a completely new dimension."
           },
           {
             "type": "feature-list",
             "title": "Prototype Features",
             "items": [
-              "Wall-running and double-jump mechanics",
-              "Procedurally generated obstacle courses",
-              "Dynamic difficulty adjustment",
-              "Real-time performance metrics"
+              "3D Board Design: A fully modeled 3D game board for an immersive visual experience.",
+              "Basic Gameplay Mechanics: Functional turn-based system for two players.",
+              "Player Indicators: Clear visual indicators to show active player turns.",
+              "Win Detection System: Automated detection of winning combinations in the 3D space.",
+              "Basic UI Elements: Start, restart, and game result screens for smooth user interaction."
             ]
-          },
-
-          {
-            "type": "paragraph",
-            "title": "Development Status",
-            "content": "Currently in testing phase with core mechanics implemented. Gathering player feedback for potential full development."
           }
           
         ],
         "meta": {
           "Execution Time": "24 Hours 1 Week",
           "Developer": "Hatem Mehan",
-          "Publisher": "none",
+          "Publisher": "RTG",
           "Platforms": ["Windows","Mobile"],
           "Genre": ["Strategy ","Puzzle"],
           "Status": "Finished"
