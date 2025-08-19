@@ -6,7 +6,7 @@
     "profileImage": "images/Hatem.png"
   },
   "about": {
-    "description": "I am a game developer with 4 years of experience in game development using Unity and C#. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and won first place in the Game Jam (Special Edition) by public vote. I have several games published on Google Play.",
+    "description": "I am a game developer with 5 years of experience in game development using Unity and C#. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and won first place in the Game Jam (Special Edition) by public vote. I have several games published on Google Play.",
     "details": [
       { "icon": "extension-puzzle", "label": "Experience", "value": "4 Years" },
       { "icon": "checkmark-done", "label": "Projects Completed", "value": "30+" },
@@ -134,6 +134,19 @@
         "about": [
           {
             "type": "feature-list",
+            "title": "Project Overview",
+            "items": 
+            [
+              "Goal: Showcase 3D design skills",
+              "Perspective: First-person view",
+              "Environment: Square map featuring a forest and one safe room",
+              "Enemy: Shapeshifter enemy with detailed visual design",
+              "Focus: High-quality Level design, lighting, texturing, and visual effects"
+            ]
+             
+          },
+          {
+            "type": "feature-list",
             "title": "Assets & Tools",
             "items": [
               "Unity HDRP",
@@ -228,8 +241,8 @@
         "about": [
           {
             "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
+            "title": "Project Overview",
+            "content": "The 3D Tic Tac Toe project aims to transform the traditional game into an engaging and modern 3D experience. With a fresh visual style and immersive design, this project blends nostalgia with innovation, offering players a familiar game in a completely new dimension."
           },
           {
             "type": "feature-list",
@@ -246,18 +259,18 @@
             "type": "specs-list",
             "title": "Technical Details",
             "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
+              "Engine": "Unity Engine",
+              "Texture Resolution": "2K",
               "Lighting": "Dynamic + Baked",
+            "UI" :"Gimp,Figma",
               "Performance Target": "60 FPS"
             }
           }
         ],
         "meta": {
-          "Execution Time": "25 Hours 3 Days",
+          "Execution Time": " 3 Days",
           "Developer": "RTG",
-          "Publisher": "none",
+          "Publisher": "RTG",
           "Platforms": ["Windows"],
           "Genre": ["Platform ","Puzzle"],
           "Status": "Finished"
@@ -307,9 +320,8 @@
             "type": "specs-list",
             "title": "Technical Details",
             "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
+              "Engine": "Unity Engine",
+              "Texture Resolution": "2K",
               "Lighting": "Dynamic + Baked",
               "Performance Target": "60 FPS"
             }
