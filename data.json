@@ -223,6 +223,7 @@
       },
 
       {
+
         "name": "Implant Mission: The Lost Tree",
         "image": "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
         "description": "Explore a polluted land in search of the last hope to restore life!",
@@ -238,11 +239,12 @@
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00.jpg"
         ],
+
         "about": [
           {
             "type": "paragraph",
             "title": "Project Overview",
-            "content": "The 3D Tic Tac Toe project aims to transform the traditional game into an engaging and modern 3D experience. With a fresh visual style and immersive design, this project blends nostalgia with innovation, offering players a familiar game in a completely new dimension."
+            "content": "7 people worked on the project. The goal was to complete a game within 3 days with a simple idea: searching for hope after the world was destroyed. The game relies on puzzles and searching to reach the last hope.."
           },
           {
             "type": "feature-list",
@@ -267,6 +269,8 @@
             }
           }
         ],
+
+
         "meta": {
           "Execution Time": " 3 Days",
           "Developer": "RTG",
