@@ -135,36 +135,47 @@
 
 
     const swipe = new Swiper(".swiper", {
-      speed: 400,
-      spaceBetween: 50,
-      slidesPerView: "auto",
-      centeredSlides: true,
-      breakpoints: {
-        400: {
-          centeredSlides: false,
-          spaceBetween: 30,
-        }
-      },
-      grid: {
-        rows: 1,
-      },
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      freeMode: {
-        enabled: true,
-        sticky: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      scrollbar: {
-        el: '.swiper-scrollbar',
-        draggable: true,
-      },
-    });
+  speed: 400,
+  spaceBetween: 50,
+  slidesPerView: "auto",
+  centeredSlides: true,
+  breakpoints: {
+    400: {
+      centeredSlides: false,
+      spaceBetween: 30,
+    }
+  },
+  grid: {
+    rows: 1,
+  },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  freeMode: {
+    enabled: true,
+    sticky: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar',
+    draggable: true,
+  },
+});
+
+// لما المستخدم يقف بالماوس على السلايدر -> وقف الـ autoplay
+const swiperEl = document.querySelector(".swiper");
+swiperEl.addEventListener("mouseenter", () => {
+  swipe.autoplay.stop();
+});
+
+// لما يبعد الماوس -> رجّع الـ autoplay
+swiperEl.addEventListener("mouseleave", () => {
+  swipe.autoplay.start();
+});
   </script>
 
   <script src="app.js"></script>

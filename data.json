@@ -145,26 +145,27 @@
             ]
              
           },
-          {
+
+           {
             "type": "feature-list",
-            "title": "Assets & Tools",
+            "title": "My Role",
             "items": [
               "Unity HDRP",
               "HQ Retro Farmhouse (Modular)",
               "Forest Environment - Dynamic Nature" 
             ]
           },
-          
           {
             "type": "feature-list",
-            "title": "Key Features",
+            "title": "Technologies & Tools",
             "items": [
-              "Diversity in lighting",
-              "Stable fram rate",
-              "LOD 3D objects",
-              "Realistic reflections"
+              "Unity HDRP",
+              "HQ Retro Farmhouse (Modular)",
+              "Forest Environment - Dynamic Nature" 
             ]
           }
+          
+        
         ],
         
         "meta": {
