@@ -66,16 +66,13 @@ html {
   scroll-snap-type: mandatory;
   scroll-padding-top: 50px;
 }
-
-body {
-  background: linear-gradient(
-    135deg,
-    #091b29,
-    #051016,
+body { background: linear-gradient( 
+  135deg, 
+  #091b29,
+   #051016,
     #050f16,
-    #091b2a,
-    #06131c
-  );
+     #091b2a,
+      #06131c );
   background-color: #091b29;
   color: var(--color-text);
 }

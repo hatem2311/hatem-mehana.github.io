@@ -3,7 +3,7 @@
     "name": "Hatem Mehena",
     "description": "Unity  Developer & Level Designer & Team Leader",
     "resumeUrl": "hatem mehana.pdf",
-    "profileImage": "images/Hatem.png"
+    "profileImage": "images/2.png"
   },
   "about": {
     "description": "I am a game developer with 5 years of experience in game development using Unity and C#. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and won first place in the Game Jam (Special Edition) by public vote. I have several games published on Google Play.",
@@ -232,6 +232,7 @@
         "type": "Prototype",
         "videoUrl": "https://www.youtube.com/embed/Ssm2PqiFbOQ",
         "gallery": [
+          "images/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50.jpg",
@@ -273,7 +274,7 @@
 
 
         "meta": {
-          "Execution Time": " 3 Days",
+          "Execution Time": " Three Days",
           "Developer": "RTG",
           "Publisher": "RTG",
           "Platforms": ["Windows"],
@@ -290,299 +291,235 @@
         }
       },
 
-      {
-        "name": "Medieval Castle Environment",
-        "category": "Ash",
-        "image": "images/403855351_722293643259867_300811720440555796_n.jpg",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
-        "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
-        ],
-        "about": [
-          {
-            "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
-          },
-          {
-            "type": "feature-list",
-            "title": "Level Design Features",
-            "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
-            ]
-          },
-          {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unity Engine",
-              "Texture Resolution": "2K",
-              "Lighting": "Dynamic + Baked",
-              "Performance Target": "60 FPS"
-            }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
-            ]
-          }
-        ]
-      },
-     
-      {
-        "name": "Medieval Castle Environment",
-        "category": "Ash",
-        "image": "images/Roll Game_4K_15.11.2024_09-43-49.png",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
-        "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
-        ],
-        "about": [
-          {
-            "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
-          },
-          {
-            "type": "feature-list",
-            "title": "Level Design Features",
-            "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
-            ]
-          },
-          {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
-              "Lighting": "Dynamic + Baked",
-              "Performance Target": "60 FPS"
-            }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Medieval Castle Environment",
-        "category": "Ash",
-        "image": "images/Screenshot 2023-05-28 233722.jpg",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
-        "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
-        ],
-        "about": [
-          {
-            "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
-          },
-          {
-            "type": "feature-list",
-            "title": "Level Design Features",
-            "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
-            ]
-          },
-          {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
-              "Lighting": "Dynamic + Baked",
-              "Performance Target": "60 FPS"
-            }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
-            ]
-          }
-        ]
-      },
       
       {
-        "name": "Medieval Castle Environment",
-        "category": "Ash",
-        "image": "images/Icon-512.png",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
+        "name": "Lanterns Ninja ",
+        "category": "Full game",
+        "image": "images/Lanterns Ninja/unnamed.webp",
+        "description": "Your goal is to destroy as many lanterns as possible and collect as many points as possible.",
+        "tags": ["Unity", "3D","Google Play"],
+        "type": "full game",
+        
+
         "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+          
+          "images/Lanterns Ninja/unnamed (1).webp",
+          "images/Lanterns Ninja/unnamed1.webp",
+          "images/Lanterns Ninja/unnamed (2).webp"
+          
         ],
         "about": [
           {
-            "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
+            "type": "feature-list",
+            "title": "Project Overview",
+            "items": 
+            [
+              "Goal: Challenge to finish the game in less than a week",
+              "Casual and easy-to-learn mobile game",
+              "Features simple, colorful visuals.",
+              "Available now on Google Play."
+            ]
+             
+          },
+
+           {
+            "type": "feature-list",
+            "title": "My Role",
+            "items": [
+              "Conceived and developed the core idea of the project",
+              "Designed the 3D environment and enhanced the level design.",
+              "Restructured the entire codebase to ensure scalability and maintainability." ,
+              "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
+            ]
           },
           {
             "type": "feature-list",
-            "title": "Level Design Features",
+            "title": "Technologies & Tools",
             "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
-            ]
-          },
-          {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
-              "Lighting": "Dynamic + Baked",
-              "Performance Target": "60 FPS"
-            }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
+              "Unity URP",
+              "Blender",
+              "C#"
             ]
           }
-        ]
+          
+        
+        ],
+        
+        "meta": {
+          "Execution Time": "Two Weeks",
+          "Developer": "Hatem Mehana",
+          "Publisher": "RTG",
+          "Platforms": ["Android"],
+          "Genre": "Arcade / Casual / Action",
+          "Status": "Published on Google Play"
+        },
+         "storeLinks": {
+         
+          "Google Play ": {
+            "url": "https://play.google.com/store/apps/details?id=com.Grays.LanternsNinja&hl=ar",
+            "icon": "fa-google-play"
+          }
+        }
       },
 
       {
-        "name": "Lanterns Ninja",
-        "category": "Ash",
-        "image": "images/unnamed.webp",
-        "description": "A detailed medieval castle environment designed for a third-person action RPG",
-        "tags": ["Unreal", "3D", "Level   ", "Environment Art"],
-        "type": "Level Design",
-        "videoUrl": "https://www.youtube.com/embed/LXb3EKWsInQ",
+        "name": "Azooma Escape",
+        "category": "Full game",
+        "image": "images/Azooma/game_title.png",
+        "description": "Hide. Dodge flying slippers. Avoid that ONE uncle determined to feed you. Your mission: escape Uncle's celebration alive and unfed.",
+        "tags": ["Unity", "2D","Steam"],
+        "type": "full game",
+        "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+
         "gallery": [
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png",
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-6jvlWxe0HoK772ihC2MnUCrjQ8GUaa.png"
+          
+          
+          "images/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338.jpg",
+          "images/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338.jpg",
+          "images/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338.jpg",
+          "images/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338.jpg",
+          "images/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338.jpg",
+          "images/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338.jpg",
+          "images/Azooma/ss_010fedf6bd8690b4c4937aa4c6de03b5571ed9ae.1920x1080.jpg"
+          
+          
+          
+          
         ],
         "about": [
           {
-            "type": "paragraph",
-            "title": "Environment Overview",
-            "content": "A meticulously crafted medieval castle environment that balances aesthetic beauty with gameplay functionality. The level features multiple paths, strategic vantage points, and hidden areas."
+            "type": "feature-list",
+            "title": "Project Overview",
+            "items": 
+            [
+              "Goal: Challenge to finish the game in less than a week",
+              "Casual and easy-to-learn mobile game",
+              "Features simple, colorful visuals.",
+              "Available now on Google Play."
+            ]
+             
+          },
+
+           {
+            "type": "feature-list",
+            "title": "My Role",
+            "items": [
+              "Conceived and developed the core idea of the project",
+              "Designed the 3D environment and enhanced the level design.",
+              "Restructured the entire codebase to ensure scalability and maintainability." ,
+              "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
+            ]
           },
           {
             "type": "feature-list",
-            "title": "Level Design Features",
+            "title": "Technologies & Tools",
             "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
-            ]
-          },
-          {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unreal Engine 5",
-              "Polygon Count": "2M triangles",
-              "Texture Resolution": "4K",
-              "Lighting": "Dynamic + Baked",
-              "Performance Target": "60 FPS"
-            }
-          },
-          {
-            "type": "image-section",
-            "title": "Design Process",
-            "images": [
-              {
-                "url": "path/to/blockout.jpg",
-                "caption": "Initial blockout phase"
-              },
-              {
-                "url": "path/to/lighting.jpg",
-                "caption": "Lighting studies"
-              }
+              "Unity 2D URP",
+              "",
+              "C#"
             ]
           }
-        ]
+          
+        
+        ],
+        
+        "meta": {
+          "Execution Time": "Two years",
+          "MyRole": "Programmer & Level Designer",
+          "Publisher": "ASH",
+          "Platforms": ["Steam"],
+          "Genre": "Action /Adventure/ Casual/ Indie",
+          "Status": "Published on Steam"
+        },
+         "storeLinks": {
+         
+          "Steam ": {
+            "url": "https://store.steampowered.com/app/2896760/Azooma_Escape/",
+            "icon": "fa-google-play"
+          }
+        }
+      },
+      {
+        "name": "King Of Stratgy",
+        "category": "Full game",
+        "image": "images/King Of Stratgy/Icon-512.png",
+        "description": "strategy game simulating ancient battles with five unit types and 10 historical armies, each with unique traits. It features 30 challenging levels where players set formations and watch the outcome.",
+        "tags": ["Unity", "2D","Stratgy","Android"],
+        "type": "full game",
+        "videoUrl": "https://www.youtube.com/embed/GfK1WgT8G7Y",
+
+        "gallery": [
+          "images/King Of Stratgy/3.jpg",
+          "images/King Of Stratgy/IMG-20250906-WA0007.jpg",
+          "images/King Of Stratgy/2.png",
+          "images/King Of Stratgy/IMG-20250906-WA0008.jpg",
+          "images/King Of Stratgy/IMG-20250906-WA0004.jpg",
+          "images/King Of Stratgy/unnamed (1).webp",
+          "images/King Of Stratgy/unnamed (2).webp",
+          "images/King Of Stratgy/unnamed.webp"
+          
+          
+          
+          
+          
+          
+          
+          
+        ],
+        "about": [
+          {
+            "type": "feature-list",
+            "title": "Project Overview",
+            "items": 
+            [
+              "Goal: Challenge to finish the game in less than a week",
+              "Casual and easy-to-learn mobile game",
+              "Features simple, colorful visuals.",
+              "Available now on Google Play."
+            ]
+             
+          },
+
+           {
+            "type": "feature-list",
+            "title": "My Role",
+            "items": [
+              "Conceived and developed the core idea of the project",
+              "Designed the 3D environment and enhanced the level design.",
+              "Restructured the entire codebase to ensure scalability and maintainability." ,
+              "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
+            ]
+          },
+          {
+            "type": "feature-list",
+            "title": "Technologies & Tools",
+            "items": [
+              "Unity 2D URP",
+              "",
+              "C#"
+            ]
+          }
+          
+        
+        ],
+        
+        "meta": {
+          "Execution Time": "3 months",
+          "MyRole": "Programmer & Level Designer",
+          "Publisher": "Ahmed Mohamed Zaghloul",
+          "Platforms": ["Android"],
+          "Genre": "Stratgy",
+          "Status": "Published on Google Play"
+        },
+         "storeLinks": {
+         
+          "Google Play ": {
+            "url": "https://play.google.com/store/apps/details?id=com.revivethegames.kingofstrategy",
+            "icon": "fa-google-play"
+          }
+        }
       }
-      
+    
     ]
   }
 }
