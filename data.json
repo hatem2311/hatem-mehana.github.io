@@ -456,14 +456,7 @@
           "images/King Of Stratgy/IMG-20250906-WA0004.jpg",
           "images/King Of Stratgy/unnamed (1).webp",
           "images/King Of Stratgy/unnamed (2).webp",
-          "images/King Of Stratgy/unnamed.webp"
-          
-          
-          
-          
-          
-          
-          
+          "images/King Of Stratgy/unnamed.webp"        
           
         ],
         "about": [
@@ -472,9 +465,12 @@
             "title": "Project Overview",
             "items": 
             [
-              "Goal: Challenge to finish the game in less than a week",
-              "Casual and easy-to-learn mobile game",
-              "Features simple, colorful visuals.",
+              "A strategy game that simulates ancient battles using squares as units",
+              "Five categories of units with different offensive and defensive abilities.",
+              "Ten historical armies, each with a unique ability.",
+              "Thirty levels with increasing difficulty.",
+              "Offline battles focused on pre-battle planning.",
+              "Option to hold and deploy units during the fight.",
               "Available now on Google Play."
             ]
              
@@ -484,18 +480,18 @@
             "type": "feature-list",
             "title": "My Role",
             "items": [
-              "Conceived and developed the core idea of the project",
-              "Designed the 3D environment and enhanced the level design.",
-              "Restructured the entire codebase to ensure scalability and maintainability." ,
-              "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
+              "Organized and structured the project to ensure scalability and smooth development.",
+              "Programmed the core systems and gameplay mechanics.",
+              "Designed levels with balanced progression and difficulty."
             ]
           },
           {
             "type": "feature-list",
             "title": "Technologies & Tools",
             "items": [
-              "Unity 2D URP",
-              "",
+              "Unity 3D URP",
+              "Blender",
+              "Gimp",
               "C#"
             ]
           }
