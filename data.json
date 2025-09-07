@@ -150,9 +150,11 @@
             "type": "feature-list",
             "title": "My Role",
             "items": [
-              "Unity HDRP",
-              "HQ Retro Farmhouse (Modular)",
-              "Forest Environment - Dynamic Nature" 
+              "Conceived the map idea and transformed it into a practical design.",
+              "Created and developed the level layout, ensuring clear pathways and balanced spaces.",
+              "Organized and placed elements strategically to support the overall structure.",
+              "Implemented the map inside the engine, turning the concept into a usable level.",
+              "Reviewed and iterated on the design to deliver a polished final version." 
             ]
           },
           {
@@ -196,22 +198,36 @@
         ],
         "about": [
           {
-            "type": "paragraph",
+            "type": "feature-list",
             "title": "Project Overview",
-            "content": "The 3D Tic Tac Toe project aims to transform the traditional game into an engaging and modern 3D experience. With a fresh visual style and immersive design, this project blends nostalgia with innovation, offering players a familiar game in a completely new dimension."
+            "items": 
+            [
+              "A 3D version of the classic Tic Tac Toe with a fresh visual style.",
+              "Turn-based gameplay for two players with clear indicators.",
+              "Automated win detection system and simple UI for start, restart, and results."
+            ]
+             
           },
           {
             "type": "feature-list",
-            "title": "Prototype Features",
+            "title": "My Role",
             "items": [
-              "3D Board Design: A fully modeled 3D game board for an immersive visual experience.",
-              "Basic Gameplay Mechanics: Functional turn-based system for two players.",
-              "Player Indicators: Clear visual indicators to show active player turns.",
-              "Win Detection System: Automated detection of winning combinations in the 3D space.",
-              "Basic UI Elements: Start, restart, and game result screens for smooth user interaction."
+              "Programming the core gameplay systems.",
+              "Level design and environment setup.",
+              "Performance optimization." ,
+              "Lighting design for better visuals."
+            ]
+          },
+          {
+            "type": "feature-list",
+            "title": "Technologies & Tools",
+            "items": [
+              "Unity 3D URP",
+              "Blender",
+              "C#"
             ]
           }
-          
+
         ],
         "meta": {
           "Execution Time": "24 Hours 1 Week",
@@ -236,7 +252,7 @@
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39.jpg",
+          "images/ImpDant Misson/Environment_Free_1080p_19.01.2025_17-15-39.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47.jpg",
           "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00.jpg"
@@ -275,11 +291,11 @@
 
         "meta": {
           "Execution Time": " Three Days",
-          "Developer": "RTG",
+          "Developer": "Hatem Mehana",
           "Publisher": "RTG",
           "Platforms": ["Windows"],
           "Genre": ["Platform ","Puzzle"],
-          "Status": "Finished"
+          "Status": "Published on Itech.io"
         },
 
         "storeLinks": {
