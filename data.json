@@ -259,33 +259,38 @@
         ],
 
         "about": [
-          {
-            "type": "paragraph",
+           {
+            "type": "feature-list",
             "title": "Project Overview",
-            "content": "7 people worked on the project. The goal was to complete a game within 3 days with a simple idea: searching for hope after the world was destroyed. The game relies on puzzles and searching to reach the last hope.."
+            "items": 
+            [
+              "Implant Mission: The Lost Tree is a unique project we developed for the largest game competition in the Arab world in 2024, which brought together more than 800 participants and over 200 games.",
+              "In just three days, our team of 11 members successfully completed the game. Managing and coordinating such a large team within such a short timeframe was a major challenge.",
+              "Despite these difficulties, we achieved an outstanding milestone by winning first place, based on audience votes. This accomplishment highlights the strength of our concept, the quality of execution, and the engaging gameplay and visuals we delivered."
+            ]
+             
           },
           {
             "type": "feature-list",
-            "title": "Level Design Features",
+            "title": "My Role",
             "items": [
-              "Multiple branching pathways",
-              "Strategic combat areas",
-              "Hidden secrets and collectibles",
-              "Dynamic lighting system",
-              "Optimized for performance"
+              "Team leadership, coordination, and supervision of the workflow.",
+              "Worked as the Level Designer, creating the game’s map and puzzles."
             ]
           },
           {
-            "type": "specs-list",
-            "title": "Technical Details",
-            "items": {
-              "Engine": "Unity Engine",
-              "Texture Resolution": "2K",
-              "Lighting": "Dynamic + Baked",
-            "UI" :"Gimp,Figma",
-              "Performance Target": "60 FPS"
-            }
+            "type": "feature-list",
+            "title": "Technologies & Tools",
+            "items": [
+              "Unity 3D URP",  
+              "C#",
+              "Blender",
+              "Figma",
+              "Gimp",
+              "Milnote"
+            ]
           }
+        
         ],
 
 
