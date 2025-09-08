@@ -413,10 +413,13 @@
             "title": "Project Overview",
             "items": 
             [
-              "Goal: Challenge to finish the game in less than a week",
-              "Casual and easy-to-learn mobile game",
-              "Features simple, colorful visuals.",
-              "Available now on Google Play."
+              "First Saudi stealth comedy game developed by ASH Studio.",
+              "Transforms a traditional family gathering (Azooma) into a stealth escape adventure.",
+              "Unique twist: Relatives replace guards – armed with food, questions, and endless hospitality.",
+              "Core gameplay: hide under tables, read NPC patterns, dodge crowds, and use teacups as last-resort tools.",
+              "Environments: vibrant courtyards, festival streets, and lively living rooms inspired by Saudi culture.",
+              "Tone: lighthearted, funny, and culturally authentic while delivering classic stealth tension.",
+              "Vision: showcase Saudi identity through comedy and chaos, creating a globally accessible gaming experience."
             ]
              
           },
@@ -425,10 +428,9 @@
             "type": "feature-list",
             "title": "My Role",
             "items": [
-              "Conceived and developed the core idea of the project",
-              "Designed the 3D environment and enhanced the level design.",
-              "Restructured the entire codebase to ensure scalability and maintainability." ,
-              "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
+              "Level Design: created stage flow and puzzle design to shape the player’s progression.",
+              "Gameplay Programming: implemented core mechanics and interactive systems.",
+              "UI Integration: built and programmed the user interface inside Unity."
             ]
           },
           {
@@ -436,8 +438,11 @@
             "title": "Technologies & Tools",
             "items": [
               "Unity 2D URP",
-              "",
-              "C#"
+              "C#",
+              "Notion",
+              "Miro",
+              "figma"
+              
             ]
           }
           
