@@ -428,9 +428,12 @@
             "type": "feature-list",
             "title": "My Role",
             "items": [
-              "Level Design: created stage flow and puzzle design to shape the player’s progression.",
-              "Gameplay Programming: implemented core mechanics and interactive systems.",
-              "UI Integration: built and programmed the user interface inside Unity."
+              "As part of the development team for Azooma Escape, I took on multiple responsibilities across design, programming, and UI:",
+              "Level Design – Focused on creating interactive puzzles and obstacles, designing enemy placements, and shaping open/closed paths to guide player progression. Ensured difficulty scaled gradually while keeping gameplay fresh with unique puzzle concepts.",
+              "Gameplay Programming – Implemented a wide range of systems, including crouch mechanics, achievement tracking, visual field detection, enemy animation alerts, and collectible item systems with persistent saving. Played a key role in building interactive mechanics that defined the player experience.",
+              "UI Integration – Rebuilt and programmed the entire UI, covering the HUD, main menu, and various sub-menus such as the collectibles screen. Ensured the interface was fully functional, cohesive, and matched the game’s playful tone.",
+              "Team Collaboration – Worked in a highly collaborative environment, quickly adapting to shifting roles between design, programming, and UI. Contributed original puzzle ideas and supported the team by taking on diverse tasks as the project evolved.",
+              "Problem Solving – Overcame challenges of joining a large, ongoing project unexpectedly by rapidly researching and understanding its systems. Adapted to changing responsibilities and maintained efficiency under shifting priorities."
             ]
           },
           {
