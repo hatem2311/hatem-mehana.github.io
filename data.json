@@ -115,7 +115,7 @@
     "sections": ["All", "Mobile", "RTG", "Ash"],
     "projects": [
       {
-        "name": "Horror Home ",
+        "name": "🔹Horror Home🔹",
         "category": "Level Design",
         "image": "images/Horror Home/OutdoorsScene_4K.jpg",
         "description": "small environment consisting of a house room, inside and outside, and one enemy",
@@ -181,7 +181,7 @@
       },
 
       {
-        "name": "3D Tic Tac Toe",
+        "name": "🔹3D Tic Tac Toe🔹",
         "category": "Full game ",
         "image": "images/X-O/Screenshot 2023-05-18 200115.jpg",
         "description": " The classic game reimagined in 3D for a modern, exciting experience.",
@@ -241,7 +241,7 @@
 
       {
 
-        "name": "Implant Mission: The Lost Tree",
+        "name": "🔹Implant Mission: The Lost Tree🔹",
         "image": "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
         "description": "Explore a polluted land in search of the last hope to restore life!",
         "tags": ["Platform","Unity", "Level Design", "C#"],
@@ -314,7 +314,7 @@
 
       
       {
-        "name": "Lanterns Ninja ",
+        "name": "🔹Lanterns Ninja🔹",
         "category": "Full game",
         "image": "images/Lanterns Ninja/unnamed.webp",
         "description": "Your goal is to destroy as many lanterns as possible and collect as many points as possible.",
@@ -384,7 +384,7 @@
       },
 
       {
-        "name": "Azooma Escape",
+        "name": "🔹Azooma Escape🔹",
         "category": "Full game",
         "image": "images/Azooma/game_title.png",
         "description": "Hide. Dodge flying slippers. Avoid that ONE uncle determined to feed you. Your mission: escape Uncle's celebration alive and unfed.",
@@ -403,10 +403,6 @@
           "images/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338.jpg",
           "images/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338.jpg",
           "images/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338.jpg"
-          
-          
-          
-          
           
         ],
         "about": [
@@ -471,7 +467,7 @@
         }
       },
       {
-        "name": "King Of Stratgy",
+        "name": "🔹King Of Stratgy🔹",
         "category": "Full game",
         "image": "images/King Of Stratgy/Icon-512.png",
         "description": "strategy game simulating ancient battles with five unit types and 10 historical armies, each with unique traits. It features 30 challenging levels where players set formations and watch the outcome.",
@@ -545,6 +541,79 @@
             "icon": "fa-google-play"
           }
         }
+      },
+      {
+        "name": "🔹Roblox Maps🔹",
+        "category": "Level Design",
+        "image": "images/RobLox Maps/c5.png",
+        "description": "Each map is organized by stages of development, as shown in the following images.",
+        "tags": ["Unity", "3D","Level Design","Android"],
+        "type": "Level Design",
+
+
+        "gallery": [
+          "images/RobLox Maps/6.jpg",
+          "images/RobLox Maps/1.png",
+          "images/RobLox Maps/2.png",
+          "images/RobLox Maps/3.jpg",
+          "images/RobLox Maps/4.jpg",
+          "images/RobLox Maps/5.png" ,
+          "images/RobLox Maps/13.png",
+          "images/RobLox Maps/11.png",
+          "images/RobLox Maps/7.png",
+          "images/RobLox Maps/12.png",
+          "images/RobLox Maps/c1.png",
+          "images/RobLox Maps/c2.png" ,
+          "images/RobLox Maps/c3.png",
+          "images/RobLox Maps/c5.png" 
+          
+        ],
+        "about": [
+          {
+            "type": "feature-list",
+            "title": "Project Overview",
+            "items": 
+            [
+              
+              "A multiplayer party game with up to 100 players or less, depending on the map.",
+              "Includes diverse modes like Hide & Seek, Glass Bridge, Red Light Green Light, and temporary-tile survival challenges.",
+              "Designed for streamers on Twitch – supporters can join special rooms directly through Twitch integration, enhancing community interaction."
+            ]
+             
+          },
+
+           {
+            "type": "feature-list",
+            "title": "My Role",
+            "items": [
+              "Took responsibility for removing old maps and creating new ones from scratch, working around 4 hours per day, and completed 3 different maps (such as Glass Bridge, Red Light Green Light, and temporary-tile survival) within 1–2 days each.",
+              "Designed a large-scale Hide & Seek map for 50+ players, which required 6 days due to its size and complexity.",
+              "Overcame the challenge of working with a pre-made Asset from the Asset Store by creating diverse visual and gameplay experiences while keeping performance optimized for Android devices.",
+               "Handled the lighting design for all maps, ensuring a balanced and appealing look. All maps were successfully integrated and made playable."
+            ]
+          },
+          {
+            "type": "feature-list",
+            "title": "Technologies & Tools",
+            "items": [
+              "Unity 3D URP",
+              "Low Poly 16in1 - RG Poly"
+              
+            ]
+          }
+          
+        
+        ],
+        
+        "meta": {
+          "Execution Time": "2 Weeks",
+          "MyRole": " Level Designer",
+          "Publisher": "glitchouse",
+          "Platforms": ["Android"],
+          "Genre": "StrParty / Battle Royale / platformer",
+          "Status": "Under testing"
+        }
+        
       }
     
     ]
