@@ -1,0 +1,23 @@
+[
+  {
+    "width": 320,
+    "heroHeight": 825.03125,
+    "videoHeight": 180,
+    "featuredTop": 1402.03125,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "heroHeight": 766.59375,
+    "videoHeight": 219.375,
+    "featuredTop": 1382.96875,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "heroHeight": 503,
+    "videoHeight": 765,
+    "featuredTop": 1719,
+    "overflow": false
+  }
+]
