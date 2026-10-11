@@ -14,7 +14,7 @@ export function initCardPreviews() {
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const videos = [...document.querySelectorAll('.card-preview video, .card-preview-player')];
   const players = new Map(), timers = new Map(), loops = new Map(); let disposed = false;
-  const visible = new Set(), failed = new Set(), playing = new Set(); let active, warmed = false;
+  const visible = new Set(), failed = new Set(), playing = new Set(); let active, warmed = false, pageActive = true;
   function pause(video) { if (!video) return; if (video.tagName === 'VIDEO') { video.pause(); playing.delete(video); } else { clearTimeout(timers.get(video)); timers.delete(video); clearInterval(loops.get(video)); loops.delete(video); players.get(video)?.destroy(); players.delete(video); video.replaceChildren(); } video.parentElement?.classList.remove('is-playing'); if (active === video) active = undefined; }
   function youtube(video) {
     loadYouTube().then(YT => {
@@ -31,14 +31,14 @@ export function initCardPreviews() {
     }).catch(() => { if(disposed) return; failed.add(video); pause(video); sync(); });
   }
   function sync() {
-    const enabled = !document.hidden && !motion.matches;
+    const enabled = pageActive && !document.hidden && !motion.matches;
     for (const video of videos.filter(v => v.tagName === 'VIDEO')) {
       if (!enabled || failed.has(video)) { pause(video); continue; }
       if (!warmed && !visible.has(video) && !playing.has(video)) continue;
       if (playing.has(video)) continue;
       playing.add(video); video.muted = true;
       if (!video.getAttribute('src')) video.src = video.dataset.src;
-      video.play().then(() => { if (!disposed && playing.has(video) && !document.hidden && !motion.matches) video.parentElement.classList.add('is-playing'); else pause(video); }).catch(() => { failed.add(video); pause(video); });
+      video.play().then(() => { if (!disposed && pageActive && playing.has(video) && !document.hidden && !motion.matches) video.parentElement.classList.add('is-playing'); else pause(video); }).catch(() => { failed.add(video); pause(video); });
     }
     const candidate = enabled ? videos.find(v => v.dataset.youtube && visible.has(v) && !failed.has(v)) : undefined;
     for (const video of videos) if (video.dataset.youtube && video !== candidate) pause(video);
@@ -57,10 +57,11 @@ export function initCardPreviews() {
   let warmTimer;
   const scheduleWarm = () => { warmTimer = setTimeout(warm, 3000); };
   if (document.readyState === 'complete') scheduleWarm(); else window.addEventListener('load', scheduleWarm, {once:true});
-  const hide = () => { for(const video of videos) pause(video); };
+  const hide = () => { pageActive = false; for(const video of videos) pause(video); };
+  const show = () => { pageActive = true; sync(); };
   window.addEventListener('pagehide', hide);
-  window.addEventListener('pageshow', sync);
-  disposePreviews = () => { disposed = true; clearTimeout(warmTimer); window.removeEventListener('load', scheduleWarm); hide(); observer.disconnect(); document.removeEventListener('visibilitychange', sync); motion.removeEventListener('change', sync); window.removeEventListener('pagehide', hide); window.removeEventListener('pageshow', sync); };
+  window.addEventListener('pageshow', show);
+  disposePreviews = () => { disposed = true; clearTimeout(warmTimer); window.removeEventListener('load', scheduleWarm); hide(); observer.disconnect(); document.removeEventListener('visibilitychange', sync); motion.removeEventListener('change', sync); window.removeEventListener('pagehide', hide); window.removeEventListener('pageshow', show); };
 }
 let disposePreviews;
 let youtubeAPI;
