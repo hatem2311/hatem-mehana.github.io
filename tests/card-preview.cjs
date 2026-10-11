@@ -25,6 +25,12 @@ const server = http.createServer((req,res) => {
  await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,get:()=>false});document.dispatchEvent(new Event('visibilitychange'));});await page.waitForFunction(()=>!document.querySelector('.card-preview video').paused);
  await page.emulateMedia({reducedMotion:'reduce'});await page.waitForFunction(()=>document.querySelector('.card-preview video').paused);assert.equal(await page.locator('.card-preview').first().evaluate(n=>n.classList.contains('is-playing')),false);
  });
+ await check('desktop and mobile previews advance for 12 seconds after pointer and viewport exit', {viewport:{width:390,height:844},isMobile:true,hasTouch:true}, async page=>{
+ await ready(page);const video=page.locator('[data-project-id="implant-mission-the-lost-tree"] video');await video.scrollIntoViewIfNeeded();await page.waitForFunction(()=>document.querySelector('[data-project-id="implant-mission-the-lost-tree"] video').currentTime>.2);
+ await page.mouse.move(0,0);await page.evaluate(()=>scrollTo(0,0));
+ let previous=await video.evaluate(v=>v.currentTime);for(let i=0;i<12;i++){await page.waitForTimeout(1000);const state=await video.evaluate(v=>({time:v.currentTime,paused:v.paused,duration:v.duration,top:v.getBoundingClientRect().top}));assert.ok(state.top>=844);assert.equal(state.paused,false);assert.ok(state.time>previous+.2||state.time<previous-1,JSON.stringify({previous,...state}));previous=state.time;}
+ await video.scrollIntoViewIfNeeded();assert.equal(await video.evaluate(v=>v.paused),false);
+ });
  await check('mobile actual movement under CPU and network throttling', {viewport:{width:390,height:844},isMobile:true,hasTouch:true}, async page=>{
  const cdp=await page.context().newCDPSession(page);await cdp.send('Network.enable');await cdp.send('Network.emulateNetworkConditions',{offline:false,latency:150,downloadThroughput:200000,uploadThroughput:93750});await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
  await page.addInitScript(()=>{window.previewCLS=0;new PerformanceObserver(list=>{for(const e of list.getEntries())if(!e.hadRecentInput)window.previewCLS+=e.value;}).observe({type:'layout-shift',buffered:true});});
