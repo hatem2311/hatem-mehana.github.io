@@ -198,7 +198,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  min-width: 650px;
+    min-width: 0;
   width: 50%;
   gap: var(--border-radius-xs);
   position: relative;
@@ -307,6 +307,26 @@ body {
   transform: scale(1.05);
 }
 
+.video-preview-button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
+.video-preview-button span {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  background: #000c;
+  padding: 14px 22px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.video-preview-button:focus-visible { outline: 3px solid #8cb4ff; outline-offset: -4px; }
 /* About Section */
 .game-about {
   margin-top: var(--spacing-2xl);
@@ -375,6 +395,7 @@ body {
 
 .image-grid img {
   width: 100%;
+    height: auto;
   border-radius: var(--border-radius-sm);
   margin-bottom: var(--spacing-sm);
 }

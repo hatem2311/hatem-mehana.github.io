@@ -1,0 +1,1324 @@
+{
+  "version": 1,
+  "options": {
+    "widths": [
+      320,
+      640,
+      1280,
+      1920
+    ],
+    "quality": 82
+  },
+  "images": {
+    "images/2.png": {
+      "sha256": "57abc0f19539aa01b109cbafe64d5f934a489d9c109da939ab43a9425859de58",
+      "variants": [
+        {
+          "src": "images/optimized/2-320.webp",
+          "width": 320,
+          "height": 320
+        },
+        {
+          "src": "images/optimized/2-640.webp",
+          "width": 640,
+          "height": 640
+        }
+      ]
+    },
+    "images/Azooma/1.png": {
+      "sha256": "abb86c37b30fc8aee173d6e97cd84f4f5528790c04cd8eddcfe0a2b85aebd0d0",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/1-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Azooma/1-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "images/Azooma/2.png": {
+      "sha256": "cfbfaee29eb550106408fec66f47a2856132cb6bd5f0277eb151877b803ef061",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/2-320.webp",
+          "width": 320,
+          "height": 197
+        },
+        {
+          "src": "images/optimized/Azooma/2-640.webp",
+          "width": 640,
+          "height": 395
+        }
+      ]
+    },
+    "images/Azooma/3.png": {
+      "sha256": "d3183c9ba0329ce7482b936808cd674cf509a8dfe357078b935a26c27f8e7762",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/3-320.webp",
+          "width": 320,
+          "height": 179
+        },
+        {
+          "src": "images/optimized/Azooma/3-640.webp",
+          "width": 640,
+          "height": 359
+        }
+      ]
+    },
+    "images/Azooma/game_title.png": {
+      "sha256": "cd5e06635efc9bdd124ddba91d48024f542e16676671d1a5e129cb569e8ff839",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/game_title-320.webp",
+          "width": 320,
+          "height": 314
+        },
+        {
+          "src": "images/optimized/Azooma/game_title-640.webp",
+          "width": 640,
+          "height": 628
+        },
+        {
+          "src": "images/optimized/Azooma/game_title-1280.webp",
+          "width": 1280,
+          "height": 1256
+        }
+      ]
+    },
+    "images/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338.jpg": {
+      "sha256": "99ee0074f7b688f48f525516708f6fdef6e8a684a8e6c5c0756dacacd7a6be3c",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338-320.webp",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    "images/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338.jpg": {
+      "sha256": "34298d407138074ef36f1c1fdcea7c8961ed9bdc96f8e6db9b640315065f069e",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338-320.webp",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    "images/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338.jpg": {
+      "sha256": "df3cd96ab97e0e6fcb52c7c79ed8b07b25e06eaac9e3a79f7862a76b1c3ddc54",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338-320.webp",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    "images/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338.jpg": {
+      "sha256": "fa8c0f2d6615abbf52e8c6b4a22842d013b9399fc2ac1d0ec60a62d072d65a18",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338-320.webp",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    "images/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338.jpg": {
+      "sha256": "d2bd8991b6dad6869240d4c0f798ff81675ba3fb5c4e0470ed44f520e1197333",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338-320.webp",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    "images/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338.jpg": {
+      "sha256": "d0c7484c18db2388d9da8b519454ea37e29bb58d858fd93e04001a1a4699fb62",
+      "variants": [
+        {
+          "src": "images/optimized/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338-320.webp",
+          "width": 320,
+          "height": 180
+        }
+      ]
+    },
+    "images/Horror Home/New Scene 1_4K_16.08.2024_18-59-36.jpg": {
+      "sha256": "fa76e892493b6f734f88ad9ae17f14c4eae0f34cbeaa5c95dc1871370c18e60c",
+      "variants": [
+        {
+          "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Horror Home/OutdoorsScene.jpg": {
+      "sha256": "042013df06df4c1e9161e3364984c3c78c00f8067108c0b2ead73b80f7abb200",
+      "variants": [
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Horror Home/OutdoorsScene2.jpg": {
+      "sha256": "18c0679caba23e66a36b5a47809ae1b86641dfee4037a3a137685862265ca226",
+      "variants": [
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene2-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene2-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene2-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene2-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Horror Home/OutdoorsScene_4.jpg": {
+      "sha256": "8880149bfea26f198175e702e154fef4e5be760f4cfa581d08e3a31f4332af7a",
+      "variants": [
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Horror Home/OutdoorsScene_4K.jpg": {
+      "sha256": "253f07e6cf6353cab0d07e86cf58ed2565aca021e2d348334fa856d014e1c9a0",
+      "variants": [
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4K-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4K-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4K-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_4K-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Horror Home/OutdoorsScene_5.jpg": {
+      "sha256": "ec3c6c7da8155bb00be07106e2c020f65fd5ee565d11bf711790dcbdcea5bd4d",
+      "variants": [
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_5-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_5-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_5-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Horror Home/OutdoorsScene_5-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg": {
+      "sha256": "46e70535800c54c6e8323a6ae75e1366982ddcf12158d97c2804773cbde969c8",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45.jpg": {
+      "sha256": "6985420e865317086a11d2e05a084510f9281ac2beb8ea8cfcd9dfae7cb31981",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50.jpg": {
+      "sha256": "ed2db25619b95fc91a2071b02b65b6556352f263c21f84561d3d4d33eb2425de",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39.jpg": {
+      "sha256": "42c7a0920983e1e23e1eab0eb7f4df341edafc19c204b21a2b166fa12fd31402",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47.jpg": {
+      "sha256": "6097b05e5ba97669e79797a9514d99012cfead9c02f6eea52e2bb0c37c91792c",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58.jpg": {
+      "sha256": "bce9be72dc9a83710ae3717f57822cc50e8421837599649363eee0fcd5f16d74",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00.jpg": {
+      "sha256": "fc270f6b537b2bc8e6f6f0f6f34130ff16772eab32eca97419f04f2325498a70",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11.jpg": {
+      "sha256": "1ee4d234f2b154caa992864e866c797b885e5ab03a14b21ccada420bc44beb6c",
+      "variants": [
+        {
+          "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/King Of Stratgy/2.png": {
+      "sha256": "eda63c84388d86347c81e03143781e5f2c4b4540abbc206e4a89dc8b049f96e5",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/2-320.webp",
+          "width": 320,
+          "height": 129
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/2-640.webp",
+          "width": 640,
+          "height": 257
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/2-1280.webp",
+          "width": 1280,
+          "height": 515
+        }
+      ]
+    },
+    "images/King Of Stratgy/3.jpg": {
+      "sha256": "fc435746b16f2eb36417cfcf62491fcf928b777080d5da105de827602d123fd4",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/3-320.webp",
+          "width": 320,
+          "height": 149
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/3-640.webp",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/3-1280.webp",
+          "width": 1280,
+          "height": 597
+        }
+      ]
+    },
+    "images/King Of Stratgy/IMG-20250906-WA0004.jpg": {
+      "sha256": "47b1bf2801b245c37bbc5cba1379a22173e5df1147a315e7fd450008cf676511",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0004-320.webp",
+          "width": 320,
+          "height": 149
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0004-640.webp",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0004-1280.webp",
+          "width": 1280,
+          "height": 597
+        }
+      ]
+    },
+    "images/King Of Stratgy/IMG-20250906-WA0007.jpg": {
+      "sha256": "fe5aeffc1a698b712685bc3b6d8c55010ecd6b13be8702ce65f9db9078a36ffd",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0007-320.webp",
+          "width": 320,
+          "height": 149
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0007-640.webp",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0007-1280.webp",
+          "width": 1280,
+          "height": 597
+        }
+      ]
+    },
+    "images/King Of Stratgy/IMG-20250906-WA0008.jpg": {
+      "sha256": "82e46cb3ca7404ce8d86d38b21868a14ea329bdf4709a0b29fe972cf16aebbe5",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0008-320.webp",
+          "width": 320,
+          "height": 149
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0008-640.webp",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0008-1280.webp",
+          "width": 1280,
+          "height": 597
+        }
+      ]
+    },
+    "images/King Of Stratgy/Icon-512.png": {
+      "sha256": "4aa1f4af6806d656c0d9e095bdee1dde8e731f3459260abd8c9a668f753d2af2",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/Icon-512-320.webp",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    "images/King Of Stratgy/unnamed (1).webp": {
+      "sha256": "ff5ef0ab93d2a8930c14fa8087fd0babadd985f616fcf46a5e3164485dcdbd2b",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed (1)-320.webp",
+          "width": 320,
+          "height": 141
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed (1)-640.webp",
+          "width": 640,
+          "height": 283
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed (1)-1280.webp",
+          "width": 1280,
+          "height": 565
+        }
+      ]
+    },
+    "images/King Of Stratgy/unnamed (2).webp": {
+      "sha256": "251e3d7a83d875d7b05319c7843036f9420e23520d4ff0f996ffa4f8cbc427f2",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed (2)-320.webp",
+          "width": 320,
+          "height": 141
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed (2)-640.webp",
+          "width": 640,
+          "height": 282
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed (2)-1280.webp",
+          "width": 1280,
+          "height": 565
+        }
+      ]
+    },
+    "images/King Of Stratgy/unnamed.webp": {
+      "sha256": "3e110a72fcb5274cee7bc95810ed812fc153d02b907c6736ec590ac296e1f0cf",
+      "variants": [
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed-320.webp",
+          "width": 320,
+          "height": 140
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed-640.webp",
+          "width": 640,
+          "height": 281
+        },
+        {
+          "src": "images/optimized/King Of Stratgy/unnamed-1280.webp",
+          "width": 1280,
+          "height": 561
+        }
+      ]
+    },
+    "images/Lanterns Ninja/unnamed (1).webp": {
+      "sha256": "2b0304d26c726abe2fe88bbb5388bc96f784f93ac22c5ca0874d50cea746e660",
+      "variants": [
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (1)-320.webp",
+          "width": 320,
+          "height": 141
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (1)-640.webp",
+          "width": 640,
+          "height": 282
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (1)-1280.webp",
+          "width": 1280,
+          "height": 563
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (1)-1920.webp",
+          "width": 1920,
+          "height": 845
+        }
+      ]
+    },
+    "images/Lanterns Ninja/unnamed (2).webp": {
+      "sha256": "d053730c4c6bdb93915194e9dd47ee9e2b97090c6ced70ca4997c5d170ed4116",
+      "variants": [
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (2)-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (2)-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed (2)-1280.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    "images/Lanterns Ninja/unnamed.webp": {
+      "sha256": "b9457a4c193ed0175848689166df02421198a9c3931e9271a12887302f330e01",
+      "variants": [
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed-320.webp",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    "images/Lanterns Ninja/unnamed1.webp": {
+      "sha256": "c7d5b4740d1456fba3b99ed628c7b04a1ce5bff79eebd2439fd02c03f97248d8",
+      "variants": [
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed1-320.webp",
+          "width": 320,
+          "height": 141
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed1-640.webp",
+          "width": 640,
+          "height": 282
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed1-1280.webp",
+          "width": 1280,
+          "height": 563
+        },
+        {
+          "src": "images/optimized/Lanterns Ninja/unnamed1-1920.webp",
+          "width": 1920,
+          "height": 845
+        }
+      ]
+    },
+    "images/Logos/5124.png": {
+      "sha256": "710169473ab0c7e81e206fdb9d9ea0420c19d5f1d20d91e43c5a99520b3f3703",
+      "variants": [
+        {
+          "src": "images/optimized/Logos/5124-320.webp",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    "images/Logos/Screenshot 2023-03-16 011643.jpg": {
+      "sha256": "e3875a2a48a76c9d3daa9a00062eee1ae4494192f8075f3390ba5d50f350496f",
+      "variants": [
+        {
+          "src": "images/optimized/Logos/Screenshot 2023-03-16 011643-320.webp",
+          "width": 320,
+          "height": 207
+        },
+        {
+          "src": "images/optimized/Logos/Screenshot 2023-03-16 011643-640.webp",
+          "width": 640,
+          "height": 415
+        }
+      ]
+    },
+    "images/Logos/ash_games_cover.jpeg": {
+      "sha256": "227f63058c23f7d1fa7b203118b84e8bdef2eaf62db5350a56b031df49489be4",
+      "variants": [
+        {
+          "src": "images/optimized/Logos/ash_games_cover-320.webp",
+          "width": 320,
+          "height": 240
+        }
+      ]
+    },
+    "images/RobLox Maps/1.png": {
+      "sha256": "1d40bf8b4db13d6693f1035de540d4e7894cd0c004a9a82b1a8fcd5a3e6c33c6",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/1-320.webp",
+          "width": 320,
+          "height": 139
+        },
+        {
+          "src": "images/optimized/RobLox Maps/1-640.webp",
+          "width": 640,
+          "height": 277
+        },
+        {
+          "src": "images/optimized/RobLox Maps/1-1280.webp",
+          "width": 1280,
+          "height": 554
+        }
+      ]
+    },
+    "images/RobLox Maps/11.png": {
+      "sha256": "dc45ff211388e293f39126aec7447785a68f8bbc23bc9093975ed4de7f1fedf0",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/11-320.webp",
+          "width": 320,
+          "height": 156
+        },
+        {
+          "src": "images/optimized/RobLox Maps/11-640.webp",
+          "width": 640,
+          "height": 311
+        },
+        {
+          "src": "images/optimized/RobLox Maps/11-1280.webp",
+          "width": 1280,
+          "height": 623
+        },
+        {
+          "src": "images/optimized/RobLox Maps/11-1920.webp",
+          "width": 1920,
+          "height": 934
+        }
+      ]
+    },
+    "images/RobLox Maps/12.png": {
+      "sha256": "cd43d7c4ac5dd12c6fa98c03b0ce5d7985b5f43029646bc5ed07adb72d9938ea",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/12-320.webp",
+          "width": 320,
+          "height": 156
+        },
+        {
+          "src": "images/optimized/RobLox Maps/12-640.webp",
+          "width": 640,
+          "height": 311
+        },
+        {
+          "src": "images/optimized/RobLox Maps/12-1280.webp",
+          "width": 1280,
+          "height": 623
+        },
+        {
+          "src": "images/optimized/RobLox Maps/12-1920.webp",
+          "width": 1920,
+          "height": 934
+        }
+      ]
+    },
+    "images/RobLox Maps/13.png": {
+      "sha256": "98387d7b17e29a9810e3ac0154b674f6d0337ac3e1aeee9e0b6a29537b5f52e8",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/13-320.webp",
+          "width": 320,
+          "height": 156
+        },
+        {
+          "src": "images/optimized/RobLox Maps/13-640.webp",
+          "width": 640,
+          "height": 311
+        },
+        {
+          "src": "images/optimized/RobLox Maps/13-1280.webp",
+          "width": 1280,
+          "height": 623
+        },
+        {
+          "src": "images/optimized/RobLox Maps/13-1920.webp",
+          "width": 1920,
+          "height": 934
+        }
+      ]
+    },
+    "images/RobLox Maps/2.png": {
+      "sha256": "7afcecbf77fc1b0258a446354943c05a12159b7e274d974be952fe06ba024532",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/2-320.webp",
+          "width": 320,
+          "height": 138
+        },
+        {
+          "src": "images/optimized/RobLox Maps/2-640.webp",
+          "width": 640,
+          "height": 275
+        },
+        {
+          "src": "images/optimized/RobLox Maps/2-1280.webp",
+          "width": 1280,
+          "height": 551
+        }
+      ]
+    },
+    "images/RobLox Maps/3.jpg": {
+      "sha256": "66d9d7b2c45caf20fa3c93ab406321d6e75d4ec239df86c0c0c83ec4dc63ca21",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/3-320.webp",
+          "width": 320,
+          "height": 228
+        }
+      ]
+    },
+    "images/RobLox Maps/4.jpg": {
+      "sha256": "635a59fc8cae4bb5ab5c1bb39256e2830d10c2c16534d854f90017d24113153b",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/4-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/RobLox Maps/4-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/RobLox Maps/4-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/RobLox Maps/4-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/RobLox Maps/5.png": {
+      "sha256": "c8e6e21c44fa0ef7f2f94a49677972331892e26a397c5ba885fa12af31aa14ab",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/5-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/RobLox Maps/5-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/RobLox Maps/5-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/RobLox Maps/5-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/RobLox Maps/6.jpg": {
+      "sha256": "5cd18f5f0a06c423d0698c6f02a95913399facf62fe60cf11813b266d05542eb",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/6-320.webp",
+          "width": 320,
+          "height": 206
+        }
+      ]
+    },
+    "images/RobLox Maps/7.png": {
+      "sha256": "442ef671acd2bfcadd49c93ebe9b8fc425853af9d9356d7dc2ef49a5f9e42f85",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/7-320.webp",
+          "width": 320,
+          "height": 156
+        },
+        {
+          "src": "images/optimized/RobLox Maps/7-640.webp",
+          "width": 640,
+          "height": 311
+        },
+        {
+          "src": "images/optimized/RobLox Maps/7-1280.webp",
+          "width": 1280,
+          "height": 623
+        },
+        {
+          "src": "images/optimized/RobLox Maps/7-1920.webp",
+          "width": 1920,
+          "height": 934
+        }
+      ]
+    },
+    "images/RobLox Maps/c1.png": {
+      "sha256": "394541fd4211b00352a0dbd929f633b124aaa20e76a3b099e7348327b1276889",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/c1-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c1-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c1-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c1-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/RobLox Maps/c2.png": {
+      "sha256": "9e2df1048bbbf8ce7e39fd914bac6b1cc92219f418a54c455cb7b5ba6c375b53",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/c2-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c2-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c2-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c2-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/RobLox Maps/c3.png": {
+      "sha256": "7d2d5b0ad2a04c5d2f6342bc2095e6e8060eaacc6a07e300b4bf7298e3536c40",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/c3-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c3-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c3-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c3-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/RobLox Maps/c5.png": {
+      "sha256": "cc9aa4181220fee5aa743f48664a31c3a139c2595f363f7542f589eac216e699",
+      "variants": [
+        {
+          "src": "images/optimized/RobLox Maps/c5-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c5-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c5-1280.webp",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "images/optimized/RobLox Maps/c5-1920.webp",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "images/X-O/Screenshot 2023-05-18 200115.jpg": {
+      "sha256": "1768b72c3e9a9dbd5656f066f0abe1eb0cd60bee28b942ced2a18b37cdbae6f9",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-320.webp",
+          "width": 320,
+          "height": 143
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-640.webp",
+          "width": 640,
+          "height": 285
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-1280.webp",
+          "width": 1280,
+          "height": 570
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-1920.webp",
+          "width": 1920,
+          "height": 855
+        }
+      ]
+    },
+    "images/X-O/Screenshot 2023-05-28 204638.png": {
+      "sha256": "aaa15ad83af9f54c98c32a175037406d5f41ae4b481ecdc149f32cd67263f788",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-320.webp",
+          "width": 320,
+          "height": 140
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-640.webp",
+          "width": 640,
+          "height": 281
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-1280.webp",
+          "width": 1280,
+          "height": 561
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-1920.webp",
+          "width": 1920,
+          "height": 842
+        }
+      ]
+    },
+    "images/X-O/Screenshot 2023-05-28 204836.jpg": {
+      "sha256": "2838aee012d4782024f9708a82d8a80d646530cebc0f4076100ff78f0295c783",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-320.webp",
+          "width": 320,
+          "height": 142
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-640.webp",
+          "width": 640,
+          "height": 283
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-1280.webp",
+          "width": 1280,
+          "height": 567
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-1920.webp",
+          "width": 1920,
+          "height": 850
+        }
+      ]
+    },
+    "images/X-O/Screenshot 2023-05-28 204905.jpg": {
+      "sha256": "ddfd62bdde1936e861e29f19e8775b93db1ee621cacf1841a22fb10b2658d559",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-320.webp",
+          "width": 320,
+          "height": 140
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-640.webp",
+          "width": 640,
+          "height": 279
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-1280.webp",
+          "width": 1280,
+          "height": 559
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-1920.webp",
+          "width": 1920,
+          "height": 838
+        }
+      ]
+    },
+    "images/X-O/Screenshot 2023-05-28 204946.jpg": {
+      "sha256": "1aa7f34684587a7ec58b653b5b8a5c79e08d03cbfb4eb8e97b8c5f057bfbfbb5",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-320.webp",
+          "width": 320,
+          "height": 142
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-640.webp",
+          "width": 640,
+          "height": 284
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-1280.webp",
+          "width": 1280,
+          "height": 568
+        },
+        {
+          "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-1920.webp",
+          "width": 1920,
+          "height": 852
+        }
+      ]
+    },
+    "images/X-O/photo_2023-05-28_23-46-45.jpg": {
+      "sha256": "569aa7a0e075af37ee569c159e5bd3c1737c239cd0b3eaf92f3ff874d91ffec6",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/photo_2023-05-28_23-46-45-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/X-O/photo_2023-05-28_23-46-45-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/X-O/photo_2023-05-28_23-46-45-1280.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    "images/X-O/photo_2023-05-29_00-00-47.jpg": {
+      "sha256": "170e6a9b2e28b66dea292e2e4601b56717f9248b291fc6a6b3b89c22952297f0",
+      "variants": [
+        {
+          "src": "images/optimized/X-O/photo_2023-05-29_00-00-47-320.webp",
+          "width": 320,
+          "height": 180
+        },
+        {
+          "src": "images/optimized/X-O/photo_2023-05-29_00-00-47-640.webp",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "images/optimized/X-O/photo_2023-05-29_00-00-47-1280.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    "images/hatem-photo-enhanced.png": {
+      "sha256": "52f2d551e8a4d36c89be7dfa22fd1c1ae3df3d894ad93b8996bcf1a74081738c",
+      "variants": [
+        {
+          "src": "images/optimized/hatem-photo-enhanced-52f2d551e8a4-320.webp",
+          "width": 320,
+          "height": 240
+        },
+        {
+          "src": "images/optimized/hatem-photo-enhanced-52f2d551e8a4-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "images/optimized/hatem-photo-enhanced-52f2d551e8a4-1280.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ]
+    },
+    "images/hatem-portrait-2025.jpg": {
+      "sha256": "fe0327dcb59c5116998c0366d2c30e7e96a884a7bf803a33712141f48dbb79ae",
+      "variants": [
+        {
+          "src": "images/optimized/hatem-portrait-2025-fe0327dcb59c-320.webp",
+          "width": 320,
+          "height": 427
+        },
+        {
+          "src": "images/optimized/hatem-portrait-2025-fe0327dcb59c-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "images/optimized/hatem-portrait-2025-fe0327dcb59c-1280.webp",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "src": "images/optimized/hatem-portrait-2025-fe0327dcb59c-1920.webp",
+          "width": 1920,
+          "height": 2560
+        }
+      ]
+    },
+    "images/hatem-portrait-blue-studio.webp": {
+      "sha256": "714b24e3a3a91dbd1ce5051882953b5eac93fbfb7530dfc81c56938672c36e04",
+      "variants": [
+        {
+          "src": "images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-320.webp",
+          "width": 320,
+          "height": 427
+        },
+        {
+          "src": "images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp",
+          "width": 640,
+          "height": 853
+        }
+      ]
+    }
+  }
+}

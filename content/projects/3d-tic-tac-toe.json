@@ -1,0 +1,107 @@
+{
+  "name": "3D Tic Tac Toe",
+  "category": "Full game ",
+  "image": "images/X-O/Screenshot 2023-05-18 200115.jpg",
+  "description": " The classic game reimagined in 3D for a modern, exciting experience.",
+  "tags": [
+    "Unity",
+    "C#",
+    "Prototype",
+    "Blender"
+  ],
+  "type": "Prototype",
+  "gallery": [
+    "images/X-O/photo_2023-05-28_23-46-45.jpg",
+    "images/X-O/photo_2023-05-29_00-00-47.jpg",
+    "images/X-O/Screenshot 2023-05-28 204836.jpg",
+    "images/X-O/Screenshot 2023-05-28 204946.jpg",
+    "images/X-O/Screenshot 2023-05-28 204905.jpg",
+    "images/X-O/Screenshot 2023-05-28 204638.png"
+  ],
+  "about": [
+    {
+      "type": "feature-list",
+      "title": "Project Overview",
+      "items": [
+        "A 3D version of the classic Tic Tac Toe with a fresh visual style.",
+        "Turn-based gameplay for two players with clear indicators.",
+        "Automated win detection system and simple UI for start, restart, and results."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "My Role",
+      "items": [
+        "Programming the core gameplay systems.",
+        "Level design and environment setup.",
+        "Performance optimization.",
+        "Lighting design for better visuals."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "Technologies & Tools",
+      "items": [
+        "Unity 3D URP",
+        "Blender",
+        "C#"
+      ]
+    }
+  ],
+  "meta": {
+    "Publisher": "RTG",
+    "Platforms": [
+      "Windows",
+      "Mobile"
+    ],
+    "Genre": [
+      "Strategy ",
+      "Puzzle"
+    ],
+    "Status": "Finished"
+  },
+  "id": "3d-tic-tac-toe",
+  "legacyId": 1,
+  "role": "Gameplay Programmer & Level Designer",
+  "duration": "24 Hours 1 Week",
+  "engine": "Unity 3D URP",
+  "caseStudy": {
+    "contributions": [
+      {
+        "text": "Programming the core gameplay systems.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/3d-tic-tac-toe.html#mainPreview"
+        }
+      },
+      {
+        "text": "Level design and environment setup.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/3d-tic-tac-toe.html#mainPreview"
+        }
+      },
+      {
+        "text": "Performance optimization.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/3d-tic-tac-toe.html#mainPreview"
+        }
+      },
+      {
+        "text": "Lighting design for better visuals.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/3d-tic-tac-toe.html#mainPreview"
+        }
+      }
+    ],
+    "decisions": [],
+    "figures": [],
+    "outcomes": []
+  },
+  "cardSummary": {
+    "description": "Classic tic-tac-toe reimagined in 3D.",
+    "contribution": "Programmed the core gameplay systems."
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{{BASE}}
+  <title>{{TITLE}} | Hatem Mehana</title>
+  <link rel="stylesheet" href="page.css">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="design-system.css">
+  <link rel="modulepreload" href="js/contact.js">
+  <link rel="stylesheet" href="data-loading.css">
+  <link rel="stylesheet" href="vendor/swiper-bundle.min.css">
+  <link rel="modulepreload" href="js/project-entry.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/schema.js">
+  <link rel="modulepreload" href="js/urls.js">
+  <link rel="modulepreload" href="js/loading.js">
+  <link rel="modulepreload" href="js/project-view.js">
+  <link rel="modulepreload" href="js/gallery.js">
+  <link rel="modulepreload" href="js/media-viewer.js">
+  <link rel="modulepreload" href="js/about.js">
+  <link rel="modulepreload" href="js/case-study.js">
+  <link rel="modulepreload" href="js/dom.js">
+  <link rel="modulepreload" href="js/sliders.js">
+</head>
+<body {{PROJECT_ID}}>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main" class="container" tabindex="-1">
+    <section class="game-show">
+      <a href="index.html#showcase" class="back-button">← Back to Projects</a>
+      {{PROJECT}}
+      {{CONTACT}}
+    </section>
+  </main>
+  {{FOOTER}}
+  <script type="module" src="js/project-entry.js"></script>
+  <script type="module" async src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* Layout for the first 21 roadmap tasks. */
+body { background: #08121b; }
+nav { width: min(1100px, 100%); top: 0; padding: 12px 24px; background: #08121bf5; border-bottom: 1px solid #ffffff1a; }
+nav.background-active::before { content: none; }
+.nav-links { gap: 16px; }
+.nav-links a { font-size: .95rem; text-transform: none; font-weight: 500; padding: 10px 4px; min-height: 44px; }
+.nav-links a:hover, .nav-links a:focus-visible, .nav-links a.active { color: #67b7ff; }
+.main-content { align-items: center; gap: 50px; margin-top: 100px; padding: 30px 24px 60px; }
+.left-content { padding: 0; max-width: 650px; }
+.greeting { font-size: 1.5rem; color: #fff; margin-bottom: 16px; }
+.name { font-size: clamp(2.3rem, 5vw, 4rem); }
+.hero-role { font-size: clamp(1.7rem, 3.8vw, 3rem); color: #67b7ff; line-height: 1.15; margin-bottom: 24px; font-weight: 600; }
+.description { font-size: 1.15rem; max-width: 560px; margin-bottom: 28px; }
+.right-content { flex: 0 1 400px; }
+.right-content img { width: 100%; height: auto; }
+.contact-btn { color: #06131c; margin-right: 0; font-weight: 600; min-height: 44px; }
+.secondary-btn { background: transparent; border: 1px solid #67b7ff; color: #67b7ff; }
+.secondary-btn:hover { color: #06131c; }
+.featured-section, .showcase-section, .skills-section, .worked-section, .about-section, .contact-section { margin-top: 70px; padding: 24px; }
+.section-header { text-align: left; margin-bottom: 28px; }
+.section-title { font-size: clamp(1.8rem, 3vw, 2.7rem); margin-bottom: 8px; }
+.section-subtitle { color: #b8b8b8; margin-bottom: 0; }
+.featured-grid, .projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.projects-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.featured-card, .showcase-card { display: flex; flex-direction: column; min-width: 0; aspect-ratio: auto; position: relative; text-decoration: none; background: #101e2a; color: #b8b8b8; border: 1px solid #ffffff26; border-radius: 12px; overflow: hidden; transition: border-color .18s, box-shadow .18s; }
+.featured-card:hover, .featured-card:focus-visible, .showcase-card:hover, .showcase-card:focus-visible { transform: none; border-color: #67b7ff; box-shadow: 0 0 22px #67b7ff20; }
+.featured-card > img, .showcase-card > img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: #080e14; }
+.showcase-card:hover img { transform: none; }
+.showcase-content, .showcase-card:hover .showcase-content { position: static; transform: none; padding: 24px; background: none; flex: 1; display: flex; flex-direction: column; gap: 12px; }
+.showcase-type, .showcase-card:hover .showcase-type { position: static; transform: none; padding: 0; color: #67b7ff; background: none; text-align: left; font-size: .85rem; }
+.showcase-title { margin: 0; font-size: 1.35rem; }
+.showcase-description, .showcase-card:hover .showcase-description { display: block; margin: 0; line-height: 1.6; }
+.project-facts { display: grid; gap: 8px; margin: 6px 0; font-size: .9rem; }
+.project-facts > div { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 12px; }
+.project-facts dt { text-transform: capitalize; color: #91a5b6; }
+.project-facts dd { color: #edf4fb; margin: 0; }
+.view-details { display: inline-flex; align-items: center; min-height: 44px; color: #67b7ff; font-weight: 600; margin-top: auto; }
+.all-projects-link { display: inline-flex; align-items: center; padding: 12px 0; min-height: 44px; margin-top: 24px; color: #67b7ff; }
+.showcase-filter { justify-content: flex-start; flex-wrap: wrap; gap: 8px; padding: 0; margin-bottom: 16px; }
+.filter-btn { min-height: 44px; text-transform: none; }
+.filter-btn.active, .filter-btn:hover { color: #06131c; }
+.project-count { margin-bottom: 20px; color: #b8b8b8; }
+.skills-grid { padding: 0; margin: 0; max-width: none; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-radius: 12px; overflow: hidden; border: 1px solid #ffffff26; }
+.skill-card { border-radius: 0; border: 0; border-right: 1px solid #ffffff26; position: relative; padding: 28px; background: #101e2a; }
+.skill-card:last-child { border-right: 0; }
+.skill-card:hover { transform: none; }
+.skill-evidence { display: flex; flex-direction: column; margin-top: auto; }
+.skill-evidence a { display: inline-flex; align-items: center; min-height: 44px; color: #67b7ff; }
+.skill-card::before, .featured-card::before, .showcase-card::before { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0; background: radial-gradient(300px circle at var(--light-x, 50%) var(--light-y, 50%), #67b7ff12, transparent 70%); transition: opacity .18s; }
+@media (hover: hover) and (pointer: fine) { .skill-card:hover::before, .featured-card:hover::before, .showcase-card:hover::before { opacity: 1; } }
+.work-grid { margin-top: 0; }
+.work-image img { object-fit: contain; }
+.work-label { color: #06131c; }
+.about-content { margin-top: 0; padding: 0; }
+.about-text { text-align: left; }
+.social-container { gap: 16px; }
+.social-container a, .social-container a:hover { transform: none; font-size: 1rem; border: 1px solid #ffffff26; }
+@media (max-width: 1000px) { .featured-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 900px) { .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) {
+  .main-content { flex-direction: column; align-items: stretch; gap: 24px; margin-top: 80px; }
+  .right-content { flex: auto; max-width: 320px; align-self: center; }
+  .featured-grid, .projects-grid, .skills-grid, .work-grid { grid-template-columns: minmax(0, 1fr); }
+  .skill-card { border-right: 0; border-bottom: 1px solid #ffffff26; }
+  .skill-card:last-child { border-bottom: 0; }
+  .featured-section, .showcase-section, .skills-section, .worked-section, .about-section, .contact-section { padding: 20px; margin-top: 44px; }
+  .navigation-ready .hamburger { min-width: 44px; min-height: 44px; margin-left: auto; }
+  .navigation-ready .nav-links { height: 100dvh; gap: 16px; visibility: hidden; }
+  .navigation-ready .nav-links.active { visibility: visible; left: 0; }
+  nav:not(.navigation-ready) { position: relative; left: auto; translate: none; }
+  nav:not(.navigation-ready) .hamburger { display: none; }
+  nav:not(.navigation-ready) .nav-links { position: static; height: auto; flex-direction: row; flex-wrap: wrap; gap: 8px; background: none; }
+  nav:not(.navigation-ready) + main .main-content { margin-top: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { .skill-card::before, .featured-card::before, .showcase-card::before { display: none; } }

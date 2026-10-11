@@ -1,0 +1,135 @@
+{
+  "seo": { "siteUrl": "" },
+  "hero": {
+    "name": "Hatem Mehana",
+    "greeting": "Hey, I'm Hatem!",
+    "role": "Gameplay Developer",
+    "description": "I build gameplay systems with Unity and C#, design levels, and help teams turn ideas into playable experiences.",
+    "resumeUrl": "hatem mehana.pdf",
+    "profileImage": "images/hatem-portrait-blue-studio.webp"
+  },
+  "featuredProjectIds": [
+    "azooma-escape",
+    "implant-mission-the-lost-tree",
+    "horror-home"
+  ],
+  "about": {
+    "description": "I develop games using Unity and C#, with a focus on gameplay programming, level design, lighting, and environment creation. I founded RTG Studio and collaborate on game production. My work includes Azooma Escape on Steam and Implant Mission: The Lost Tree, ranked #1 Overall in the Game Zanga (Special Edition) public voting results in 2024.",
+    "details": [
+      {
+        "icon": "checkmark-done",
+        "label": "Portfolio Projects",
+        "value": "7",
+        "source": {
+          "label": "Explore all seven projects",
+          "url": "index.html#showcase"
+        }
+      },
+      {
+        "icon": "trophy",
+        "label": "Awards",
+        "value": "#1 Overall in Game Zanga (Special Edition) public voting, with Implant Mission (2024).",
+        "source": {
+          "label": "Game Zanga 2024 — public voting results",
+          "url": "https://itch.io/jam/gamezanga-specialedition/rate/2563575"
+        }
+      }
+    ]
+  },
+  "skills": [
+    {
+      "icon": "speedometer",
+      "title": "Gameplay Programming",
+      "projectIds": [
+        "azooma-escape"
+      ],
+      "points": [
+        "Developing gameplay systems using C# and Unity.",
+        "Building AI systems to create dynamic interaction with the environment.",
+        "Optimizing performance.",
+        "Handling physics and collisions.",
+        "Designing UI systems compatible with different platforms",
+        "Using Photon and Unity Netcode to support multiplayer gaming over the network.",
+        "Integrating in-game advertising.",
+        "Implementing Facebook and Google sign-in.",
+        "Integrating in-app purchases."
+      ]
+    },
+    {
+      "icon": "eye",
+      "title": "Level Design",
+      "projectIds": [
+        "horror-home"
+      ],
+      "points": [
+        "Designing complete game environments while considering performance and aesthetics.",
+        "Using blockouts to test gameplay mechanics before finalizing the design.",
+        "Optimizing performance using LOD, Occlusion Culling, Sprite Grass, Light Baking, and more",
+        "Adding lighting and fog effects to create immersive atmospheres."
+      ]
+    },
+    {
+      "icon": "people",
+      "title": "Team Leadership",
+      "projectIds": [
+        "implant-mission-the-lost-tree"
+      ],
+      "points": [
+        "Planning project timelines to ensure on-time delivery.",
+        "Organizing team tasks and distributing roles to ensure efficient workflow.",
+        "Using project management tools like Jira, Notion, Milanote to organize ideas and timelines.",
+        "Managing versions using Git, GitHub, GitLab to track modifications.",
+        "Maintaining continuous communication with the team and providing real-time updates."
+      ]
+    }
+  ],
+  "work": [
+    {
+      "image": "images/Logos/5124.png",
+      "current": true,
+      "title": "RTG Studio",
+      "duration": "2022 - Present",
+      "description": "Senior Game Developer working on mobile game projects and team management."
+    },
+    {
+      "image": "images/Logos/ash_games_cover.jpeg",
+      "current": true,
+      "title": "ASH Studio",
+      "duration": "2024 - Present",
+      "description": "Production assistant, level designer, and gameplay programmer."
+    },
+    {
+      "image": "images/Logos/Screenshot 2023-03-16 011643.jpg",
+      "title": "Grays Games",
+      "duration": "2020",
+      "description": "Worked on game reskinning projects."
+    }
+  ],
+  "social": [
+    {
+      "icon": "logo-linkedin",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hatem-mehana-b88833241/?trk=public-profile-join-page"
+    },
+    {
+      "icon": "logo-whatsapp",
+      "name": "WhatsApp",
+      "url": "https://api.whatsapp.com/send/?phone=%2B201016867349&text&type=phone_number&app_absent=0"
+    },
+    {
+      "icon": "mail",
+      "name": "Email",
+      "url": "mailto:hatemmehana666@gmail.com"
+    },
+    {
+      "icon": "logo-facebook",
+      "name": "Facebook",
+      "url": "https://www.facebook.com/RTGstudio2311?locale=ar_AR"
+    },
+    {
+      "icon": "logo-youtube",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@hatemmehana2311"
+    }
+  ]
+}

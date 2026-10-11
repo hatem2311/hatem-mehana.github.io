@@ -1,0 +1,127 @@
+{
+  "name": "Implant Mission: The Lost Tree",
+  "image": "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
+  "description": "Explore a polluted land in search of the last hope to restore life!",
+  "tags": [
+    "Platform",
+    "Unity",
+    "Level Design",
+    "C#"
+  ],
+  "type": "Prototype",
+  "videoUrl": "https://www.youtube.com/embed/Ssm2PqiFbOQ",
+  "previewVideo": "images/previews/implant-mission-montage.webm",
+  "gallery": [
+    "images/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47.jpg",
+    "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00.jpg"
+  ],
+  "about": [
+    {
+      "type": "feature-list",
+      "title": "Project Overview",
+      "items": [
+        "Created for Game Zanga (Special Edition), 2024.",
+        "Our team of 11 completed the game in three days.",
+        "Ranked #1 Overall in the public voting results; see the linked results below."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "My Role",
+      "items": [
+        "Team leadership, coordination, and supervision of the workflow.",
+        "Worked as the Level Designer, creating the game’s map and puzzles."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "Technologies & Tools",
+      "items": [
+        "Unity 3D URP",
+        "C#",
+        "Blender",
+        "Figma",
+        "Gimp",
+        "Milnote"
+      ]
+    }
+  ],
+  "meta": {
+    "Publisher": "RTG",
+    "Platforms": [
+      "Windows"
+    ],
+    "Genre": [
+      "Platform ",
+      "Puzzle"
+    ],
+    "Status": "Published on itch.io"
+  },
+  "storeLinks": {
+    "itch.io": {
+      "url": "https://hatemmehana.itch.io/the-lost-tree"
+    }
+  },
+  "id": "implant-mission-the-lost-tree",
+  "legacyId": 2,
+  "role": "Team Leader & Level Designer",
+  "duration": "Three Days",
+  "engine": "Unity 3D URP",
+  "caseStudy": {
+    "contributions": [
+      {
+        "text": "Team leadership, coordination, and supervision of the workflow.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/Ssm2PqiFbOQ"
+        }
+      },
+      {
+        "text": "Worked as the Level Designer, creating the game’s map and puzzles.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/Ssm2PqiFbOQ"
+        }
+      }
+    ],
+    "decisions": [
+      {
+        "title": "A three-day team project",
+        "challenge": "Coordinate 11 team members within a three-day game jam.",
+        "solution": "Led the team workflow and designed the map and puzzles.",
+        "evidence": {
+          "label": "Play the submitted game",
+          "url": "https://hatemmehana.itch.io/the-lost-tree"
+        }
+      }
+    ],
+    "figures": [],
+    "outcomes": [
+      {
+        "text": "Available on itch.io.",
+        "evidence": {
+          "label": "Open itch.io page",
+          "url": "https://hatemmehana.itch.io/the-lost-tree"
+        }
+      },
+      {
+        "text": "Ranked #1 Overall in the public voting results for Game Zanga (Special Edition), 2024.",
+        "evidence": {
+          "label": "Game Zanga 2024 — public voting results",
+          "url": "https://itch.io/jam/gamezanga-specialedition/rate/2563575"
+        }
+      }
+    ]
+  },
+  "team": "11 members",
+  "cardSummary": {
+    "description": "Explore a polluted land in search of the last hope to restore life.",
+    "contribution": "Led the team and coordinated its workflow."
+  }
+}

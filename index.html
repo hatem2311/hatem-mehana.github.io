@@ -1,229 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hatem Mehana | Gameplay Developer</title>
+  <link rel="preload" as="image" href="images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp" imagesrcset="images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-320.webp 320w, images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp 640w" imagesizes="(max-width: 768px) 320px, (max-width: 1100px) 40vw, 520px" fetchpriority="high">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="portfolio-layout.css">
+  <link rel="stylesheet" href="design-system.css">
+  <link rel="modulepreload" href="js/contact.js">
+  <link rel="stylesheet" href="data-loading.css">
+  <link rel="modulepreload" href="js/home-entry.js">
+  <link rel="modulepreload" href="js/home-view.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/schema.js">
+  <link rel="modulepreload" href="js/urls.js">
+  <link rel="modulepreload" href="js/loading.js">
+  <link rel="modulepreload" href="js/dom.js">
+  <link rel="modulepreload" href="js/projects.js">
+  <link rel="modulepreload" href="js/project-facts.js">
+  <link rel="modulepreload" href="js/journey.js">
+  <link rel="modulepreload" href="js/navigation.js">
+  <meta name="description" content="I build gameplay systems with Unity and C#, design levels, and help teams turn ideas into playable experiences.">
+  <meta name="robots" content="noindex, follow">
+  <meta property="og:title" content="Hatem Mehana | Gameplay Developer">
+  <meta property="og:description" content="I build gameplay systems with Unity and C#, design levels, and help teams turn ideas into playable experiences.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hatem Mehana Portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hatem Mehana | Gameplay Developer">
+  <meta name="twitter:description" content="I build gameplay systems with Unity and C#, design levels, and help teams turn ideas into playable experiences.">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="container">
-    <nav id="nav" class="other-container">
-      <div class="nav-links">
+    <nav id="nav" aria-label="Main navigation">
+      <div id="navigation-links" class="nav-links">
         <a class="nav-link" href="#home">Home</a>
-        <a class="nav-link" href="#about">About me</a>
-        <a class="nav-link" href="#worked">Work</a>
-        <a class="nav-link" href="#showcase">Showcase</a>
-        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#featured">Projects</a>
+        <a class="nav-link" href="#skills">Gameplay &amp; Design</a>
         <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link resume-link" href="hatem mehana.pdf" data-resume-link download>Download CV</a>
       </div>
-      <button class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <button class="hamburger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation-links"><span></span><span></span><span></span></button>
     </nav>
-
-    <section id="home" class="main-content other-container">
-      <div class="left-content">
-        <p class="greeting">Hello, My Name Is</p>
-        <h1 class="name"></h1>
-        <p class="description"></p>
-
-        <div class="buttons-container">
-          <a href="hatem mehana.pdf" download class="contact-btn">
-            Download My Resume
-          </a>
-          <a href="#contact" class="contact-btn">
-            Contact Me
-          </a>
-        </div>
-      </div>
-      <div class="right-content">
-        <img src="" alt="Profile Image" />
-      </div>
-    </section>
-
-    <section id="about" class="about-section">
-      <div class="section-header">
-        <h2 class="section-title">About Me</h2>
-        <p class="section-subtitle">Who I Am</p>
-
-      </div>
-
-      <div class="about-content">
-        <div class="about-text">
-          <p></p>
-        </div>
-        <div class="about-details"></div>
-      </div>
-    </section>
-
-    <section id="worked" class="worked-section">
-      <div class="section-header">
-        <h2 class="section-title">Studios</h2>
-        <p class="section-subtitle">Where I Did Work</p>
-      </div>
-
-      <div class="work-grid"></div>
-    </section>
-
-    <section id="showcase" class="showcase-section">
-      <div class="section-header">
-        <h2 class="section-title">Showcase</h2>
-        <p class="section-subtitle">My Projects</p>
-      </div>
-
-      <div id="filter-buttons-container" class="showcase-filter"></div>
-
-      <!-- <div class="showcase-container">
-        <button class="slider-nav prev" aria-label="Previous slide">
-          <ion-icon name="chevron-back-outline"></ion-icon>
-        </button>
-        
-        <div id="showcase-grid" class="showcase-grid">
-          <div class="showcase-track"></div>
-        </div>
-        
-        <button class="slider-nav next" aria-label="Next slide">
-          <ion-icon name="chevron-forward-outline"></ion-icon>
-        </button>
-      </div> -->
-
-      <div class="swiper">
-        <div class="swiper-wrapper">
-
-        </div>
-      </div>
-
-      <div class="swiper-button-prev swiper-button"></div>
-      <div class="swiper-button-next swiper-button"></div>
-      <div class="swiper-scrollbar"></div>
-    </section>
-
-    <section id="skills" class="skills-section">
-      <div class="section-header">
-        <h2 class="section-title">Skills</h2>
-        <p class="section-subtitle">What I Can Do</p>
-      </div>
-
-      <div class="skills-grid"></div>
-    </section>
-
-    <section id="contact" class="contact-section other-container">
-      <div class="section-header">
-        <h2 class="section-title">Contact</h2>
-        <p class="section-subtitle">Get In Touch</p>
-      </div>
-
-      <div class="social-container">
-      </div>
-    </section>
+    <main id="main" tabindex="-1"><section id="home" class="main-content other-container"><div class="left-content"><p class="greeting">Hey, I&#39;m Hatem!</p><h1 class="name">Hatem Mehana</h1><p class="hero-role">Gameplay Developer</p><p class="description">I build gameplay systems with Unity and C#, design levels, and help teams turn ideas into playable experiences.</p><div class="buttons-container"><a class="contact-btn" href="#featured">Project Showcase</a><a class="contact-btn secondary-btn" href="#contact">Get in touch</a></div></div><div class="right-content"><img src="images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp" alt="Hatem Mehana Image" width="640" height="853" srcset="images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-320.webp 320w, images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp 640w" sizes="(max-width: 768px) 320px, (max-width: 1100px) 40vw, 520px" loading="eager" fetchpriority="high"></div></section>
+  <section id="featured" class="featured-section"><div class="section-header"><h2 class="section-title">Featured Projects</h2><p class="section-subtitle">Gameplay, level design, and the work behind them</p></div><div id="featured-projects-grid" class="featured-grid"><article class="featured-card"  data-project-id="azooma-escape"><a class="card-preview" href="https://www.youtube.com/watch?v=Hlrx9G3x1Vg" aria-label="Play full Azooma Escape video"><img src="images/optimized/Azooma/game_title-1280.webp" alt="Azooma Escape video preview" width="1280" height="1256" srcset="images/optimized/Azooma/game_title-320.webp 320w, images/optimized/Azooma/game_title-640.webp 640w, images/optimized/Azooma/game_title-1280.webp 1280w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><video data-src="images/Azooma/827089c520bfe9f758c14cf58089a032.webm" muted loop playsinline preload="none" aria-hidden="true"></video><span class="card-preview-play">▶ Play full video</span></a><div class="showcase-content"><h3 class="showcase-title">Azooma Escape</h3><p class="showcase-description">Escape a family celebration by hiding and dodging flying slippers.</p><p class="featured-contribution">My contribution: Designed puzzles, obstacles and enemy placements.</p><p class="card-engine">Engine: Unity 2D URP</p><a class="view-details" href="projects/azooma-escape.html">View Details →</a></div></article><article class="featured-card"  data-project-id="implant-mission-the-lost-tree"><a class="card-preview" href="https://www.youtube.com/watch?v=Ssm2PqiFbOQ" aria-label="Play full Implant Mission: The Lost Tree video"><img src="images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp" alt="Implant Mission: The Lost Tree video preview" width="1920" height="1080" srcset="images/optimized/Impant%20Misson/Environment_Free_1080p_19.01.2025_17-10-54-320.webp 320w, images/optimized/Impant%20Misson/Environment_Free_1080p_19.01.2025_17-10-54-640.webp 640w, images/optimized/Impant%20Misson/Environment_Free_1080p_19.01.2025_17-10-54-1280.webp 1280w, images/optimized/Impant%20Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp 1920w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><video data-src="images/previews/implant-mission-montage.webm" muted loop playsinline preload="none" aria-hidden="true"></video><span class="card-preview-play">▶ Play full video</span></a><div class="showcase-content"><h3 class="showcase-title">Implant Mission: The Lost Tree</h3><p class="showcase-description">Explore a polluted land in search of the last hope to restore life.</p><p class="featured-contribution">My contribution: Led the team and coordinated its workflow.</p><p class="card-engine">Engine: Unity 3D URP</p><a class="view-details" href="projects/implant-mission-the-lost-tree.html">View Details →</a></div></article><a class="featured-card" href="projects/horror-home.html" aria-label="Horror Home — View Details" data-project-id="horror-home"><img src="images/optimized/Horror Home/OutdoorsScene_4K-1920.webp" alt="Horror Home" width="1920" height="1080" srcset="images/optimized/Horror%20Home/OutdoorsScene_4K-320.webp 320w, images/optimized/Horror%20Home/OutdoorsScene_4K-640.webp 640w, images/optimized/Horror%20Home/OutdoorsScene_4K-1280.webp 1280w, images/optimized/Horror%20Home/OutdoorsScene_4K-1920.webp 1920w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><div class="showcase-content"><h3 class="showcase-title">Horror Home</h3><p class="showcase-description">A house environment with interior, exterior and one enemy.</p><p class="featured-contribution">My contribution: Built the level layout in Unity.</p><p class="card-engine">Engine: Unity HDRP</p><span class="view-details">View Details →</span></div></a></div><a class="all-projects-link" href="#showcase">More Projects ↓</a></section>
+  <section id="showcase" class="showcase-section"><div class="section-header"><h2 class="section-title">More Projects</h2><p class="section-subtitle">Browse the remaining work, or filter all seven projects</p></div><div id="filter-buttons-container" class="showcase-filter" aria-label="Filter projects"></div><p id="project-count" class="project-count" role="status" aria-live="polite">4 more projects · 7 total</p><div id="all-projects-grid" class="projects-grid"><a class="showcase-card" href="projects/3d-tic-tac-toe.html" aria-label="3D Tic Tac Toe — View Details" data-project-id="3d-tic-tac-toe"><img src="images/optimized/X-O/Screenshot 2023-05-18 200115-1920.webp" alt="3D Tic Tac Toe" width="1920" height="855" srcset="images/optimized/X-O/Screenshot%202023-05-18%20200115-320.webp 320w, images/optimized/X-O/Screenshot%202023-05-18%20200115-640.webp 640w, images/optimized/X-O/Screenshot%202023-05-18%20200115-1280.webp 1280w, images/optimized/X-O/Screenshot%202023-05-18%20200115-1920.webp 1920w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><div class="showcase-content"><h3 class="showcase-title">3D Tic Tac Toe</h3><p class="showcase-description">Classic tic-tac-toe reimagined in 3D.</p><p class="featured-contribution">My contribution: Programmed the core gameplay systems.</p><p class="card-engine">Engine: Unity 3D URP</p><span class="view-details">View Details →</span></div></a><a class="showcase-card" href="projects/lanterns-ninja.html" aria-label="Lanterns Ninja — View Details" data-project-id="lanterns-ninja"><img src="images/optimized/Lanterns Ninja/unnamed-320.webp" alt="Lanterns Ninja" width="320" height="320" srcset="images/optimized/Lanterns%20Ninja/unnamed-320.webp 320w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><div class="showcase-content"><h3 class="showcase-title">Lanterns Ninja</h3><p class="showcase-description">Destroy lanterns and collect points.</p><p class="featured-contribution">My contribution: Conceived and developed the core idea.</p><p class="card-engine">Engine: Unity URP</p><span class="view-details">View Details →</span></div></a><article class="showcase-card"  data-project-id="king-of-stratgy"><a class="card-preview" href="https://www.youtube.com/watch?v=GfK1WgT8G7Y" aria-label="Play full King Of Stratgy video"><img src="images/optimized/King Of Stratgy/Icon-512-320.webp" alt="King Of Stratgy video preview" width="320" height="320" srcset="images/optimized/King%20Of%20Stratgy/Icon-512-320.webp 320w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><video data-src="images/previews/king-of-stratgy.webm" muted loop playsinline preload="none" aria-hidden="true"></video><span class="card-preview-play">▶ Play full video</span></a><div class="showcase-content"><h3 class="showcase-title">King Of Stratgy</h3><p class="showcase-description">Ancient-battle strategy with formations, five unit types and 30 levels.</p><p class="featured-contribution">My contribution: Structured the project for scalable development.</p><p class="card-engine">Engine: Unity 3D URP</p><a class="view-details" href="projects/king-of-stratgy.html">View Details →</a></div></article><a class="showcase-card" href="projects/roblox-maps.html" aria-label="Roblox Maps — View Details" data-project-id="roblox-maps"><img src="images/optimized/RobLox Maps/c5-1920.webp" alt="Roblox Maps" width="1920" height="1080" srcset="images/optimized/RobLox%20Maps/c5-320.webp 320w, images/optimized/RobLox%20Maps/c5-640.webp 640w, images/optimized/RobLox%20Maps/c5-1280.webp 1280w, images/optimized/RobLox%20Maps/c5-1920.webp 1920w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"><div class="showcase-content"><h3 class="showcase-title">Roblox Maps</h3><p class="showcase-description">Three rebuilt maps with staged development images.</p><p class="featured-contribution">My contribution: Rebuilt three maps from scratch.</p><p class="card-engine">Engine: Unity 3D URP</p><span class="view-details">View Details →</span></div></a></div></section>
+  <section id="skills" class="skills-section"><div class="section-header"><h2 class="section-title">Gameplay &amp; Design</h2><p class="section-subtitle">Skills backed by projects</p></div><div class="skills-grid"><div class="skill-card"><h3 class="skill-title">Gameplay Programming</h3><ul class="skill-description"><li>Developing gameplay systems using C# and Unity.</li><li>Building AI systems to create dynamic interaction with the environment.</li><li>Optimizing performance.</li><li>Handling physics and collisions.</li><li>Designing UI systems compatible with different platforms</li><li>Using Photon and Unity Netcode to support multiplayer gaming over the network.</li><li>Integrating in-game advertising.</li><li>Implementing Facebook and Google sign-in.</li><li>Integrating in-app purchases.</li></ul><div class="skill-evidence"><a href="projects/azooma-escape.html">See Azooma Escape →</a></div></div><div class="skill-card"><h3 class="skill-title">Level Design</h3><ul class="skill-description"><li>Designing complete game environments while considering performance and aesthetics.</li><li>Using blockouts to test gameplay mechanics before finalizing the design.</li><li>Optimizing performance using LOD, Occlusion Culling, Sprite Grass, Light Baking, and more</li><li>Adding lighting and fog effects to create immersive atmospheres.</li></ul><div class="skill-evidence"><a href="projects/horror-home.html">See Horror Home →</a></div></div><div class="skill-card"><h3 class="skill-title">Team Leadership</h3><ul class="skill-description"><li>Planning project timelines to ensure on-time delivery.</li><li>Organizing team tasks and distributing roles to ensure efficient workflow.</li><li>Using project management tools like Jira, Notion, Milanote to organize ideas and timelines.</li><li>Managing versions using Git, GitHub, GitLab to track modifications.</li><li>Maintaining continuous communication with the team and providing real-time updates.</li></ul><div class="skill-evidence"><a href="projects/implant-mission-the-lost-tree.html">See Implant Mission: The Lost Tree →</a></div></div></div></section>
+  <section id="worked" class="worked-section"><div class="section-header"><h2 class="section-title">Experience</h2><p class="section-subtitle">Studios and collaboration</p></div><div class="work-grid"><div class="work-item"><div class="work-image"><img src="images/optimized/Logos/5124-320.webp" alt="RTG Studio" width="320" height="320" srcset="images/optimized/Logos/5124-320.webp 320w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"></div><div class="work-content"><span class="work-label">Currently working at</span><h3 class="work-title">RTG Studio</h3><p class="work-duration">2022 - Present</p><p class="work-description">Senior Game Developer working on mobile game projects and team management.</p></div></div><div class="work-item"><div class="work-image"><img src="images/optimized/Logos/ash_games_cover-320.webp" alt="ASH Studio" width="320" height="240" srcset="images/optimized/Logos/ash_games_cover-320.webp 320w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"></div><div class="work-content"><span class="work-label">Currently working at</span><h3 class="work-title">ASH Studio</h3><p class="work-duration">2024 - Present</p><p class="work-description">Production assistant, level designer, and gameplay programmer.</p></div></div><div class="work-item"><div class="work-image"><img src="images/optimized/Logos/Screenshot 2023-03-16 011643-640.webp" alt="Grays Games" width="640" height="415" srcset="images/optimized/Logos/Screenshot%202023-03-16%20011643-320.webp 320w, images/optimized/Logos/Screenshot%202023-03-16%20011643-640.webp 640w" sizes="(max-width: 768px) 320px, 600px" loading="lazy"></div><div class="work-content"><h3 class="work-title">Grays Games</h3><p class="work-duration">2020</p><p class="work-description">Worked on game reskinning projects.</p></div></div></div></section>
+  <section id="about" class="about-section"><div class="section-header"><h2 class="section-title">About Me</h2><p class="section-subtitle">The person behind the projects</p></div><div class="about-content"><div class="about-text"><p>I develop games using Unity and C#, with a focus on gameplay programming, level design, lighting, and environment creation. I founded RTG Studio and collaborate on game production. My work includes Azooma Escape on Steam and Implant Mission: The Lost Tree, ranked #1 Overall in the Game Zanga (Special Edition) public voting results in 2024.</p></div><div class="about-details"><div class="detail-item"><div class="detail-content"><span class="detail-label">Portfolio Projects</span><span class="detail-value">7</span><a class="evidence-link" href="index.html#showcase">Explore all seven projects</a></div></div><div class="detail-item" data-size="large"><div class="detail-content"><span class="detail-label">Awards</span><span class="detail-value">#1 Overall in Game Zanga (Special Edition) public voting, with Implant Mission (2024).</span><a class="evidence-link" href="https://itch.io/jam/gamezanga-specialedition/rate/2563575">Game Zanga 2024 — public voting results</a></div></div></div></div></section>
+  <section id="contact" class="contact-section other-container"><div class="section-header"><h2 class="section-title">Get in touch</h2><p class="section-subtitle">Let’s talk about your next project</p></div><div class="contact-direct" data-contact-direct><a class="contact-email" href="mailto:hatemmehana666@gmail.com">hatemmehana666@gmail.com</a><button class="copy-email" type="button" data-copy-email="hatemmehana666@gmail.com" hidden>Copy email</button><p class="copy-status" role="status" aria-live="polite"></p></div><div class="social-container"><a href="https://www.linkedin.com/in/hatem-mehana-b88833241/?trk=public-profile-join-page">LinkedIn</a><a href="https://api.whatsapp.com/send/?phone=%2B201016867349&amp;text&amp;type=phone_number&amp;app_absent=0">WhatsApp</a><a href="mailto:hatemmehana666@gmail.com">Email</a><a href="https://www.facebook.com/RTGstudio2311?locale=ar_AR">Facebook</a><a href="https://www.youtube.com/@hatemmehana2311">YouTube</a></div></section></main>
   </div>
-  <footer class="footer">
-    <p>&copy; 2024 Hatem Mehena. All rights reserved.</p>
-    <p>Designed by <a href="https://linktr.ee/louay_rahali" target="_blank">Louay Rahali</a></p>
-  </footer>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script type="module">
-    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
-
-
-    const swipe = new Swiper(".swiper", {
-  speed: 400,
-  spaceBetween: 50,
-  slidesPerView: "auto",
-  centeredSlides: true,
-  breakpoints: {
-    400: {
-      centeredSlides: false,
-      spaceBetween: 30,
-    }
-  },
-  grid: {
-    rows: 1,
-  },
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
-  freeMode: {
-    enabled: true,
-    sticky: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-    draggable: true,
-  },
-});
-
-// لما المستخدم يقف بالماوس على السلايدر -> وقف الـ autoplay
-const swiperEl = document.querySelector(".swiper");
-swiperEl.addEventListener("mouseenter", () => {
-  swipe.autoplay.stop();
-});
-
-// لما يبعد الماوس -> رجّع الـ autoplay
-swiperEl.addEventListener("mouseleave", () => {
-  swipe.autoplay.start();
-});
-  </script>
-
-  <script src="app.js"></script>
-
-  <script>
-    let lastScrollTop = 0;
-    window.onscroll = function () {
-      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-      let nav = document.getElementById("nav");
-
-      // Add/remove background when not at top
-      if (currentScroll > 0) {
-        nav.classList.add("background-active");
-      } else {
-        nav.classList.remove("background-active");
-      }
-
-      // Hide/show based on scroll direction
-      if (currentScroll > lastScrollTop) {
-        // Scrolling down
-        nav.style.top = "-100px";
-      } else {
-        // Scrolling up
-        nav.style.top = "0";
-      }
-
-      lastScrollTop = currentScroll;
-    };
-  </script>
-  <script>
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    const navLinksA = document.querySelectorAll('.nav-link');
-
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      navLinks.classList.toggle('active');
-    });
-
-    navLinksA.forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navLinks.classList.remove('active');
-      });
-    });
-  </script>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <footer class="footer"><p>&copy; 2026 Hatem Mehana. All rights reserved.</p><p>Designed by <a href="https://linktr.ee/louay_rahali" target="_blank" rel="noopener noreferrer">Louay Rahali</a></p></footer>
+  <script type="module" src="js/home-entry.js"></script>
+  <script type="module" async src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
-
 </html>

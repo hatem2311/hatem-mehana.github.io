@@ -1,0 +1,37 @@
+[
+  {
+    "id": "horror-home",
+    "legacyId": 0,
+    "file": "projects/horror-home.json"
+  },
+  {
+    "id": "3d-tic-tac-toe",
+    "legacyId": 1,
+    "file": "projects/3d-tic-tac-toe.json"
+  },
+  {
+    "id": "implant-mission-the-lost-tree",
+    "legacyId": 2,
+    "file": "projects/implant-mission-the-lost-tree.json"
+  },
+  {
+    "id": "lanterns-ninja",
+    "legacyId": 3,
+    "file": "projects/lanterns-ninja.json"
+  },
+  {
+    "id": "azooma-escape",
+    "legacyId": 4,
+    "file": "projects/azooma-escape.json"
+  },
+  {
+    "id": "king-of-stratgy",
+    "legacyId": 5,
+    "file": "projects/king-of-stratgy.json"
+  },
+  {
+    "id": "roblox-maps",
+    "legacyId": 6,
+    "file": "projects/roblox-maps.json"
+  }
+]

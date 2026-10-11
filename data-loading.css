@@ -1,0 +1,28 @@
+[hidden] { display: none !important; }
+.data-loading-status {
+  position: fixed;
+  top: 0;
+  left: 16px;
+  right: 16px;
+  z-index: 1000;
+  margin: 100px auto 32px;
+  padding: 28px;
+  max-width: 560px;
+  text-align: center;
+  color: #f5f5f5;
+  background: #202027;
+  border: 1px solid #555;
+  border-radius: 16px;
+  font-family: inherit;
+}
+.data-loading-status button {
+  margin-top: 16px;
+  padding: 12px 24px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font: inherit;
+  cursor: pointer;
+}
+.data-loading-status button:focus-visible { outline: 3px solid #8cb4ff; outline-offset: 4px; }
+.data-loading-status a { display: inline-block; margin-top: 16px; color: #8cb4ff; }
+.data-loading-status.preserves-content { top: auto; bottom: 16px; margin: 0 auto; padding: 16px; font-size: .9rem; }

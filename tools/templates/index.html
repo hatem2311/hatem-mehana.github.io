@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hatem Mehana | Gameplay Developer</title>
+  {{HERO_PRELOAD}}
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="portfolio-layout.css">
+  <link rel="stylesheet" href="design-system.css">
+  <link rel="modulepreload" href="js/contact.js">
+  <link rel="stylesheet" href="data-loading.css">
+  <link rel="modulepreload" href="js/home-entry.js">
+  <link rel="modulepreload" href="js/home-view.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/schema.js">
+  <link rel="modulepreload" href="js/urls.js">
+  <link rel="modulepreload" href="js/loading.js">
+  <link rel="modulepreload" href="js/dom.js">
+  <link rel="modulepreload" href="js/projects.js">
+  <link rel="modulepreload" href="js/project-facts.js">
+  <link rel="modulepreload" href="js/journey.js">
+  <link rel="modulepreload" href="js/navigation.js">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="container">
+    <nav id="nav" aria-label="Main navigation">
+      <div id="navigation-links" class="nav-links">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#featured">Projects</a>
+        <a class="nav-link" href="#skills">Gameplay &amp; Design</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link resume-link" href="{{RESUME}}" data-resume-link download>Download CV</a>
+      </div>
+      <button class="hamburger" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation-links"><span></span><span></span><span></span></button>
+    </nav>
+    <main id="main" tabindex="-1">{{HOME}}</main>
+  </div>
+  {{FOOTER}}
+  <script type="module" src="js/home-entry.js"></script>
+  <script type="module" async src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

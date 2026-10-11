@@ -1,0 +1,117 @@
+{
+  "name": "King Of Stratgy",
+  "category": "Full game",
+  "image": "images/King Of Stratgy/Icon-512.png",
+  "description": "strategy game simulating ancient battles with five unit types and 10 historical armies, each with unique traits. It features 30 challenging levels where players set formations and watch the outcome.",
+  "tags": [
+    "Unity",
+    "2D",
+    "Stratgy",
+    "Android"
+  ],
+  "type": "full game",
+  "videoUrl": "https://www.youtube.com/embed/GfK1WgT8G7Y",
+  "previewVideo": "images/previews/king-of-stratgy.webm",
+  "gallery": [
+    "images/King Of Stratgy/3.jpg",
+    "images/King Of Stratgy/IMG-20250906-WA0007.jpg",
+    "images/King Of Stratgy/2.png",
+    "images/King Of Stratgy/IMG-20250906-WA0008.jpg",
+    "images/King Of Stratgy/IMG-20250906-WA0004.jpg",
+    "images/King Of Stratgy/unnamed (1).webp",
+    "images/King Of Stratgy/unnamed (2).webp",
+    "images/King Of Stratgy/unnamed.webp"
+  ],
+  "about": [
+    {
+      "type": "feature-list",
+      "title": "Project Overview",
+      "items": [
+        "A strategy game that simulates ancient battles using squares as units",
+        "Five categories of units with different offensive and defensive abilities.",
+        "Ten historical armies, each with a unique ability.",
+        "Thirty levels with increasing difficulty.",
+        "Offline battles focused on pre-battle planning.",
+        "Option to hold and deploy units during the fight.",
+        "Available now on Google Play."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "My Role",
+      "items": [
+        "Organized and structured the project to ensure scalability and smooth development.",
+        "Programmed the core systems and gameplay mechanics.",
+        "Designed levels with balanced progression and difficulty."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "Technologies & Tools",
+      "items": [
+        "Unity 3D URP",
+        "Blender",
+        "Gimp",
+        "C#"
+      ]
+    }
+  ],
+  "meta": {
+    "Publisher": "Ahmed Mohamed Zaghloul",
+    "Platforms": [
+      "Android"
+    ],
+    "Genre": "Stratgy",
+    "Status": "Published on Google Play"
+  },
+  "storeLinks": {
+    "Google Play ": {
+      "url": "https://play.google.com/store/apps/details?id=com.revivethegames.kingofstrategy"
+    }
+  },
+  "id": "king-of-stratgy",
+  "legacyId": 5,
+  "role": "Programmer & Level Designer",
+  "duration": "3 months",
+  "engine": "Unity 3D URP",
+  "caseStudy": {
+    "contributions": [
+      {
+        "text": "Organized and structured the project to ensure scalability and smooth development.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/GfK1WgT8G7Y"
+        }
+      },
+      {
+        "text": "Programmed the core systems and gameplay mechanics.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/GfK1WgT8G7Y"
+        }
+      },
+      {
+        "text": "Designed levels with balanced progression and difficulty.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/GfK1WgT8G7Y"
+        }
+      }
+    ],
+    "decisions": [],
+    "figures": [],
+    "outcomes": [
+      {
+        "text": "Available on Google Play.",
+        "evidence": {
+          "label": "Open Google Play page",
+          "url": "https://play.google.com/store/apps/details?id=com.revivethegames.kingofstrategy"
+        }
+      }
+    ]
+  },
+  "cardSummary": {
+    "description": "Ancient-battle strategy with formations, five unit types and 30 levels.",
+    "contribution": "Structured the project for scalable development."
+  }
+}

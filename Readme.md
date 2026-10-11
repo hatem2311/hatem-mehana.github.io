@@ -1,5 +1,7 @@
 # Game Developer Portfolio Website
 
+The current implementation uses explicit ES modules and separate editorial source files. Start with [the code map](docs/code-map.md) and [the content workflow](docs/content-workflow.md). These replace the older single-file structure and direct `data.json` editing instructions below; `data.json` is now a generated deployment bundle.
+
 A modern, responsive portfolio website specifically designed for game developers. Built with pure HTML, CSS, and JavaScript, featuring dynamic content management through JSON.
 
 ## 🎮 Features

@@ -1,0 +1,74 @@
+/* Approved portfolio tokens, shared by home and project pages. */
+:root {
+  --color-background: #0b1016;
+  --color-background-light: #141c25;
+  --color-text: #f2f3f5;
+  --color-text-secondary: #b1b6c0;
+  --color-border: #2b2f36;
+  --color-primary: #67b7ff;
+  --color-primary-hover: #98ceff;
+  --color-background-accent: #1c344a;
+  --space-1: 8px; --space-2: 16px; --space-3: 24px;
+  --space-4: 32px; --space-5: 40px; --space-6: 48px; --space-8: 64px;
+  --spacing-xs: 8px; --spacing-sm: 8px; --spacing-md: 16px;
+  --spacing-lg: 24px; --spacing-xl: 32px; --spacing-2xl: 40px; --spacing-3xl: 48px;
+  --border-radius-sm: 8px; --border-radius-md: 16px; --border-radius-lg: 16px;
+  --font-family-primary: 'Segoe UI', Arial, sans-serif;
+}
+body { background: var(--color-background); color: var(--color-text); }
+.right-content { flex: 0 1 400px; overflow: hidden; border-radius: 12px; }
+.right-content img { display: block; width: 100%; max-width: 400px; height: auto; object-fit: contain; border-radius: 12px; transition: transform .4s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .right-content:hover img { transform: scale(1.05); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .right-content:hover img { transform: none; }
+}
+nav { background: var(--color-background); border-color: var(--color-border); }
+.main-content { gap: var(--space-6); padding: var(--space-4) var(--space-3) var(--space-8); border-color: var(--color-border); }
+.featured-section, .showcase-section, .skills-section, .worked-section, .about-section, .contact-section { margin-top: var(--space-8); padding: var(--space-3); }
+.section-header { margin-bottom: var(--space-4); }
+.section-title, .name, .showcase-title, .skill-title, .work-title { color: var(--color-text); }
+.section-subtitle, .description, .project-count, .showcase-description, .project-facts dt, .skill-description li, .work-description, .about-text, .footer p, .image-grid figcaption { color: var(--color-text-secondary); }
+.featured-card, .showcase-card, .skill-card, .work-item, .detail-item, .game-media, .game-about .about-section { background: var(--color-background-light); border-color: var(--color-border); }
+.featured-card, .showcase-card, .skills-grid, .work-item { border-radius: var(--border-radius-md); }
+.featured-grid, .projects-grid, .work-grid, .image-grid { gap: var(--space-3); }
+.showcase-content, .showcase-card:hover .showcase-content, .skill-card, .work-content { padding: var(--space-3); }
+.showcase-content, .showcase-card:hover .showcase-content { gap: var(--space-2); }
+.showcase-tags, .game-tags { gap: var(--space-1); }
+.skills-grid, .skill-card { border-color: var(--color-border); }
+.skill-card { border-radius: 0; }
+.skill-card:focus-within { box-shadow: inset 0 0 0 1px var(--color-primary), inset 0 0 24px #67b7ff12; }
+.project-facts > div { grid-template-columns: 72px minmax(0, 1fr); gap: var(--space-2); }
+.project-facts dd { color: var(--color-text); }
+.featured-card > img, .showcase-card > img { background: var(--color-background); }
+.contact-btn, .btn-primary, .filter-btn.active, .filter-btn:hover, .work-label, .copy-email { color: var(--color-background); background: var(--color-primary); }
+.contact-btn:hover, .btn-primary:hover, .copy-email:hover { background: var(--color-primary-hover); color: var(--color-background); }
+.secondary-btn { color: var(--color-primary); background: transparent; }
+.hero-role, .greeting, .view-details, .all-projects-link, .showcase-type, .skill-evidence a, .project-journey a { color: var(--color-primary); }
+.greeting { color: var(--color-text); }
+.social-container a, .social-container a:hover { background: var(--color-background-light); border-color: var(--color-border); color: var(--color-text); }
+.social-container a:hover, .social-container a:focus-visible { border-color: var(--color-primary); color: var(--color-primary); }
+.contact-section { align-items: stretch; }
+.contact-direct { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3); }
+.contact-email { color: var(--color-primary); font-size: 1.1rem; min-height: 44px; display: inline-flex; align-items: center; user-select: all; }
+.copy-email { min-height: 44px; border: 1px solid var(--color-primary); border-radius: 8px; padding: 8px 16px; font: inherit; font-weight: 600; cursor: pointer; }
+.copy-status { color: var(--color-text-secondary); min-height: 24px; flex-basis: 100%; }
+.social-container { justify-content: flex-start; gap: var(--space-2); }
+.project-journey { border-color: var(--color-border); gap: var(--space-3); }
+.footer { border-color: var(--color-border); }
+.game-media { gap: var(--space-3); }
+.game-about .about-section { border: 1px solid var(--color-border); padding: var(--space-4); }
+.main-preview img { object-fit: contain; background: var(--color-background); }
+.game-details h1 { font-size: clamp(1.75rem, 3vw, 2.5rem); line-height: 1.2; }
+:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 4px; }
+@media (max-width: 768px) {
+  .featured-section, .showcase-section, .skills-section, .worked-section, .about-section, .contact-section { padding: var(--space-2); margin-top: var(--space-6); }
+  .main-content { padding: var(--space-2) var(--space-2) var(--space-3); gap: var(--space-2); margin-top: 72px; }
+  .right-content { flex: auto; width: min(260px, 100%); max-width: 260px; }
+  .greeting { font-size: 1.1rem; margin-bottom: 8px; }
+  .name { font-size: 2rem; }
+  .hero-role { font-size: 1.6rem; margin-bottom: 16px; }
+  .description { font-size: 1rem; margin-bottom: 16px; }
+  .game-media, .game-about .about-section { padding: var(--space-2); }
+}

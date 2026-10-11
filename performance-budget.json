@@ -1,0 +1,12 @@
+{
+  "labProfile": "390x844, 150ms latency, 1.6Mbps download, CPU 4x, fresh browser context",
+  "lcpMs": 2500,
+  "cls": 0.1,
+  "sampledInteractionMs": 200,
+  "initialTransferredBytes": 460800,
+  "largestImageBytes": 614400,
+  "publishedImagesTotalBytes": 7340032,
+  "maxImageWidth": 1920,
+  "youtubeEmbedsBeforeClick": 0,
+  "swiperScriptsPerPage": 1
+}
