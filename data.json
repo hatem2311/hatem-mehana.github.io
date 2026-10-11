@@ -1,57 +1,81 @@
 {
-  "hero": {
-    "name": "Hatem Mehena",
-    "description": "Unity  Developer & Level Designer & Team Leader",
-    "resumeUrl": "hatem mehana.pdf",
-    "profileImage": "images/2.png"
+  "seo": {
+    "siteUrl": ""
   },
+  "hero": {
+    "name": "Hatem Mehana",
+    "greeting": "Hey, I'm Hatem!",
+    "role": "Gameplay Developer",
+    "description": "I build gameplay systems with Unity and C#, design levels, and help teams turn ideas into playable experiences.",
+    "resumeUrl": "hatem mehana.pdf",
+    "profileImage": "images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp"
+  },
+  "featuredProjectIds": [
+    "azooma-escape",
+    "implant-mission-the-lost-tree",
+    "horror-home"
+  ],
   "about": {
-    "description": "I am a game developer with 5 years of experience in game development using Unity and C#. I have worked on over 30 projects, including mobile games and multiplayer online games. I have strong expertise in level design, lighting, and environment creation, as well as team and project management. I founded RTG Studio and won first place in the Game Jam (Special Edition) by public vote. I have several games published on Google Play.",
+    "description": "I develop games using Unity and C#, with a focus on gameplay programming, level design, lighting, and environment creation. I founded RTG Studio and collaborate on game production. My work includes Azooma Escape on Steam and Implant Mission: The Lost Tree, ranked #1 Overall in the Game Zanga (Special Edition) public voting results in 2024.",
     "details": [
-      { "icon": "extension-puzzle", "label": "Experience", "value": "5 Years" },
-      { "icon": "checkmark-done", "label": "Projects Completed", "value": "30+" },
+      {
+        "icon": "checkmark-done",
+        "label": "Portfolio Projects",
+        "value": "7",
+        "source": {
+          "label": "Explore all seven projects",
+          "url": "index.html#showcase"
+        }
+      },
       {
         "icon": "trophy",
         "label": "Awards",
-        "value": "1st in Game Zanga (Special Edition) Won with Implant Mission."
-      },
-      { "icon": "logo-google-playstore", "label": "GooglePlay", "value": "4" },
-      { "icon": "logo-steam", "label": "Steam", "value": "1" },
-      { "icon": "game-controller", "label": "Itech.Io", "value": "1" }
+        "value": "#1 Overall in Game Zanga (Special Edition) public voting, with Implant Mission (2024).",
+        "source": {
+          "label": "Game Zanga 2024 — public voting results",
+          "url": "https://itch.io/jam/gamezanga-specialedition/rate/2563575"
+        }
+      }
     ]
   },
-
   "skills": [
     {
-      
       "icon": "speedometer",
-      "title": "Unity ",
+      "title": "Gameplay Programming",
+      "projectIds": [
+        "azooma-escape"
+      ],
       "points": [
-        "Developing gameplay systems using C# and Unity .",
+        "Developing gameplay systems using C# and Unity.",
         "Building AI systems to create dynamic interaction with the environment.",
         "Optimizing performance.",
         "Handling physics and collisions.",
         "Designing UI systems compatible with different platforms",
         "Using Photon and Unity Netcode to support multiplayer gaming over the network.",
-        "Adding ADS within games.",
-        "Log in via Facebook and Google.",
-        "Add in-game purchases."
+        "Integrating in-game advertising.",
+        "Implementing Facebook and Google sign-in.",
+        "Integrating in-app purchases."
       ]
     },
-
     {
       "icon": "eye",
       "title": "Level Design",
+      "projectIds": [
+        "horror-home"
+      ],
       "points": [
         "Designing complete game environments while considering performance and aesthetics.",
-        "Using Block Out to test gameplay mechanics before finalizing the design.",
+        "Using blockouts to test gameplay mechanics before finalizing the design.",
         "Optimizing performance using LOD, Occlusion Culling, Sprite Grass, Light Baking, and more",
         "Adding lighting and fog effects to create immersive atmospheres."
       ]
     },
     {
       "icon": "people",
-      "title": "Teamwork Leadership",
+      "title": "Team Leadership",
+      "projectIds": [
+        "implant-mission-the-lost-tree"
+      ],
       "points": [
         "Planning project timelines to ensure on-time delivery.",
         "Organizing team tasks and distributing roles to ensure efficient workflow.",
@@ -63,41 +87,40 @@
   ],
   "work": [
     {
-      "image": "images/Logos/5124.png",
+      "image": "images/optimized/Logos/5124-320.webp",
       "current": true,
       "title": "RTG Studio",
       "duration": "2022 - Present",
       "description": "Senior Game Developer working on mobile game projects and team management."
     },
     {
-      "image": "images/Logos/ash_games_cover.jpeg",
+      "image": "images/optimized/Logos/ash_games_cover-320.webp",
       "current": true,
       "title": "ASH Studio",
       "duration": "2024 - Present",
-      "description": "production Assistant,Level Designer, Programmer "
+      "description": "Production assistant, level designer, and gameplay programmer."
     },
-
     {
-      "image": "images/Logos/Screenshot 2023-03-16 011643.jpg",
+      "image": "images/optimized/Logos/Screenshot 2023-03-16 011643-640.webp",
       "title": "Grays Games",
       "duration": "2020",
-      "description": "I worked on reskin games."
+      "description": "Worked on game reskinning projects."
     }
   ],
   "social": [
     {
       "icon": "logo-linkedin",
-      "name": "Linkdin",
+      "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/hatem-mehana-b88833241/?trk=public-profile-join-page"
     },
     {
       "icon": "logo-whatsapp",
-      "name": "WhatApp",
+      "name": "WhatsApp",
       "url": "https://api.whatsapp.com/send/?phone=%2B201016867349&text&type=phone_number&app_absent=0"
     },
     {
       "icon": "mail",
-      "name": "GMail",
+      "name": "Email",
       "url": "mailto:hatemmehana666@gmail.com"
     },
     {
@@ -107,46 +130,44 @@
     },
     {
       "icon": "logo-youtube",
-      "name": "Youtube",
+      "name": "YouTube",
       "url": "https://www.youtube.com/@hatemmehana2311"
     }
   ],
   "showcase": {
-    "sections": ["All", "Mobile", "RTG", "Ash"],
     "projects": [
       {
-        "name": "🔹Horror Home🔹",
+        "name": "Horror Home",
         "category": "Level Design",
-        "image": "images/Horror Home/OutdoorsScene_4K.jpg",
+        "image": "images/optimized/Horror Home/OutdoorsScene_4K-1920.webp",
         "description": "small environment consisting of a house room, inside and outside, and one enemy",
-        "tags": ["Unity", "Level Design", "3D"],
+        "tags": [
+          "Unity",
+          "Level Design",
+          "3D"
+        ],
         "type": "Level Design",
-
-
         "gallery": [
-          "images/Horror Home/OutdoorsScene_4K.jpg",
-          "images/Horror Home/OutdoorsScene_5.jpg",
-          "images/Horror Home/New Scene 1_4K_16.08.2024_18-59-36.jpg",
-          "images/Horror Home/OutdoorsScene.jpg",
-          "images/Horror Home/OutdoorsScene2.jpg",
-          "images/Horror Home/OutdoorsScene_4.jpg"
+          "images/optimized/Horror Home/OutdoorsScene_4K-1920.webp",
+          "images/optimized/Horror Home/OutdoorsScene_5-1920.webp",
+          "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-1920.webp",
+          "images/optimized/Horror Home/OutdoorsScene-1920.webp",
+          "images/optimized/Horror Home/OutdoorsScene2-1920.webp",
+          "images/optimized/Horror Home/OutdoorsScene_4-1920.webp"
         ],
         "about": [
           {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
+            "items": [
               "Goal: Showcase 3D design skills",
               "Perspective: First-person view",
               "Environment: Square map featuring a forest and one safe room",
               "Enemy: Shapeshifter enemy with detailed visual design",
               "Focus: High-quality Level design, lighting, texturing, and visual effects"
             ]
-             
           },
-
-           {
+          {
             "type": "feature-list",
             "title": "My Role",
             "items": [
@@ -154,7 +175,7 @@
               "Created and developed the level layout, ensuring clear pathways and balanced spaces.",
               "Organized and placed elements strategically to support the overall structure.",
               "Implemented the map inside the engine, turning the concept into a usable level.",
-              "Reviewed and iterated on the design to deliver a polished final version." 
+              "Reviewed and iterated on the design to deliver a polished final version."
             ]
           },
           {
@@ -163,50 +184,88 @@
             "items": [
               "Unity HDRP",
               "HQ Retro Farmhouse (Modular)",
-              "Forest Environment - Dynamic Nature" 
+              "Forest Environment - Dynamic Nature"
             ]
           }
-          
-        
         ],
-        
         "meta": {
-          "Execution Time": "20 Hours 1 Week",
-          "Designer": "Hatem Mehana",
           "Publisher": "none",
-          "Platforms": ["Windows"],
+          "Platforms": [
+            "Windows"
+          ],
           "Genre": "Horror Games",
           "Status": "Finished"
+        },
+        "id": "horror-home",
+        "legacyId": 0,
+        "role": "Level Designer",
+        "duration": "20 Hours 1 Week",
+        "engine": "Unity HDRP",
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Developed and implemented the level layout in Unity.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/horror-home.html#mainPreview"
+              }
+            },
+            {
+              "text": "Placed environment elements and reviewed the layout through iteration.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/horror-home.html#mainPreview"
+              }
+            }
+          ],
+          "decisions": [],
+          "figures": [
+            {
+              "url": "images/optimized/Horror Home/OutdoorsScene_5-1920.webp",
+              "caption": "Final environment: warm firelight contrasts with the blue forest and fog. This image shows lighting and composition, not a blockout or a complete route plan."
+            }
+          ],
+          "outcomes": [],
+          "levelDesign": {
+            "summary": "A square forest environment with one safe room and one shapeshifter enemy. My contribution was the layout, clear pathways, spatial organization, and in-engine implementation.",
+            "stages": [],
+            "decisions": []
+          }
+        },
+        "cardSummary": {
+          "description": "A house environment with interior, exterior and one enemy.",
+          "contribution": "Built the level layout in Unity."
         }
       },
-
       {
-        "name": "🔹3D Tic Tac Toe🔹",
+        "name": "3D Tic Tac Toe",
         "category": "Full game ",
-        "image": "images/X-O/Screenshot 2023-05-18 200115.jpg",
+        "image": "images/optimized/X-O/Screenshot 2023-05-18 200115-1920.webp",
         "description": " The classic game reimagined in 3D for a modern, exciting experience.",
-        "tags": ["Unity", "C#", "Prototype","Blender"],
+        "tags": [
+          "Unity",
+          "C#",
+          "Prototype",
+          "Blender"
+        ],
         "type": "Prototype",
-        
         "gallery": [
-          "images/X-O/photo_2023-05-28_23-46-45.jpg",
-          "images/X-O/photo_2023-05-29_00-00-47.jpg",
-          "images/X-O/Screenshot 2023-05-28 204836.jpg",
-          "images/X-O/Screenshot 2023-05-28 204946.jpg",
-          "images/X-O/Screenshot 2023-05-28 204905.jpg",
-          "images/X-O/Screenshot 2023-05-28 204638.png"
+          "images/optimized/X-O/photo_2023-05-28_23-46-45-1280.webp",
+          "images/optimized/X-O/photo_2023-05-29_00-00-47-1280.webp",
+          "images/optimized/X-O/Screenshot 2023-05-28 204836-1920.webp",
+          "images/optimized/X-O/Screenshot 2023-05-28 204946-1920.webp",
+          "images/optimized/X-O/Screenshot 2023-05-28 204905-1920.webp",
+          "images/optimized/X-O/Screenshot 2023-05-28 204638-1920.webp"
         ],
         "about": [
           {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
+            "items": [
               "A 3D version of the classic Tic Tac Toe with a fresh visual style.",
               "Turn-based gameplay for two players with clear indicators.",
               "Automated win detection system and simple UI for start, restart, and results."
             ]
-             
           },
           {
             "type": "feature-list",
@@ -214,7 +273,7 @@
             "items": [
               "Programming the core gameplay systems.",
               "Level design and environment setup.",
-              "Performance optimization." ,
+              "Performance optimization.",
               "Lighting design for better visuals."
             ]
           },
@@ -227,48 +286,96 @@
               "C#"
             ]
           }
-
         ],
         "meta": {
-          "Execution Time": "24 Hours 1 Week",
-          "Developer": "Hatem Mehan",
           "Publisher": "RTG",
-          "Platforms": ["Windows","Mobile"],
-          "Genre": ["Strategy ","Puzzle"],
+          "Platforms": [
+            "Windows",
+            "Mobile"
+          ],
+          "Genre": [
+            "Strategy ",
+            "Puzzle"
+          ],
           "Status": "Finished"
+        },
+        "id": "3d-tic-tac-toe",
+        "legacyId": 1,
+        "role": "Gameplay Programmer & Level Designer",
+        "duration": "24 Hours 1 Week",
+        "engine": "Unity 3D URP",
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Programming the core gameplay systems.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/3d-tic-tac-toe.html#mainPreview"
+              }
+            },
+            {
+              "text": "Level design and environment setup.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/3d-tic-tac-toe.html#mainPreview"
+              }
+            },
+            {
+              "text": "Performance optimization.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/3d-tic-tac-toe.html#mainPreview"
+              }
+            },
+            {
+              "text": "Lighting design for better visuals.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/3d-tic-tac-toe.html#mainPreview"
+              }
+            }
+          ],
+          "decisions": [],
+          "figures": [],
+          "outcomes": []
+        },
+        "cardSummary": {
+          "description": "Classic tic-tac-toe reimagined in 3D.",
+          "contribution": "Programmed the core gameplay systems."
         }
       },
-
       {
-
-        "name": "🔹Implant Mission: The Lost Tree🔹",
-        "image": "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
+        "name": "Implant Mission: The Lost Tree",
+        "image": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp",
         "description": "Explore a polluted land in search of the last hope to restore life!",
-        "tags": ["Platform","Unity", "Level Design", "C#"],
+        "tags": [
+          "Platform",
+          "Unity",
+          "Level Design",
+          "C#"
+        ],
         "type": "Prototype",
         "videoUrl": "https://www.youtube.com/embed/Ssm2PqiFbOQ",
+        "previewVideo": "images/previews/implant-mission-montage.webm",
         "gallery": [
-          "images/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50.jpg",
-          "images/ImpDant Misson/Environment_Free_1080p_19.01.2025_17-15-39.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47.jpg",
-          "images/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00.jpg"
+          "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-1920.webp",
+          "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-1920.webp"
         ],
-
         "about": [
-           {
+          {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
-              "Implant Mission: The Lost Tree is a unique project we developed for the largest game competition in the Arab world in 2024, which brought together more than 800 participants and over 200 games.",
-              "In just three days, our team of 11 members successfully completed the game. Managing and coordinating such a large team within such a short timeframe was a major challenge.",
-              "Despite these difficulties, we achieved an outstanding milestone by winning first place, based on audience votes. This accomplishment highlights the strength of our concept, the quality of execution, and the engaging gameplay and visuals we delivered."
+            "items": [
+              "Created for Game Zanga (Special Edition), 2024.",
+              "Our team of 11 completed the game in three days.",
+              "Ranked #1 Overall in the public voting results; see the linked results below."
             ]
-             
           },
           {
             "type": "feature-list",
@@ -282,7 +389,7 @@
             "type": "feature-list",
             "title": "Technologies & Tools",
             "items": [
-              "Unity 3D URP",  
+              "Unity 3D URP",
               "C#",
               "Blender",
               "Figma",
@@ -290,66 +397,114 @@
               "Milnote"
             ]
           }
-        
         ],
-
-
         "meta": {
-          "Execution Time": " Three Days",
-          "Developer": "Hatem Mehana",
           "Publisher": "RTG",
-          "Platforms": ["Windows"],
-          "Genre": ["Platform ","Puzzle"],
-          "Status": "Published on Itech.io"
+          "Platforms": [
+            "Windows"
+          ],
+          "Genre": [
+            "Platform ",
+            "Puzzle"
+          ],
+          "Status": "Published on itch.io"
         },
-
         "storeLinks": {
-         
-          "Itech.Io ": {
-            "url": "https://hatemmehana.itch.io/the-lost-tree",
-            "icon": "fa-brands fa-itch-io"
+          "itch.io": {
+            "url": "https://hatemmehana.itch.io/the-lost-tree"
           }
+        },
+        "id": "implant-mission-the-lost-tree",
+        "legacyId": 2,
+        "role": "Team Leader & Level Designer",
+        "duration": "Three Days",
+        "engine": "Unity 3D URP",
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Team leadership, coordination, and supervision of the workflow.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/Ssm2PqiFbOQ"
+              }
+            },
+            {
+              "text": "Worked as the Level Designer, creating the game’s map and puzzles.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/Ssm2PqiFbOQ"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "title": "A three-day team project",
+              "challenge": "Coordinate 11 team members within a three-day game jam.",
+              "solution": "Led the team workflow and designed the map and puzzles.",
+              "evidence": {
+                "label": "Play the submitted game",
+                "url": "https://hatemmehana.itch.io/the-lost-tree"
+              }
+            }
+          ],
+          "figures": [],
+          "outcomes": [
+            {
+              "text": "Available on itch.io.",
+              "evidence": {
+                "label": "Open itch.io page",
+                "url": "https://hatemmehana.itch.io/the-lost-tree"
+              }
+            },
+            {
+              "text": "Ranked #1 Overall in the public voting results for Game Zanga (Special Edition), 2024.",
+              "evidence": {
+                "label": "Game Zanga 2024 — public voting results",
+                "url": "https://itch.io/jam/gamezanga-specialedition/rate/2563575"
+              }
+            }
+          ]
+        },
+        "team": "11 members",
+        "cardSummary": {
+          "description": "Explore a polluted land in search of the last hope to restore life.",
+          "contribution": "Led the team and coordinated its workflow."
         }
       },
-
-      
       {
-        "name": "🔹Lanterns Ninja🔹",
+        "name": "Lanterns Ninja",
         "category": "Full game",
-        "image": "images/Lanterns Ninja/unnamed.webp",
+        "image": "images/optimized/Lanterns Ninja/unnamed-320.webp",
         "description": "Your goal is to destroy as many lanterns as possible and collect as many points as possible.",
-        "tags": ["Unity", "3D","Google Play"],
+        "tags": [
+          "Unity",
+          "3D",
+          "Google Play"
+        ],
         "type": "full game",
-        
-
         "gallery": [
-          
-          "images/Lanterns Ninja/unnamed (1).webp",
-          "images/Lanterns Ninja/unnamed1.webp",
-          "images/Lanterns Ninja/unnamed (2).webp"
-          
+          "images/optimized/Lanterns Ninja/unnamed (1)-1920.webp",
+          "images/optimized/Lanterns Ninja/unnamed1-1920.webp",
+          "images/optimized/Lanterns Ninja/unnamed (2)-1280.webp"
         ],
         "about": [
           {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
+            "items": [
               "Goal: Challenge to finish the game in less than a week",
               "Casual and easy-to-learn mobile game",
               "Features simple, colorful visuals.",
               "Available now on Google Play."
             ]
-             
           },
-
-           {
+          {
             "type": "feature-list",
             "title": "My Role",
             "items": [
               "Conceived and developed the core idea of the project",
               "Designed the 3D environment and enhanced the level design.",
-              "Restructured the entire codebase to ensure scalability and maintainability." ,
+              "Restructured the entire codebase to ensure scalability and maintainability.",
               "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
             ]
           },
@@ -362,55 +517,103 @@
               "C#"
             ]
           }
-          
-        
         ],
-        
         "meta": {
-          "Execution Time": "Two Weeks",
-          "Developer": "Hatem Mehana",
           "Publisher": "RTG",
-          "Platforms": ["Android"],
+          "Platforms": [
+            "Android"
+          ],
           "Genre": "Arcade / Casual / Action",
           "Status": "Published on Google Play"
         },
-         "storeLinks": {
-         
+        "storeLinks": {
           "Google Play ": {
-            "url": "https://play.google.com/store/apps/details?id=com.Grays.LanternsNinja&hl=ar",
-            "icon": "fa-google-play"
+            "url": "https://play.google.com/store/apps/details?id=com.Grays.LanternsNinja&hl=ar"
           }
+        },
+        "id": "lanterns-ninja",
+        "legacyId": 3,
+        "role": "Gameplay Programmer & Level Designer",
+        "duration": "Two Weeks",
+        "engine": "Unity URP",
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Conceived and developed the core idea of the project",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/lanterns-ninja.html#mainPreview"
+              }
+            },
+            {
+              "text": "Designed the 3D environment and enhanced the level design.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/lanterns-ninja.html#mainPreview"
+              }
+            },
+            {
+              "text": "Restructured the entire codebase to ensure scalability and maintainability.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/lanterns-ninja.html#mainPreview"
+              }
+            },
+            {
+              "text": "Developed the overall architecture of the systems, including UI, gameplay, and lighting.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/lanterns-ninja.html#mainPreview"
+              }
+            }
+          ],
+          "decisions": [],
+          "figures": [],
+          "outcomes": [
+            {
+              "text": "Available on Google Play.",
+              "evidence": {
+                "label": "Open Google Play page",
+                "url": "https://play.google.com/store/apps/details?id=com.Grays.LanternsNinja&hl=ar"
+              }
+            }
+          ]
+        },
+        "cardSummary": {
+          "description": "Destroy lanterns and collect points.",
+          "contribution": "Conceived and developed the core idea."
         }
       },
-
       {
-        "name": "🔹Azooma Escape🔹",
+        "name": "Azooma Escape",
         "category": "Full game",
-        "image": "images/Azooma/game_title.png",
+        "image": "images/optimized/Azooma/game_title-1280.webp",
+        "gameplayPoster": "images/optimized/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338-320.webp",
         "description": "Hide. Dodge flying slippers. Avoid that ONE uncle determined to feed you. Your mission: escape Uncle's celebration alive and unfed.",
-        "tags": ["Unity", "2D","Steam"],
+        "tags": [
+          "Unity",
+          "2D",
+          "Steam"
+        ],
         "type": "full game",
         "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
-
+        "previewVideo": "images/Azooma/827089c520bfe9f758c14cf58089a032.webm",
         "gallery": [
-          
-          "images/Azooma/1.png",
-          "images/Azooma/2.png",
-          "images/Azooma/3.png",
-          "images/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338.jpg",
-          "images/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338.jpg",
-          "images/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338.jpg",
-          "images/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338.jpg",
-          "images/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338.jpg",
-          "images/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338.jpg"
-          
+          "images/optimized/Azooma/1-640.webp",
+          "images/optimized/Azooma/2-640.webp",
+          "images/optimized/Azooma/3-640.webp",
+          "images/optimized/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338-320.webp",
+          "images/optimized/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338-320.webp",
+          "images/optimized/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338-320.webp",
+          "images/optimized/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338-320.webp",
+          "images/optimized/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338-320.webp",
+          "images/optimized/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338-320.webp"
         ],
         "about": [
           {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
+            "items": [
               "First Saudi stealth comedy game developed by ASH Studio.",
               "Transforms a traditional family gathering (Azooma) into a stealth escape adventure.",
               "Unique twist: Relatives replace guards – armed with food, questions, and endless hospitality.",
@@ -419,10 +622,8 @@
               "Tone: lighthearted, funny, and culturally authentic while delivering classic stealth tension.",
               "Vision: showcase Saudi identity through comedy and chaos, creating a globally accessible gaming experience."
             ]
-             
           },
-
-           {
+          {
             "type": "feature-list",
             "title": "My Role",
             "items": [
@@ -443,55 +644,135 @@
               "Notion",
               "Miro",
               "figma"
-              
             ]
           }
-          
-        
         ],
-        
         "meta": {
-          "Execution Time": "Two years",
-          "MyRole": "Programmer & Level Designer",
           "Publisher": "ASH",
-          "Platforms": ["Steam"],
+          "Platforms": [
+            "Steam"
+          ],
           "Genre": "Action /Adventure/ Casual/ Indie",
           "Status": "Published on Steam"
         },
-         "storeLinks": {
-         
+        "storeLinks": {
           "Steam ": {
-            "url": "https://store.steampowered.com/app/2896760/Azooma_Escape/",
-            "icon": "fa-google-play"
+            "url": "https://store.steampowered.com/app/2896760/Azooma_Escape/"
           }
+        },
+        "id": "azooma-escape",
+        "legacyId": 4,
+        "role": "Programmer & Level Designer",
+        "duration": "Two years",
+        "engine": "Unity 2D URP",
+        "technicalSystems": [
+          {
+            "id": "saved-collectibles",
+            "title": "Collectibles & persistent progress",
+            "contribution": "My documented contribution includes collectible item systems with persistent saving and the collectibles interface.",
+            "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+            "presentation": "documented-summary"
+          },
+          {
+            "id": "detection-alerts",
+            "title": "Visual detection & enemy alerts",
+            "contribution": "My documented contribution includes visual field detection and enemy animation alerts.",
+            "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+            "presentation": "documented-summary"
+          },
+          {
+            "id": "gameplay-ui",
+            "title": "Gameplay UI integration",
+            "contribution": "I rebuilt and programmed the HUD, main menu, and collectibles interface as documented in this project.",
+            "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+            "presentation": "documented-summary"
+          }
+        ],
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Designed puzzles, obstacles, enemy placements, and open/closed paths for player progression.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+              }
+            },
+            {
+              "text": "Implemented crouching, achievement tracking, visual detection, enemy alerts, and saved collectibles.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+              }
+            },
+            {
+              "text": "Rebuilt and programmed the HUD, main menu, and collectibles interface.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "title": "Joining an ongoing project",
+              "challenge": "Understand existing systems while taking on changing design, programming, and UI responsibilities.",
+              "solution": "Researched the existing systems, collaborated with the team, and implemented gameplay and UI features.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+              }
+            }
+          ],
+          "figures": [
+            {
+              "url": "images/optimized/Azooma/1-640.webp",
+              "caption": "Azooma Escape gameplay screenshot. My documented contribution covers puzzles, paths, gameplay systems, and UI; the scene is a team production."
+            }
+          ],
+          "outcomes": [
+            {
+              "text": "Available on Steam.",
+              "evidence": {
+                "label": "Open Steam page",
+                "url": "https://store.steampowered.com/app/2896760/Azooma_Escape/"
+              }
+            }
+          ]
+        },
+        "cardSummary": {
+          "description": "Escape a family celebration by hiding and dodging flying slippers.",
+          "contribution": "Designed puzzles, obstacles and enemy placements."
         }
       },
       {
-        "name": "🔹King Of Stratgy🔹",
+        "name": "King Of Stratgy",
         "category": "Full game",
-        "image": "images/King Of Stratgy/Icon-512.png",
+        "image": "images/optimized/King Of Stratgy/Icon-512-320.webp",
         "description": "strategy game simulating ancient battles with five unit types and 10 historical armies, each with unique traits. It features 30 challenging levels where players set formations and watch the outcome.",
-        "tags": ["Unity", "2D","Stratgy","Android"],
+        "tags": [
+          "Unity",
+          "2D",
+          "Stratgy",
+          "Android"
+        ],
         "type": "full game",
         "videoUrl": "https://www.youtube.com/embed/GfK1WgT8G7Y",
-
+        "previewVideo": "images/previews/king-of-stratgy.webm",
         "gallery": [
-          "images/King Of Stratgy/3.jpg",
-          "images/King Of Stratgy/IMG-20250906-WA0007.jpg",
-          "images/King Of Stratgy/2.png",
-          "images/King Of Stratgy/IMG-20250906-WA0008.jpg",
-          "images/King Of Stratgy/IMG-20250906-WA0004.jpg",
-          "images/King Of Stratgy/unnamed (1).webp",
-          "images/King Of Stratgy/unnamed (2).webp",
-          "images/King Of Stratgy/unnamed.webp"        
-          
+          "images/optimized/King Of Stratgy/3-1280.webp",
+          "images/optimized/King Of Stratgy/IMG-20250906-WA0007-1280.webp",
+          "images/optimized/King Of Stratgy/2-1280.webp",
+          "images/optimized/King Of Stratgy/IMG-20250906-WA0008-1280.webp",
+          "images/optimized/King Of Stratgy/IMG-20250906-WA0004-1280.webp",
+          "images/optimized/King Of Stratgy/unnamed (1)-1280.webp",
+          "images/optimized/King Of Stratgy/unnamed (2)-1280.webp",
+          "images/optimized/King Of Stratgy/unnamed-1280.webp"
         ],
         "about": [
           {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
+            "items": [
               "A strategy game that simulates ancient battles using squares as units",
               "Five categories of units with different offensive and defensive abilities.",
               "Ten historical armies, each with a unique ability.",
@@ -500,10 +781,8 @@
               "Option to hold and deploy units during the fight.",
               "Available now on Google Play."
             ]
-             
           },
-
-           {
+          {
             "type": "feature-list",
             "title": "My Role",
             "items": [
@@ -522,74 +801,112 @@
               "C#"
             ]
           }
-          
-        
         ],
-        
         "meta": {
-          "Execution Time": "3 months",
-          "MyRole": "Programmer & Level Designer",
           "Publisher": "Ahmed Mohamed Zaghloul",
-          "Platforms": ["Android"],
+          "Platforms": [
+            "Android"
+          ],
           "Genre": "Stratgy",
           "Status": "Published on Google Play"
         },
-         "storeLinks": {
-         
+        "storeLinks": {
           "Google Play ": {
-            "url": "https://play.google.com/store/apps/details?id=com.revivethegames.kingofstrategy",
-            "icon": "fa-google-play"
+            "url": "https://play.google.com/store/apps/details?id=com.revivethegames.kingofstrategy"
           }
+        },
+        "id": "king-of-stratgy",
+        "legacyId": 5,
+        "role": "Programmer & Level Designer",
+        "duration": "3 months",
+        "engine": "Unity 3D URP",
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Organized and structured the project to ensure scalability and smooth development.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/GfK1WgT8G7Y"
+              }
+            },
+            {
+              "text": "Programmed the core systems and gameplay mechanics.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/GfK1WgT8G7Y"
+              }
+            },
+            {
+              "text": "Designed levels with balanced progression and difficulty.",
+              "evidence": {
+                "label": "Watch project gameplay",
+                "url": "https://www.youtube.com/embed/GfK1WgT8G7Y"
+              }
+            }
+          ],
+          "decisions": [],
+          "figures": [],
+          "outcomes": [
+            {
+              "text": "Available on Google Play.",
+              "evidence": {
+                "label": "Open Google Play page",
+                "url": "https://play.google.com/store/apps/details?id=com.revivethegames.kingofstrategy"
+              }
+            }
+          ]
+        },
+        "cardSummary": {
+          "description": "Ancient-battle strategy with formations, five unit types and 30 levels.",
+          "contribution": "Structured the project for scalable development."
         }
       },
       {
-        "name": "🔹Roblox Maps🔹",
+        "name": "Roblox Maps",
         "category": "Level Design",
-        "image": "images/RobLox Maps/c5.png",
+        "image": "images/optimized/RobLox Maps/c5-1920.webp",
         "description": "Each map is organized by stages of development, as shown in the following images.",
-        "tags": ["Unity", "3D","Level Design","Android"],
+        "tags": [
+          "Unity",
+          "3D",
+          "Level Design",
+          "Android"
+        ],
         "type": "Level Design",
-
-
         "gallery": [
-          "images/RobLox Maps/6.jpg",
-          "images/RobLox Maps/1.png",
-          "images/RobLox Maps/2.png",
-          "images/RobLox Maps/3.jpg",
-          "images/RobLox Maps/4.jpg",
-          "images/RobLox Maps/5.png" ,
-          "images/RobLox Maps/13.png",
-          "images/RobLox Maps/11.png",
-          "images/RobLox Maps/7.png",
-          "images/RobLox Maps/12.png",
-          "images/RobLox Maps/c1.png",
-          "images/RobLox Maps/c2.png" ,
-          "images/RobLox Maps/c3.png",
-          "images/RobLox Maps/c5.png" 
-          
+          "images/optimized/RobLox Maps/6-320.webp",
+          "images/optimized/RobLox Maps/1-1280.webp",
+          "images/optimized/RobLox Maps/2-1280.webp",
+          "images/optimized/RobLox Maps/3-320.webp",
+          "images/optimized/RobLox Maps/4-1920.webp",
+          "images/optimized/RobLox Maps/5-1920.webp",
+          "images/optimized/RobLox Maps/13-1920.webp",
+          "images/optimized/RobLox Maps/11-1920.webp",
+          "images/optimized/RobLox Maps/7-1920.webp",
+          "images/optimized/RobLox Maps/12-1920.webp",
+          "images/optimized/RobLox Maps/c1-1920.webp",
+          "images/optimized/RobLox Maps/c2-1920.webp",
+          "images/optimized/RobLox Maps/c3-1920.webp",
+          "images/optimized/RobLox Maps/c5-1920.webp"
         ],
         "about": [
           {
             "type": "feature-list",
             "title": "Project Overview",
-            "items": 
-            [
-              
+            "items": [
               "A multiplayer party game with up to 100 players or less, depending on the map.",
               "Includes diverse modes like Hide & Seek, Glass Bridge, Red Light Green Light, and temporary-tile survival challenges.",
               "Designed for streamers on Twitch – supporters can join special rooms directly through Twitch integration, enhancing community interaction."
             ]
-             
           },
-
-           {
+          {
             "type": "feature-list",
             "title": "My Role",
             "items": [
               "Took responsibility for removing old maps and creating new ones from scratch, working around 4 hours per day, and completed 3 different maps (such as Glass Bridge, Red Light Green Light, and temporary-tile survival) within 1–2 days each.",
               "Designed a large-scale Hide & Seek map for 50+ players, which required 6 days due to its size and complexity.",
               "Overcame the challenge of working with a pre-made Asset from the Asset Store by creating diverse visual and gameplay experiences while keeping performance optimized for Android devices.",
-               "Handled the lighting design for all maps, ensuring a balanced and appealing look. All maps were successfully integrated and made playable."
+              "Handled the lighting design for all maps, ensuring a balanced and appealing look. All maps were successfully integrated and made playable."
             ]
           },
           {
@@ -598,24 +915,1128 @@
             "items": [
               "Unity 3D URP",
               "Low Poly 16in1 - RG Poly"
-              
             ]
           }
-          
-        
         ],
-        
         "meta": {
-          "Execution Time": "2 Weeks",
-          "MyRole": " Level Designer",
           "Publisher": "glitchouse",
-          "Platforms": ["Android"],
+          "Platforms": [
+            "Android"
+          ],
           "Genre": "StrParty / Battle Royale / platformer",
           "Status": "Under testing"
+        },
+        "id": "roblox-maps",
+        "legacyId": 6,
+        "role": "Level Designer",
+        "duration": "2 Weeks",
+        "engine": "Unity 3D URP",
+        "caseStudy": {
+          "contributions": [
+            {
+              "text": "Took responsibility for removing old maps and creating new ones from scratch, working around 4 hours per day, and completed 3 different maps (such as Glass Bridge, Red Light Green Light, and temporary-tile survival) within 1–2 days each.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/roblox-maps.html#mainPreview"
+              }
+            },
+            {
+              "text": "Designed a large-scale Hide & Seek map for 50+ players, which required 6 days due to its size and complexity.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/roblox-maps.html#mainPreview"
+              }
+            },
+            {
+              "text": "Overcame the challenge of working with a pre-made Asset from the Asset Store by creating diverse visual and gameplay experiences while keeping performance optimized for Android devices.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/roblox-maps.html#mainPreview"
+              }
+            },
+            {
+              "text": "Handled the lighting design for all maps, ensuring a balanced and appealing look. All maps were successfully integrated and made playable.",
+              "evidence": {
+                "label": "See project screenshots",
+                "url": "projects/roblox-maps.html#mainPreview"
+              }
+            }
+          ],
+          "decisions": [],
+          "figures": [],
+          "outcomes": []
+        },
+        "cardSummary": {
+          "description": "Three rebuilt maps with staged development images.",
+          "contribution": "Rebuilt three maps from scratch."
         }
-        
       }
-    
+    ]
+  },
+  "responsiveImages": {
+    "images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp": [
+      {
+        "src": "images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "images/optimized/hatem-portrait-blue-studio-714b24e3a3a9-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "images/optimized/Logos/5124-320.webp": [
+      {
+        "src": "images/optimized/Logos/5124-320.webp",
+        "width": 320,
+        "height": 320
+      }
+    ],
+    "images/optimized/Logos/ash_games_cover-320.webp": [
+      {
+        "src": "images/optimized/Logos/ash_games_cover-320.webp",
+        "width": 320,
+        "height": 240
+      }
+    ],
+    "images/optimized/Logos/Screenshot 2023-03-16 011643-640.webp": [
+      {
+        "src": "images/optimized/Logos/Screenshot 2023-03-16 011643-320.webp",
+        "width": 320,
+        "height": 207
+      },
+      {
+        "src": "images/optimized/Logos/Screenshot 2023-03-16 011643-640.webp",
+        "width": 640,
+        "height": 415
+      }
+    ],
+    "images/optimized/Horror Home/OutdoorsScene_4K-1920.webp": [
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4K-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4K-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4K-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4K-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Horror Home/OutdoorsScene_5-1920.webp": [
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_5-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_5-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_5-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_5-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-1920.webp": [
+      {
+        "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Horror Home/New Scene 1_4K_16.08.2024_18-59-36-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Horror Home/OutdoorsScene-1920.webp": [
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Horror Home/OutdoorsScene2-1920.webp": [
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene2-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene2-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene2-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene2-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Horror Home/OutdoorsScene_4-1920.webp": [
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Horror Home/OutdoorsScene_4-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/X-O/Screenshot 2023-05-18 200115-1920.webp": [
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-320.webp",
+        "width": 320,
+        "height": 143
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-640.webp",
+        "width": 640,
+        "height": 285
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-1280.webp",
+        "width": 1280,
+        "height": 570
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-18 200115-1920.webp",
+        "width": 1920,
+        "height": 855
+      }
+    ],
+    "images/optimized/X-O/photo_2023-05-28_23-46-45-1280.webp": [
+      {
+        "src": "images/optimized/X-O/photo_2023-05-28_23-46-45-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/X-O/photo_2023-05-28_23-46-45-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/X-O/photo_2023-05-28_23-46-45-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "images/optimized/X-O/photo_2023-05-29_00-00-47-1280.webp": [
+      {
+        "src": "images/optimized/X-O/photo_2023-05-29_00-00-47-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/X-O/photo_2023-05-29_00-00-47-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/X-O/photo_2023-05-29_00-00-47-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "images/optimized/X-O/Screenshot 2023-05-28 204836-1920.webp": [
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-320.webp",
+        "width": 320,
+        "height": 142
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-640.webp",
+        "width": 640,
+        "height": 283
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-1280.webp",
+        "width": 1280,
+        "height": 567
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204836-1920.webp",
+        "width": 1920,
+        "height": 850
+      }
+    ],
+    "images/optimized/X-O/Screenshot 2023-05-28 204946-1920.webp": [
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-320.webp",
+        "width": 320,
+        "height": 142
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-640.webp",
+        "width": 640,
+        "height": 284
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-1280.webp",
+        "width": 1280,
+        "height": 568
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204946-1920.webp",
+        "width": 1920,
+        "height": 852
+      }
+    ],
+    "images/optimized/X-O/Screenshot 2023-05-28 204905-1920.webp": [
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-320.webp",
+        "width": 320,
+        "height": 140
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-640.webp",
+        "width": 640,
+        "height": 279
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-1280.webp",
+        "width": 1280,
+        "height": 559
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204905-1920.webp",
+        "width": 1920,
+        "height": 838
+      }
+    ],
+    "images/optimized/X-O/Screenshot 2023-05-28 204638-1920.webp": [
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-320.webp",
+        "width": 320,
+        "height": 140
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-640.webp",
+        "width": 640,
+        "height": 281
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-1280.webp",
+        "width": 1280,
+        "height": 561
+      },
+      {
+        "src": "images/optimized/X-O/Screenshot 2023-05-28 204638-1920.webp",
+        "width": 1920,
+        "height": 842
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-10-54-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/MainMenu_1080p_19.01.2025_17-08-11-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-13-45-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-14-50-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-15-39-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-17-58-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-16-47-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-1920.webp": [
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/Impant Misson/Environment_Free_1080p_19.01.2025_17-19-00-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/Lanterns Ninja/unnamed-320.webp": [
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed-320.webp",
+        "width": 320,
+        "height": 320
+      }
+    ],
+    "images/optimized/Lanterns Ninja/unnamed (1)-1920.webp": [
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (1)-320.webp",
+        "width": 320,
+        "height": 141
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (1)-640.webp",
+        "width": 640,
+        "height": 282
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (1)-1280.webp",
+        "width": 1280,
+        "height": 563
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (1)-1920.webp",
+        "width": 1920,
+        "height": 845
+      }
+    ],
+    "images/optimized/Lanterns Ninja/unnamed1-1920.webp": [
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed1-320.webp",
+        "width": 320,
+        "height": 141
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed1-640.webp",
+        "width": 640,
+        "height": 282
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed1-1280.webp",
+        "width": 1280,
+        "height": 563
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed1-1920.webp",
+        "width": 1920,
+        "height": 845
+      }
+    ],
+    "images/optimized/Lanterns Ninja/unnamed (2)-1280.webp": [
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (2)-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (2)-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/Lanterns Ninja/unnamed (2)-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "images/optimized/Azooma/game_title-1280.webp": [
+      {
+        "src": "images/optimized/Azooma/game_title-320.webp",
+        "width": 320,
+        "height": 314
+      },
+      {
+        "src": "images/optimized/Azooma/game_title-640.webp",
+        "width": 640,
+        "height": 628
+      },
+      {
+        "src": "images/optimized/Azooma/game_title-1280.webp",
+        "width": 1280,
+        "height": 1256
+      }
+    ],
+    "images/optimized/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338-320.webp": [
+      {
+        "src": "images/optimized/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338-320.webp",
+        "width": 320,
+        "height": 180
+      }
+    ],
+    "images/optimized/Azooma/1-640.webp": [
+      {
+        "src": "images/optimized/Azooma/1-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/Azooma/1-640.webp",
+        "width": 640,
+        "height": 360
+      }
+    ],
+    "images/optimized/Azooma/2-640.webp": [
+      {
+        "src": "images/optimized/Azooma/2-320.webp",
+        "width": 320,
+        "height": 197
+      },
+      {
+        "src": "images/optimized/Azooma/2-640.webp",
+        "width": 640,
+        "height": 395
+      }
+    ],
+    "images/optimized/Azooma/3-640.webp": [
+      {
+        "src": "images/optimized/Azooma/3-320.webp",
+        "width": 320,
+        "height": 179
+      },
+      {
+        "src": "images/optimized/Azooma/3-640.webp",
+        "width": 640,
+        "height": 359
+      }
+    ],
+    "images/optimized/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338-320.webp": [
+      {
+        "src": "images/optimized/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338-320.webp",
+        "width": 320,
+        "height": 180
+      }
+    ],
+    "images/optimized/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338-320.webp": [
+      {
+        "src": "images/optimized/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338-320.webp",
+        "width": 320,
+        "height": 180
+      }
+    ],
+    "images/optimized/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338-320.webp": [
+      {
+        "src": "images/optimized/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338-320.webp",
+        "width": 320,
+        "height": 180
+      }
+    ],
+    "images/optimized/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338-320.webp": [
+      {
+        "src": "images/optimized/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338-320.webp",
+        "width": 320,
+        "height": 180
+      }
+    ],
+    "images/optimized/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338-320.webp": [
+      {
+        "src": "images/optimized/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338-320.webp",
+        "width": 320,
+        "height": 180
+      }
+    ],
+    "images/optimized/King Of Stratgy/Icon-512-320.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/Icon-512-320.webp",
+        "width": 320,
+        "height": 320
+      }
+    ],
+    "images/optimized/King Of Stratgy/3-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/3-320.webp",
+        "width": 320,
+        "height": 149
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/3-640.webp",
+        "width": 640,
+        "height": 298
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/3-1280.webp",
+        "width": 1280,
+        "height": 597
+      }
+    ],
+    "images/optimized/King Of Stratgy/IMG-20250906-WA0007-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0007-320.webp",
+        "width": 320,
+        "height": 149
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0007-640.webp",
+        "width": 640,
+        "height": 298
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0007-1280.webp",
+        "width": 1280,
+        "height": 597
+      }
+    ],
+    "images/optimized/King Of Stratgy/2-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/2-320.webp",
+        "width": 320,
+        "height": 129
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/2-640.webp",
+        "width": 640,
+        "height": 257
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/2-1280.webp",
+        "width": 1280,
+        "height": 515
+      }
+    ],
+    "images/optimized/King Of Stratgy/IMG-20250906-WA0008-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0008-320.webp",
+        "width": 320,
+        "height": 149
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0008-640.webp",
+        "width": 640,
+        "height": 298
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0008-1280.webp",
+        "width": 1280,
+        "height": 597
+      }
+    ],
+    "images/optimized/King Of Stratgy/IMG-20250906-WA0004-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0004-320.webp",
+        "width": 320,
+        "height": 149
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0004-640.webp",
+        "width": 640,
+        "height": 298
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/IMG-20250906-WA0004-1280.webp",
+        "width": 1280,
+        "height": 597
+      }
+    ],
+    "images/optimized/King Of Stratgy/unnamed (1)-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed (1)-320.webp",
+        "width": 320,
+        "height": 141
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed (1)-640.webp",
+        "width": 640,
+        "height": 283
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed (1)-1280.webp",
+        "width": 1280,
+        "height": 565
+      }
+    ],
+    "images/optimized/King Of Stratgy/unnamed (2)-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed (2)-320.webp",
+        "width": 320,
+        "height": 141
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed (2)-640.webp",
+        "width": 640,
+        "height": 282
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed (2)-1280.webp",
+        "width": 1280,
+        "height": 565
+      }
+    ],
+    "images/optimized/King Of Stratgy/unnamed-1280.webp": [
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed-320.webp",
+        "width": 320,
+        "height": 140
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed-640.webp",
+        "width": 640,
+        "height": 281
+      },
+      {
+        "src": "images/optimized/King Of Stratgy/unnamed-1280.webp",
+        "width": 1280,
+        "height": 561
+      }
+    ],
+    "images/optimized/RobLox Maps/c5-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/c5-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c5-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c5-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c5-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/RobLox Maps/6-320.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/6-320.webp",
+        "width": 320,
+        "height": 206
+      }
+    ],
+    "images/optimized/RobLox Maps/1-1280.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/1-320.webp",
+        "width": 320,
+        "height": 139
+      },
+      {
+        "src": "images/optimized/RobLox Maps/1-640.webp",
+        "width": 640,
+        "height": 277
+      },
+      {
+        "src": "images/optimized/RobLox Maps/1-1280.webp",
+        "width": 1280,
+        "height": 554
+      }
+    ],
+    "images/optimized/RobLox Maps/2-1280.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/2-320.webp",
+        "width": 320,
+        "height": 138
+      },
+      {
+        "src": "images/optimized/RobLox Maps/2-640.webp",
+        "width": 640,
+        "height": 275
+      },
+      {
+        "src": "images/optimized/RobLox Maps/2-1280.webp",
+        "width": 1280,
+        "height": 551
+      }
+    ],
+    "images/optimized/RobLox Maps/3-320.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/3-320.webp",
+        "width": 320,
+        "height": 228
+      }
+    ],
+    "images/optimized/RobLox Maps/4-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/4-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/RobLox Maps/4-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/RobLox Maps/4-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/RobLox Maps/4-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/RobLox Maps/5-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/5-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/RobLox Maps/5-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/RobLox Maps/5-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/RobLox Maps/5-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/RobLox Maps/13-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/13-320.webp",
+        "width": 320,
+        "height": 156
+      },
+      {
+        "src": "images/optimized/RobLox Maps/13-640.webp",
+        "width": 640,
+        "height": 311
+      },
+      {
+        "src": "images/optimized/RobLox Maps/13-1280.webp",
+        "width": 1280,
+        "height": 623
+      },
+      {
+        "src": "images/optimized/RobLox Maps/13-1920.webp",
+        "width": 1920,
+        "height": 934
+      }
+    ],
+    "images/optimized/RobLox Maps/11-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/11-320.webp",
+        "width": 320,
+        "height": 156
+      },
+      {
+        "src": "images/optimized/RobLox Maps/11-640.webp",
+        "width": 640,
+        "height": 311
+      },
+      {
+        "src": "images/optimized/RobLox Maps/11-1280.webp",
+        "width": 1280,
+        "height": 623
+      },
+      {
+        "src": "images/optimized/RobLox Maps/11-1920.webp",
+        "width": 1920,
+        "height": 934
+      }
+    ],
+    "images/optimized/RobLox Maps/7-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/7-320.webp",
+        "width": 320,
+        "height": 156
+      },
+      {
+        "src": "images/optimized/RobLox Maps/7-640.webp",
+        "width": 640,
+        "height": 311
+      },
+      {
+        "src": "images/optimized/RobLox Maps/7-1280.webp",
+        "width": 1280,
+        "height": 623
+      },
+      {
+        "src": "images/optimized/RobLox Maps/7-1920.webp",
+        "width": 1920,
+        "height": 934
+      }
+    ],
+    "images/optimized/RobLox Maps/12-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/12-320.webp",
+        "width": 320,
+        "height": 156
+      },
+      {
+        "src": "images/optimized/RobLox Maps/12-640.webp",
+        "width": 640,
+        "height": 311
+      },
+      {
+        "src": "images/optimized/RobLox Maps/12-1280.webp",
+        "width": 1280,
+        "height": 623
+      },
+      {
+        "src": "images/optimized/RobLox Maps/12-1920.webp",
+        "width": 1920,
+        "height": 934
+      }
+    ],
+    "images/optimized/RobLox Maps/c1-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/c1-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c1-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c1-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c1-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/RobLox Maps/c2-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/c2-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c2-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c2-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c2-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "images/optimized/RobLox Maps/c3-1920.webp": [
+      {
+        "src": "images/optimized/RobLox Maps/c3-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c3-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c3-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "images/optimized/RobLox Maps/c3-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
     ]
   }
 }

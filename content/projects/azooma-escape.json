@@ -1,0 +1,160 @@
+{
+  "name": "Azooma Escape",
+  "category": "Full game",
+  "image": "images/Azooma/game_title.png",
+  "gameplayPoster": "images/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338.jpg",
+  "description": "Hide. Dodge flying slippers. Avoid that ONE uncle determined to feed you. Your mission: escape Uncle's celebration alive and unfed.",
+  "tags": [
+    "Unity",
+    "2D",
+    "Steam"
+  ],
+  "type": "full game",
+  "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+  "previewVideo": "images/Azooma/827089c520bfe9f758c14cf58089a032.webm",
+  "gallery": [
+    "images/Azooma/1.png",
+    "images/Azooma/2.png",
+    "images/Azooma/3.png",
+    "images/Azooma/ss_60a3686231875d035c76566168158020ac909684.600x338.jpg",
+    "images/Azooma/ss_23cd563a655bd627ff45e7e279338ec7d46aa8dc.600x338.jpg",
+    "images/Azooma/ss_6108c43c0017d215e72ad75d298cf95451ce373b.600x338.jpg",
+    "images/Azooma/ss_17092c2d917eb8feb5d942e174bcdb4bfbf2326f.600x338.jpg",
+    "images/Azooma/ss_a8911aa6253d7b107e005b9555f1083a717fb5dc.600x338.jpg",
+    "images/Azooma/ss_08b7931e1ea7afb3a4f9a1ba6b05d34f222e1851.600x338.jpg"
+  ],
+  "about": [
+    {
+      "type": "feature-list",
+      "title": "Project Overview",
+      "items": [
+        "First Saudi stealth comedy game developed by ASH Studio.",
+        "Transforms a traditional family gathering (Azooma) into a stealth escape adventure.",
+        "Unique twist: Relatives replace guards – armed with food, questions, and endless hospitality.",
+        "Core gameplay: hide under tables, read NPC patterns, dodge crowds, and use teacups as last-resort tools.",
+        "Environments: vibrant courtyards, festival streets, and lively living rooms inspired by Saudi culture.",
+        "Tone: lighthearted, funny, and culturally authentic while delivering classic stealth tension.",
+        "Vision: showcase Saudi identity through comedy and chaos, creating a globally accessible gaming experience."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "My Role",
+      "items": [
+        "As part of the development team for Azooma Escape, I took on multiple responsibilities across design, programming, and UI:",
+        "Level Design – Focused on creating interactive puzzles and obstacles, designing enemy placements, and shaping open/closed paths to guide player progression. Ensured difficulty scaled gradually while keeping gameplay fresh with unique puzzle concepts.",
+        "Gameplay Programming – Implemented a wide range of systems, including crouch mechanics, achievement tracking, visual field detection, enemy animation alerts, and collectible item systems with persistent saving. Played a key role in building interactive mechanics that defined the player experience.",
+        "UI Integration – Rebuilt and programmed the entire UI, covering the HUD, main menu, and various sub-menus such as the collectibles screen. Ensured the interface was fully functional, cohesive, and matched the game’s playful tone.",
+        "Team Collaboration – Worked in a highly collaborative environment, quickly adapting to shifting roles between design, programming, and UI. Contributed original puzzle ideas and supported the team by taking on diverse tasks as the project evolved.",
+        "Problem Solving – Overcame challenges of joining a large, ongoing project unexpectedly by rapidly researching and understanding its systems. Adapted to changing responsibilities and maintained efficiency under shifting priorities."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "Technologies & Tools",
+      "items": [
+        "Unity 2D URP",
+        "C#",
+        "Notion",
+        "Miro",
+        "figma"
+      ]
+    }
+  ],
+  "meta": {
+    "Publisher": "ASH",
+    "Platforms": [
+      "Steam"
+    ],
+    "Genre": "Action /Adventure/ Casual/ Indie",
+    "Status": "Published on Steam"
+  },
+  "storeLinks": {
+    "Steam ": {
+      "url": "https://store.steampowered.com/app/2896760/Azooma_Escape/"
+    }
+  },
+  "id": "azooma-escape",
+  "legacyId": 4,
+  "role": "Programmer & Level Designer",
+  "duration": "Two years",
+  "engine": "Unity 2D URP",
+  "technicalSystems": [
+    {
+      "id": "saved-collectibles",
+      "title": "Collectibles & persistent progress",
+      "contribution": "My documented contribution includes collectible item systems with persistent saving and the collectibles interface.",
+      "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+      "presentation": "documented-summary"
+    },
+    {
+      "id": "detection-alerts",
+      "title": "Visual detection & enemy alerts",
+      "contribution": "My documented contribution includes visual field detection and enemy animation alerts.",
+      "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+      "presentation": "documented-summary"
+    },
+    {
+      "id": "gameplay-ui",
+      "title": "Gameplay UI integration",
+      "contribution": "I rebuilt and programmed the HUD, main menu, and collectibles interface as documented in this project.",
+      "videoUrl": "https://www.youtube.com/embed/Hlrx9G3x1Vg",
+      "presentation": "documented-summary"
+    }
+  ],
+  "caseStudy": {
+    "contributions": [
+      {
+        "text": "Designed puzzles, obstacles, enemy placements, and open/closed paths for player progression.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+        }
+      },
+      {
+        "text": "Implemented crouching, achievement tracking, visual detection, enemy alerts, and saved collectibles.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+        }
+      },
+      {
+        "text": "Rebuilt and programmed the HUD, main menu, and collectibles interface.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+        }
+      }
+    ],
+    "decisions": [
+      {
+        "title": "Joining an ongoing project",
+        "challenge": "Understand existing systems while taking on changing design, programming, and UI responsibilities.",
+        "solution": "Researched the existing systems, collaborated with the team, and implemented gameplay and UI features.",
+        "evidence": {
+          "label": "Watch project gameplay",
+          "url": "https://www.youtube.com/embed/Hlrx9G3x1Vg"
+        }
+      }
+    ],
+    "figures": [
+      {
+        "url": "images/Azooma/1.png",
+        "caption": "Azooma Escape gameplay screenshot. My documented contribution covers puzzles, paths, gameplay systems, and UI; the scene is a team production."
+      }
+    ],
+    "outcomes": [
+      {
+        "text": "Available on Steam.",
+        "evidence": {
+          "label": "Open Steam page",
+          "url": "https://store.steampowered.com/app/2896760/Azooma_Escape/"
+        }
+      }
+    ]
+  },
+  "cardSummary": {
+    "description": "Escape a family celebration by hiding and dodging flying slippers.",
+    "contribution": "Designed puzzles, obstacles and enemy placements."
+  }
+}

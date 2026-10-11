@@ -1,5 +1,13 @@
 # Game Developer Portfolio Website
 
+## Local Content Editor
+
+Run `npm run editor` (or `node tools/content-editor.mjs`) and open `http://127.0.0.1:4318` to edit site content, project details, images, links and project order without editing code. Use **Preview** before **Save Changes**; **Restore Backup** undoes saved changes. See [the editor guide](docs/content-editor.md).
+
+See [project file organization](docs/project-structure.md). Test reports and screenshots are saved in the ignored `artifacts/` directory.
+
+The current implementation uses explicit ES modules and separate editorial source files. Start with [the code map](docs/code-map.md) and [the content workflow](docs/content-workflow.md). These replace the older single-file structure and direct `data.json` editing instructions below; `data.json` is now a generated deployment bundle.
+
 A modern, responsive portfolio website specifically designed for game developers. Built with pure HTML, CSS, and JavaScript, featuring dynamic content management through JSON.
 
 ## 🎮 Features

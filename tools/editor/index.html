@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Content Editor</title><link rel="stylesheet" href="/tools/editor/editor.css"></head>
+<body><header><div><h1>Content Editor</h1><p>Edit locally. Preview, then save.</p></div><div class="actions"><button id="reload">Reload</button><button id="preview">Preview</button><button id="save" disabled>Save Changes</button></div></header>
+<p id="status" role="status" aria-live="polite">Loading content…</p>
+<div class="layout"><aside><h2>Content</h2><nav id="navigation"></nav><h2>Backups</h2><select id="backups" aria-label="Backup"></select><button id="restore">Restore Backup</button><p>Restoring creates a recovery backup first.</p></aside><main><h2 id="heading"></h2><p>IDs are locked. Image uploads are staged until Save Changes.</p><div id="fields"></div></main></div>
+<section id="preview-panel" hidden><h2>Preview</h2><p>Check the page and project links before saving. Editing any field requires a new preview.</p><a id="preview-link" target="_blank" rel="noopener">Open Preview</a><iframe id="frame" title="Website preview" sandbox="allow-scripts allow-same-origin"></iframe></section>
+<script>window.editorToken='__EDITOR_TOKEN__';</script><script type="module" src="/tools/editor/editor.js"></script></body></html>

@@ -1,0 +1,7 @@
+.video-tools/
+.publish-clone/
+.publish-clone-shallow/
+/*.png
+/*-results.json
+/artifacts/
+/.content-editor/

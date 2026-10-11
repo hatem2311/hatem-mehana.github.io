@@ -1,0 +1,110 @@
+{
+  "name": "Roblox Maps",
+  "category": "Level Design",
+  "image": "images/RobLox Maps/c5.png",
+  "description": "Each map is organized by stages of development, as shown in the following images.",
+  "tags": [
+    "Unity",
+    "3D",
+    "Level Design",
+    "Android"
+  ],
+  "type": "Level Design",
+  "gallery": [
+    "images/RobLox Maps/6.jpg",
+    "images/RobLox Maps/1.png",
+    "images/RobLox Maps/2.png",
+    "images/RobLox Maps/3.jpg",
+    "images/RobLox Maps/4.jpg",
+    "images/RobLox Maps/5.png",
+    "images/RobLox Maps/13.png",
+    "images/RobLox Maps/11.png",
+    "images/RobLox Maps/7.png",
+    "images/RobLox Maps/12.png",
+    "images/RobLox Maps/c1.png",
+    "images/RobLox Maps/c2.png",
+    "images/RobLox Maps/c3.png",
+    "images/RobLox Maps/c5.png"
+  ],
+  "about": [
+    {
+      "type": "feature-list",
+      "title": "Project Overview",
+      "items": [
+        "A multiplayer party game with up to 100 players or less, depending on the map.",
+        "Includes diverse modes like Hide & Seek, Glass Bridge, Red Light Green Light, and temporary-tile survival challenges.",
+        "Designed for streamers on Twitch – supporters can join special rooms directly through Twitch integration, enhancing community interaction."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "My Role",
+      "items": [
+        "Took responsibility for removing old maps and creating new ones from scratch, working around 4 hours per day, and completed 3 different maps (such as Glass Bridge, Red Light Green Light, and temporary-tile survival) within 1–2 days each.",
+        "Designed a large-scale Hide & Seek map for 50+ players, which required 6 days due to its size and complexity.",
+        "Overcame the challenge of working with a pre-made Asset from the Asset Store by creating diverse visual and gameplay experiences while keeping performance optimized for Android devices.",
+        "Handled the lighting design for all maps, ensuring a balanced and appealing look. All maps were successfully integrated and made playable."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "Technologies & Tools",
+      "items": [
+        "Unity 3D URP",
+        "Low Poly 16in1 - RG Poly"
+      ]
+    }
+  ],
+  "meta": {
+    "Publisher": "glitchouse",
+    "Platforms": [
+      "Android"
+    ],
+    "Genre": "StrParty / Battle Royale / platformer",
+    "Status": "Under testing"
+  },
+  "id": "roblox-maps",
+  "legacyId": 6,
+  "role": "Level Designer",
+  "duration": "2 Weeks",
+  "engine": "Unity 3D URP",
+  "caseStudy": {
+    "contributions": [
+      {
+        "text": "Took responsibility for removing old maps and creating new ones from scratch, working around 4 hours per day, and completed 3 different maps (such as Glass Bridge, Red Light Green Light, and temporary-tile survival) within 1–2 days each.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/roblox-maps.html#mainPreview"
+        }
+      },
+      {
+        "text": "Designed a large-scale Hide & Seek map for 50+ players, which required 6 days due to its size and complexity.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/roblox-maps.html#mainPreview"
+        }
+      },
+      {
+        "text": "Overcame the challenge of working with a pre-made Asset from the Asset Store by creating diverse visual and gameplay experiences while keeping performance optimized for Android devices.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/roblox-maps.html#mainPreview"
+        }
+      },
+      {
+        "text": "Handled the lighting design for all maps, ensuring a balanced and appealing look. All maps were successfully integrated and made playable.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/roblox-maps.html#mainPreview"
+        }
+      }
+    ],
+    "decisions": [],
+    "figures": [],
+    "outcomes": []
+  },
+  "cardSummary": {
+    "description": "Three rebuilt maps with staged development images.",
+    "contribution": "Rebuilt three maps from scratch."
+  }
+}

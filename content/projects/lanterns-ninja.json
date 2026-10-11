@@ -1,0 +1,113 @@
+{
+  "name": "Lanterns Ninja",
+  "category": "Full game",
+  "image": "images/Lanterns Ninja/unnamed.webp",
+  "description": "Your goal is to destroy as many lanterns as possible and collect as many points as possible.",
+  "tags": [
+    "Unity",
+    "3D",
+    "Google Play"
+  ],
+  "type": "full game",
+  "gallery": [
+    "images/Lanterns Ninja/unnamed (1).webp",
+    "images/Lanterns Ninja/unnamed1.webp",
+    "images/Lanterns Ninja/unnamed (2).webp"
+  ],
+  "about": [
+    {
+      "type": "feature-list",
+      "title": "Project Overview",
+      "items": [
+        "Goal: Challenge to finish the game in less than a week",
+        "Casual and easy-to-learn mobile game",
+        "Features simple, colorful visuals.",
+        "Available now on Google Play."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "My Role",
+      "items": [
+        "Conceived and developed the core idea of the project",
+        "Designed the 3D environment and enhanced the level design.",
+        "Restructured the entire codebase to ensure scalability and maintainability.",
+        "Developed the overall architecture of the systems, including UI, gameplay, and lighting."
+      ]
+    },
+    {
+      "type": "feature-list",
+      "title": "Technologies & Tools",
+      "items": [
+        "Unity URP",
+        "Blender",
+        "C#"
+      ]
+    }
+  ],
+  "meta": {
+    "Publisher": "RTG",
+    "Platforms": [
+      "Android"
+    ],
+    "Genre": "Arcade / Casual / Action",
+    "Status": "Published on Google Play"
+  },
+  "storeLinks": {
+    "Google Play ": {
+      "url": "https://play.google.com/store/apps/details?id=com.Grays.LanternsNinja&hl=ar"
+    }
+  },
+  "id": "lanterns-ninja",
+  "legacyId": 3,
+  "role": "Gameplay Programmer & Level Designer",
+  "duration": "Two Weeks",
+  "engine": "Unity URP",
+  "caseStudy": {
+    "contributions": [
+      {
+        "text": "Conceived and developed the core idea of the project",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/lanterns-ninja.html#mainPreview"
+        }
+      },
+      {
+        "text": "Designed the 3D environment and enhanced the level design.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/lanterns-ninja.html#mainPreview"
+        }
+      },
+      {
+        "text": "Restructured the entire codebase to ensure scalability and maintainability.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/lanterns-ninja.html#mainPreview"
+        }
+      },
+      {
+        "text": "Developed the overall architecture of the systems, including UI, gameplay, and lighting.",
+        "evidence": {
+          "label": "See project screenshots",
+          "url": "projects/lanterns-ninja.html#mainPreview"
+        }
+      }
+    ],
+    "decisions": [],
+    "figures": [],
+    "outcomes": [
+      {
+        "text": "Available on Google Play.",
+        "evidence": {
+          "label": "Open Google Play page",
+          "url": "https://play.google.com/store/apps/details?id=com.Grays.LanternsNinja&hl=ar"
+        }
+      }
+    ]
+  },
+  "cardSummary": {
+    "description": "Destroy lanterns and collect points.",
+    "contribution": "Conceived and developed the core idea."
+  }
+}
