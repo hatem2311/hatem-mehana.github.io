@@ -5,9 +5,22 @@ import { siteBase, seoMetadata, seoFiles } from '../tools/seo.mjs';
 import { staticPages } from '../tools/static-pages.mjs';
 const data = JSON.parse(fs.readFileSync(new URL('../data.json', import.meta.url)));
 test('unconfirmed publication leaves canonical URLs pending and blocks indexing', () => {
-  const html = seoMetadata(data, data.showcase.projects[0]);
+  const fixture = structuredClone(data); fixture.seo.siteUrl = '';
+  const html = seoMetadata(fixture, fixture.showcase.projects[0]);
   assert.match(html, /noindex, follow/); assert.doesNotMatch(html, /rel="canonical"|property="og:url"/);
-  assert.match(seoFiles(data).get('robots.txt'), /Disallow: \//);
+  assert.match(seoFiles(fixture).get('robots.txt'), /Disallow: \//);
+});
+
+test('publication metadata agrees with the verified GitHub Pages subpath', () => {
+  const base = 'https://hatem2311.github.io/hatem-mehana.github.io/';
+  assert.equal(data.seo.siteUrl, base);
+  for (const project of [null, ...data.showcase.projects]) {
+    const html = seoMetadata(data, project);
+    assert.ok(html.includes(`href="${base}${project ? `projects/${project.id}.html` : ''}"`));
+    assert.ok(html.includes(`content="${base}share/${project?.id || 'home'}.png"`));
+    assert.doesNotMatch(html, /noindex/);
+  }
+  assert.ok(seoFiles(data).get('robots.txt').includes(`Sitemap: ${base}sitemap.xml`));
 });
 test('confirmed base preserves subpaths and uses stable project slugs', () => {
   const fixture = structuredClone(data); fixture.seo.siteUrl = 'https://example.test/portfolio/';
