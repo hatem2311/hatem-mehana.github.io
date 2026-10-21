@@ -17,11 +17,12 @@ for (const project of [null, ...data.showcase.projects]) {
   assert.match(html, /content="index, follow"/);
   assert.ok(html.includes(new URL(`share/${project?.id || 'home'}.png`, base).href));
   assert.match(html, /name="twitter:card" content="summary_large_image"/);
+  const documentBase = new URL(html.match(/<base href="([^"]+)"/)?.[1] || '', new URL(route, base));
   const png = Buffer.from(await (await get(`share/${project?.id || 'home'}.png`)).arrayBuffer());
   assert.equal(png.subarray(1,4).toString(), 'PNG');
   assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
   for (const match of html.matchAll(/(?:src|data-src|poster)="([^"]+)"/g)) {
-    const url = new URL(match[1].replaceAll('&amp;','&'), new URL(route,base));
+    const url = new URL(match[1].replaceAll('&amp;','&'), documentBase);
     if (url.origin === base.origin) assets.add(url.href);
   }
   console.log(`PASS public crawler HTML and share image: ${route || '/'}`);
